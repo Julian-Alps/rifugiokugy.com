@@ -1,0 +1,54 @@
+{
+  "title": "home",
+  "articles": [{
+      "id": "01",
+      "en": "/",
+      "it": "/"
+    },
+    {
+      "id": "02",
+      "en": "shop",
+      "it": "bottega"
+    },
+    {
+      "id": "03",
+      "en": "restaurant",
+      "it": "ristorante"
+    },
+    {
+      "id": "04",
+      "en": "blog",
+      "it": "blog"
+    },
+    {
+      "id": "05",
+      "en": "contacts",
+      "it": "contatti"
+    },
+    {
+      "id": "06",
+      "en": "contact/thanks",
+      "it": "contatto/grazie"
+    },
+    {
+      "id": "07",
+      "en": "tags",
+      "it": "tags"
+    },
+    {
+      "id": "08",
+      "en": "rooms",
+      "it": "camere"
+    },
+    {
+      "id": "09",
+      "en": "news",
+      "it": "news"
+    },
+    {
+      "id": "10",
+      "en": "activities",
+      "it": "attività"
+    }
+  ]
+}
