@@ -79,4 +79,5 @@ module.exports = {
   'menu-icon-sculpture': "Sculpture",
   'menu-icon-performance': "Performance",
   'menu-icon-interactivity': "Interactivity",
+  'cookie-message': "This website uses cookies to enhance the user experience.",
 };
