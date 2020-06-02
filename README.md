@@ -10,4 +10,6 @@ A gatsby multilanguage website with bulma and i18n based on [gatsby-starter-i18n
 
 ## Copyright
 
+This site is under a MIT license. Images and text are copyrighted, you must ask permission to the owner.
+
 @kalwalt @julianalps
