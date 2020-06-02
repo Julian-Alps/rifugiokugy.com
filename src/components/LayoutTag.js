@@ -12,6 +12,8 @@ import 'intl/locale-data/jsonp/en';
 import it from 'react-intl/locale-data/it';
 import 'intl/locale-data/jsonp/it';
 import './all.sass'
+import CookieConsent from 'react-cookie-consent'
+import { FormattedMessage } from 'react-intl'
 
 // add concatenated locale data
 addLocaleData([...en, ...it]);
@@ -56,6 +58,17 @@ class TemplateWrapper extends Component {
             {this.children}
           </Main>
           <Footer langKey={this.langKey}/>
+            <CookieConsent
+                debug={true}
+                location="bottom"
+                buttonText="Ok!"
+                cookieName="kwCookie"
+                style={{ background: "#2B373B" }}
+                buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+                expires={150}
+                >
+                <FormattedMessage id="cookie-message"/>
+              </CookieConsent>
         </div>
       </IntlProvider>
     );
