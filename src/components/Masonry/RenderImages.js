@@ -29,8 +29,8 @@ const RenderImage = ({
     <div
       style={{ margin, height: photo.height, width: photo.width, borderRadius: "5px", ...cont }}
     >
-      <a href={photo.link} style={{ position: "absolute", left: '2rem', top: '2rem', zIndex: "4" }} className="tag is-primary is-large">
-        <p className="has-text-centered has-text-light is-large">
+      <a href={photo.link} style={{ position: "absolute", left: '1.75rem', top: '2rem', zIndex: "4" }} className="tag is-primary is-medium">
+        <p className="has-text-centered has-text-light is-medium">
         {photo.title + ': '} <FormattedMessage id="find-out-more"/>
       </p>
     </a>
