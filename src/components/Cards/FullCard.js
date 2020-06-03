@@ -12,6 +12,8 @@ class FullCard extends React.Component {
     const text = props.fullCard.text
     const imageComp = props.fullCard.imageComp
     const imageStyle = props.imageStyle
+    const interiorColor = props.interiorColor
+    const interiorFrameColor = props.interiorFrameColor
     const links = props.fullCard.links
     let  buttonLinks
     if(links) {
@@ -25,7 +27,7 @@ class FullCard extends React.Component {
     }
 
     return (
-      <div id={props.idlink} className='content'>
+      <div id={props.idlink} className='content' style={{ backgroundColor: interiorFrameColor }}>
         <h4 className="has-text-weight-bold has-text-centered is-size-1-desktop is-size-4-mobile fullcard-slogan"
           style={{
             boxShadow: '0.5rem 0 0 #73CA25, -0.5rem 0 0 #73CA25',
@@ -37,12 +39,14 @@ class FullCard extends React.Component {
           }}
           >{slogan}</h4>
        <ImageComp imageComp={imageComp} imageStyle={imageStyle}/>
-         <Title title={title} />
-
-           <p>{text}</p>
-           {buttonLinks}
-         <div style={{ backgroundColor: '#AA4A39', height: '20vh'}}>  </div>
+       <div className="section">
+         <div className={'section ' + interiorColor + ' interior-card'} >
+           <Title title={title} />
+             <p>{text}</p>
+             {buttonLinks}
+        </div>
       </div>
+    </div>
     )
   }
 }
