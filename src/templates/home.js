@@ -35,23 +35,23 @@ const HomePageTemplate = ({
 
   return (
     <div className="content">
-      <div className="section" id="welcome">
+      <div className="content" id="welcome">
         <PageContent className="container content" content={content} />
       </div>
       <div className="section">
         <HomeDelivery title={titleHD} text={textHD} />
       </div>
-      <div className="section">
+      <div className="content">
         <LeftCard className="section" idlink="sleeping" leftCard={rooms} interiorColor='has-background-white' frameColor='#73CA25'/>
         <RoomGal masonry={masonry} />
       </div>
       <Testimonials testimonials={testimonials} />
-      <div className="section" id="prices">
+      <div className="content" id="prices">
         <Title title={titlePrice}/>
         <Table rows={rows}/>
       </div>
-      <FullCard idlink="activities" fullCard={activities} interiorColor='background-card-red' interiorFrameColor='#AA4A39' frameColor='#E5E5E5'/>
-      <div className="section" id="territory">
+      <FullCard className="content" idlink="activities" fullCard={activities} interiorColor='background-card-red' interiorFrameColor='#AA4A39' frameColor='#E5E5E5'/>
+      <div className="content" id="territory">
         <OsmMap lat={lat} lng={lng} message={message}/>
       </div>
       <section className="section">
