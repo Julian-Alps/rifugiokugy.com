@@ -13,8 +13,8 @@ const TagList = ({tags, langKey}) => {
         <ul className="taglist">
           {tags.map(tag => (
             <li key={tag + `tag`}>
-              <span className="tag is-light is-small">
-                <Link to={`/${langKey}/tags/${kebabCase(tag)}/`}><FaTag className="menu-names"/>{tag}</Link>
+              <span className="tag is-light is-small" >
+                <Link className="tags-color" to={`/${langKey}/tags/${kebabCase(tag)}/`}><FaTag className="menu-names"/>{tag}</Link>
               </span>
             </li>
           ))}
