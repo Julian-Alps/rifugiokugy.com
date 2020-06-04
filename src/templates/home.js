@@ -29,8 +29,8 @@ const HomePageTemplate = ({
   langKey
 }) => {
   const PageContent = contentComponent || Content
-  const lat = 46.4929172
-  const lng = 13.4911627
+  const lat = 46.49273
+  const lng = 13.49232
   const message = 'message!'
 
   return (
