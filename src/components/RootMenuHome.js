@@ -32,7 +32,7 @@ const RootMenu = ( props ) => {
             <div className="dropdown-trigger">
               <button className="button" aria-haspopup="true" aria-controls="dropdown-menu">
                 <FormattedMessage id="sleeping"/>
-                <span className="icon is-small">
+                <span className="icon is-small" style={{ color: 'green'}}>
                   <FaAngleRight  aria-hidden="true"/>
                 </span>
               </button>
@@ -56,7 +56,7 @@ const RootMenu = ( props ) => {
         <div className="dropdown-trigger">
           <button className="button" aria-haspopup="true" aria-controls="dropdown-menu">
             <FormattedMessage id="activities"/>
-            <span className="icon is-small">
+            <span className="icon is-small" style={{ color: 'green'}}>
               <FaAngleRight  aria-hidden="true"/>
             </span>
           </button>
