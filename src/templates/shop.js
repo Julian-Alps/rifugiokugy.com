@@ -27,7 +27,7 @@ const ShopPageTemplate = ({
           </section>
           <RightCard idlink="our-products" rightCard={ourProducts} interiorColor='has-background-white' frameColor='#AA4A39'/>
           <Testimonials testimonials={testimonials} />
-          <LeftCard idlink="territory-products" leftCard={territoryProducts} interiorColor='has-background-white' frameColor='#73CA25'/>
+          <LeftCard idlink="territory-products" leftCard={territoryProducts} interiorColor='has-background-white' frameColor='#709C34'/>
           <TagList tags={tags} langKey={langKey}/>
       </div>
 )

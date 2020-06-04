@@ -26,7 +26,7 @@ const RestaurantPageTemplate = ({
           <Title title={sapore.title}/>
           <p id="sapore-autentico">{sapore.text}</p>
         </section>
-        <LeftCard idlink="breakfast" leftCard={breakfast} interiorColor='has-background-white' frameColor='#73CA25'/>
+        <LeftCard idlink="breakfast" leftCard={breakfast} interiorColor='has-background-white' frameColor='#709C34'/>
         <Testimonials testimonials={testimonials} />
         <section className="content">
           <PageContent className="container content" content={content} />

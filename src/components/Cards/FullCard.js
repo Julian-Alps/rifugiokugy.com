@@ -30,8 +30,8 @@ class FullCard extends React.Component {
       <div id={props.idlink} className='content' style={{ backgroundColor: interiorFrameColor }}>
         <h4 className="has-text-weight-bold has-text-centered is-size-1-desktop is-size-4-mobile fullcard-slogan"
           style={{
-            boxShadow: '0.5rem 0 0 #73CA25, -0.5rem 0 0 #73CA25',
-            backgroundColor: '#73CA25',
+            boxShadow: '0.5rem 0 0 #709C34, -0.5rem 0 0 #709C34',
+            backgroundColor: '#709C34',
             color: 'white',
             padding: '1rem',
             position: 'relative',
