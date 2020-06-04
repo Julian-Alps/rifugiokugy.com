@@ -55,8 +55,9 @@ FullCard.propTypes = {
   idlink: PropTypes.string,
   fullCard: PropTypes.object,
   imageComp: PropTypes.object,
-  imageStyle: PropTypes.string
-
+  imageStyle: PropTypes.string,
+  interiorColor: PropTypes.string,
+  interiorFrameColor: PropTypes.string
 }
 
 export default FullCard
