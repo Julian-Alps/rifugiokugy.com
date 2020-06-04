@@ -135,7 +135,7 @@ module.exports = {
         short_name: `Kugy`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#73CA25`,
+        theme_color: `#709C34`,
         display: `standalone`,
         icon: `src/img/icon.png`,
       },
