@@ -17,10 +17,10 @@ const RoomsPageTemplate = ({ title, content, rooms, bigrooms, contentComponent, 
         <section className="content">
           <PageContent className="container content" content={content} />
             <div className="content">
-              <LeftCard className="section" idlink="rooms" leftCard={rooms} interiorColor='has-background-white' frameColor='#73CA25'/>
+              <LeftCard className="section" idlink="rooms" leftCard={rooms} interiorColor='has-background-white' frameColor='#709C34'/>
             </div>
             <div className="content">
-              <RightCard className="section" idlink="bigrooms" rightCard={bigrooms} interiorColor='has-background-white' frameColor='#73CA25'/>
+              <RightCard className="section" idlink="bigrooms" rightCard={bigrooms} interiorColor='has-background-white' frameColor='#709C34'/>
             </div>
           <TagList tags={tags} langKey={langKey}/>
         </section>

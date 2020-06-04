@@ -42,7 +42,7 @@ const HomePageTemplate = ({
         <HomeDelivery title={titleHD} text={textHD} />
       </div>
       <div className="content">
-        <LeftCard className="section" idlink="sleeping" leftCard={rooms} interiorColor='has-background-white' frameColor='#73CA25'/>
+        <LeftCard className="section" idlink="sleeping" leftCard={rooms} interiorColor='has-background-white' frameColor='#709C34'/>
         <RoomGal masonry={masonry} />
       </div>
       <Testimonials testimonials={testimonials} />
@@ -50,7 +50,7 @@ const HomePageTemplate = ({
         <Title title={titlePrice}/>
         <Table rows={rows}/>
       </div>
-      <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#73CA25' frameColor='#73CA25'/>
+      <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#709C34' frameColor='#709C34'/>
       <div className="content" id="territory">
         <OsmMap lat={lat} lng={lng} message={message}/>
       </div>
