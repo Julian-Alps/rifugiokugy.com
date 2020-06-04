@@ -50,7 +50,7 @@ const HomePageTemplate = ({
         <Title title={titlePrice}/>
         <Table rows={rows}/>
       </div>
-      <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#AA4A39' frameColor='#AA4A39'/>
+      <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#73CA25' frameColor='#73CA25'/>
       <div className="content" id="territory">
         <OsmMap lat={lat} lng={lng} message={message}/>
       </div>
