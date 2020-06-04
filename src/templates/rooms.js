@@ -14,12 +14,12 @@ const RoomsPageTemplate = ({ title, content, rooms, bigrooms, contentComponent, 
   return (
       <div className="container content">
        <h1 className="title">{title}</h1>
-        <section className="section">
+        <section className="content">
           <PageContent className="container content" content={content} />
-            <div className="section">
+            <div className="content">
               <LeftCard className="section" idlink="rooms" leftCard={rooms} interiorColor='has-background-white' frameColor='#73CA25'/>
             </div>
-            <div className="section">
+            <div className="content">
               <RightCard className="section" idlink="bigrooms" rightCard={bigrooms} interiorColor='has-background-white' frameColor='#73CA25'/>
             </div>
           <TagList tags={tags} langKey={langKey}/>
