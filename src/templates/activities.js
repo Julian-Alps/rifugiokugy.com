@@ -18,11 +18,11 @@ const RoomsPageTemplate = ({ title, content, summer, summerTrek, winter, winterT
         <section className="section">
           <PageContent className="container content" content={content} />
             <div className="section">
-              <LeftCard className="section" idlink="summer" leftCard={summer} interiorColor='has-background-white' frameColor='#73CA25'/>
+              <LeftCard className="section" idlink="summer" leftCard={summer} interiorColor='has-background-white' frameColor='#709C34'/>
               <MarkdownContent className='section' content={summerTrek} />
             </div>
             <div className="section">
-              <RightCard className="section" idlink="winter" rightCard={winter} interiorColor='has-background-white' frameColor='#73CA25'/>
+              <RightCard className="section" idlink="winter" rightCard={winter} interiorColor='has-background-white' frameColor='#709C34'/>
               <MarkdownContent className='section' content={winterTrek} />
           </div>
           <TagList tags={tags} langKey={langKey}/>
