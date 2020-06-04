@@ -38,7 +38,7 @@ const ContactPageTemplate = ({
 }) => {
   const PageContent = contentComponent || Content
   return (
-      <section className="section">
+      <section className="content">
         <div className="container">
           <div className="content">
       <h1 className="title">{title}</h1>
