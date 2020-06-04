@@ -28,9 +28,9 @@ class Footer extends React.Component {
                 <div className="column is-4">
                 <section className="menu">
                     <ul className="menu-list">
-                      <li><Link to={"/" + props.langKey} style={{ color: 'whitesmoke'}} className="navbar-item"><FormattedMessage id="home" /></Link></li>
-                      <li><Link className="navbar-item"  style={{ color: 'whitesmoke'}} to={"/" + props.langKey + "/" + menuTree.restaurant[sel] +"/"}><FormattedMessage id="restaurant" /></Link></li>
-                      <li><Link className="navbar-item"  style={{ color: 'whitesmoke'}} to={"/" + props.langKey + "/" + menuTree.shop[sel] +"/"}>
+                      <li><Link className="navbar-item navbar-item-footer" to={"/" + props.langKey} ><FormattedMessage id="home" /></Link></li>
+                      <li><Link className="navbar-item navbar-item-footer" to={"/" + props.langKey + "/" + menuTree.restaurant[sel] +"/"}><FormattedMessage id="restaurant" /></Link></li>
+                      <li><Link className="navbar-item navbar-item-footer" to={"/" + props.langKey + "/" + menuTree.shop[sel] +"/"}>
                         <FormattedMessage id="shop" />
                       </Link>
                     </li>
@@ -41,17 +41,17 @@ class Footer extends React.Component {
                 <section>
                   <ul className="menu-list">
                   <li>
-                    <Link className="navbar-item"  style={{ color: 'whitesmoke'}} to={"/" + props.langKey + "/" + menuTree.news[sel] +"/"}>
+                    <Link className="navbar-item navbar-item-footer" to={"/" + props.langKey + "/" + menuTree.news[sel] +"/"}>
                       <FormattedMessage id="news" />
                     </Link>
                   </li>
                   <li>
-                    <Link className="navbar-item"  style={{ color: 'whitesmoke'}} to={"/" + props.langKey + "/" + menuTree.blog[sel] +"/"}>
+                    <Link className="navbar-item navbar-item-footer" to={"/" + props.langKey + "/" + menuTree.blog[sel] +"/"}>
                       <FormattedMessage id="blog" />
                     </Link>
                   </li>
                   <li>
-                    <Link className="navbar-item"  style={{ color: 'whitesmoke'}} to={"/" + props.langKey + "/" + menuTree.contact[sel] +"/"}>
+                    <Link className="navbar-item navbar-item-footer" to={"/" + props.langKey + "/" + menuTree.contact[sel] +"/"}>
                       <FormattedMessage id="contact" />
                     </Link>
                   </li>
