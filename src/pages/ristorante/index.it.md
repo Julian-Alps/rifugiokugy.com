@@ -31,33 +31,35 @@ breakfast:
 ## Menu
 
 La nostra merenda:
-Affettati e formaggi misti del territorio: prosciutto crudo, salame affumicato De Monte, pancetta, speck, lardo e formaggi misti di malga serviti con confetture di frutta e crostini con salsa al cren.
-Solo formaggi. 5 gustosi assaggi con confetture e sottaceti (Il latteria Montasio, Il Malga Grantagar, Il caprino di Zore, La Ricotta di Ugovizza, La Ugovizella) o altri...da decidere (Latteria del Bunker, il formaggio nel fieno etc.)
-Lardo del contadino e miele dell’azienda agricola Shira Baron su crostini di pane di segale.
+
+- **Affettati e formaggi misti del territorio** : prosciutto crudo, salame affumicato De Monte, pancetta, speck, lardo e formaggi misti di malga serviti con confetture di frutta e crostini con salsa al cren.
+- **Solo formaggi** : 5 gustosi assaggi con confetture e sottaceti (Il latteria Montasio, Il Malga Grantagar, Il caprino di Zore, La Ricotta di Ugovizza, La Ugovizella) o altri...da decidere (Latteria del Bunker, il formaggio nel fieno etc.)
+- **Lardo del contadino e miele** : dell’azienda agricola Shira Baron su crostini di pane di segale.
 
 ### Primi
-Zuppa di verdure
-Tagliatelle al ragù e polpettine di cervo
-Canederli allo speck con burro di malga fuso e ricotta affumicata  grattugiata
-Spatzle tricolori con sclopit
-Gnocchi di patate al pesto di tarassaco e scaglie di Montasio Val Canale
+- Zuppa di verdure
+- Tagliatelle al ragù e polpettine di cervo
+- Canederli allo speck con burro di malga fuso e ricotta affumicata  grattugiata
+- Spatzle tricolori con sclopit
+- Gnocchi di patate al pesto di tarassaco e scaglie di Montasio Val Canale
 
 ### Secondi
 
-Spezzatino di cervo e polenta con farina integrale del Mulino Tuzzi
-Il mitico piatto KUGY. Frico, salsiccia di Chiusaforte, funghi e polenta
-hamburger vegetariano senza glutine con contorno di patate
-Strudel alle zucchine e ricotta con pesto di basilico dell’orto
-Contorni
-Cappucci in insalata con semi di kimmel
-Patate in tecia o patate al forno con rosmarino e maggiorana
-Insalata mista classica: lattuga, pomodori, carote, cetrioli
-Insalatona estiva: farro, fagiolini lessati, pomodorini, pinoli, basilico fresco, olio, pesto.
+- Spezzatino di cervo e polenta con farina integrale del Mulino Tuzzi
+- Il mitico piatto KUGY. Frico, salsiccia di Chiusaforte, funghi e polenta
+- Hamburger vegetariano senza glutine con contorno di patate
+- Strudel alle zucchine e ricotta con pesto di basilico dell’orto
+
+### Contorni
+- Cappucci in insalata con semi di kimmel
+- Patate in tecia o patate al forno con rosmarino e maggiorana
+- Insalata mista classica: lattuga, pomodori, carote, cetrioli
+- Insalatona estiva: farro, fagiolini lessati, pomodorini, pinoli, basilico fresco, olio, pesto.
 
 ### Dolci
 
-A fine pasto i dolci:
-Nel nostro menù abbiamo due dolci immancabili: lo strudel accompagnato da una salsa alla vaniglia o panna, e le crostate! Ma visto che ci piace stupirvi troverete altre sorprese della nostra pasticcera, come la torta al grano saraceno con i mirtilli rossi o quella alla ricotta, lo jogurt di malga e frutti di bosco, la panna cotta alle fragole e menta, l Per i nostri impasti usiamo le farine del Mulino Tuzzi (Patto del Grano) con cereali che provengono da agricoltura biologica non certificata.
+A fine pasto i **dolci**:
+Nel nostro menù abbiamo due dolci immancabili: lo **strudel** accompagnato da una salsa alla vaniglia o panna, e le **crostate**! Ma visto che ci piace stupirvi troverete altre sorprese della nostra pasticcera, come la torta al grano saraceno con i mirtilli rossi o quella alla ricotta, lo jogurt di malga e frutti di bosco, la panna cotta alle fragole e menta, l Per i nostri impasti usiamo le farine del Mulino Tuzzi (Patto del Grano) con cereali che provengono da agricoltura biologica non certificata.
 
 ### Vini
 
@@ -73,16 +75,16 @@ Nel nostro menù abbiamo due dolci immancabili: lo strudel accompagnato da una s
 
 ### Birre
 
-Birra Stiegl - Hubertus alla spina provenienza Austria
+- Birra Stiegl - Hubertus alla spina provenienza Austria
 Birrette in bottiglia:
-Alpenstoff da 0,33 (D) Unser Burgerbrau Tipologia: Birra Artigianale Hells
+- Alpenstoff da 0,33 (D) Unser Burgerbrau Tipologia: Birra Artigianale Hells
 
-Birra Weizen (D) Unser Burgerbrau da 0,5
-Birra Unser Burgerbrau (D) Braumeister 0.5
-Birra analcolica Beck’s Blue 0.33
-Birra Hubertus Herren Pils 0.33
+- Birra Weizen (D) Unser Burgerbrau da 0,5
+- Birra Unser Burgerbrau (D) Braumeister 0.5
+- Birra analcolica Beck’s Blue 0.33
+- Birra Hubertus Herren Pils 0.33
 
 
-RADLER (la birra del ciclista)
-Hubertus Radler 0.33 cl.
-Hubertus Radler 0.5
+**RADLER** (la birra del ciclista):
+- Hubertus Radler 0.33 cl.
+- Hubertus Radler 0.5
