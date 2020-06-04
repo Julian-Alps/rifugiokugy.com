@@ -1,5 +1,7 @@
 @import "~bulma/sass/utilities/initial-variables"
 @import "~@creativebulma/bulma-collapsible/src/sass/index.sass"
+@import url('https://fonts.googleapis.com/css2?family=Pacifico')
+@import url('https://fonts.googleapis.com/css2?family=Margarine')
 
 // Config vars
 
@@ -34,9 +36,12 @@ $navbar-dropdown-arrow: $rifugio-color
 #logo
  //to do...
 
+$title-family: 'Pacifico'
+
 .navbar .navbar-menu
   box-shadow: none !important
   height: 4.25rem !important
+  font-family: 'Margarine'
 
 @media (max-width: 650px)
   .navbar .navbar-menu
@@ -62,6 +67,9 @@ header
     object-fit: cover
     width: 100%
     min-height: calc(45vh - 3.25rem) !important
+
+h1
+  font-family: 'Pacifico'
 
 .select-language
   color: $text-color
