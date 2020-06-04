@@ -27,8 +27,8 @@ fb: 'rifugiokugy'
 linkinsta: 'rifugiokugy'
 instagram: '@rifugiokugy'
 locations:
-  lat: 46.4929172
-  lng: 13.4911627
+  lat: 46.49273
+  lng: 13.49232
   message: 'Rifugio Kugy - casa alpina'
 ---
 
