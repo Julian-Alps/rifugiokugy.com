@@ -22,13 +22,13 @@ const RestaurantPageTemplate = ({
   return (
       <div className="content">
        <h1 className="title">{title}</h1>
-        <section className="section">
+        <section className="content">
           <Title title={sapore.title}/>
           <p id="sapore-autentico">{sapore.text}</p>
         </section>
         <LeftCard idlink="breakfast" leftCard={breakfast} interiorColor='has-background-white' frameColor='#73CA25'/>
         <Testimonials testimonials={testimonials} />
-        <section className="section">
+        <section className="content">
           <PageContent className="container content" content={content} />
         </section>
           <TagList tags={tags} langKey={langKey}/>
