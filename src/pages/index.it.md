@@ -19,14 +19,14 @@ rooms:
   text: "Indugiare prima di coricarsi e alzare gli occhi al cielo, ammirare tutte le stelle invisibili dalla città, addormentarsi nel silenzio calmante di un piccolo paese di montagna, risvegliarsi e ricordare che ad aspettarvi lì fuori ci sono la bellezza dei prati fioriti in estate e il candore delle cime innevate durante l’inverno. Questi sono solo alcuni dei motivi che rendono il Rifugio Kugy un luogo speciale dove pernottare. Caratteristica delle nostre stanze è la semplicità. L’assenza di televisori e musica in sottofondo è una nostra scelta consapevole che vi consentirà di ritrovare il piacere del silenzio e il calore dello stare in compagnia."
   links:
     - { href: '/it/camere/', text: 'Camere'}
-    - { href: '/it/camere/', text: 'Camereroni'}
+    - { href: '/it/camere/', text: 'Camererata'}
   imageInfo:
     image: /img/camera_6_persone_Rifugio_Kugy.jpg
     alt: "le camere"
 activities:
   title: "Attività"
   slogan: SLOW CON ENERGIA!
-  text: "Gli stessi percorsi che in inverno si affrontano con gli sci o con le ciaspole, in estate si trasformano in sentieri perfetti per il trekking, il nordik walking o la mountain bike.
+  text: "Gli stessi percorsi che in inverno si affrontano con gli sci o con le ciaspole, in estate si trasformano in sentieri perfetti per il trekking, il nordic walking o la mountain bike.
     Godersi il sole e respirare aria buona non è mai stato così facile.
     "
   links:
