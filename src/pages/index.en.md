@@ -19,7 +19,7 @@ rooms:
   text: "Linger before bed and roll your eyes, admire all the stars invisible from the city, fall asleep in the calming silence of a small mountain town, wake up and remember that waiting for you out there are the beauty of the meadows blooming in summer and the whiteness of the snowy peaks during the winter. These are just some of the reasons that make the Kugy refuge a special place to stay. Characteristic of our rooms is simplicity. The absence of televisions and background music is our conscious choice that will allow you to rediscover the pleasure of silence and the warmth of being in company."
   links:
     - { href: '/en/rooms/', text: 'Rooms'}
-    - { href: '/en/rooms/', text: 'Rooms'}
+    - { href: '/en/rooms/', text: 'BigRooms'}
   imageInfo:
     image: /img/camera_6_persone_Rifugio_Kugy.jpg
     alt: "The rooms"
