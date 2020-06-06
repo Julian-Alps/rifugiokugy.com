@@ -26,7 +26,7 @@ rooms:
 activities:
   title: "Activities"
   slogan: SLOW WITH ENERGY!
-  text: "The same paths that in winter are tackled with skis or snowshoes, in summer they are transformed into perfect paths for trekking, Nordic wolking or mountain biking.
+  text: "The same paths that in winter are tackled with skis or snowshoes, in summer they are transformed into perfect paths for trekking, Nordic walking or mountain biking.
 Enjoying the sun and breathing good air has never been easier."
   links:
     - { href: '/en/activities/#summer', text: 'Summer'}
