@@ -30,7 +30,7 @@ const RootMenu = ( props ) => {
           </Link>
           <div className="nested navbar-item dropdown">
             <div className="dropdown-trigger">
-              <button className="button" aria-haspopup="true" aria-controls="dropdown-menu">
+              <button className="button first-link" aria-haspopup="true" aria-controls="dropdown-menu">
                 <FormattedMessage id="sleeping"/>
                 <span className="icon is-small" style={{ color: 'green'}}>
                   <FaAngleRight  aria-hidden="true"/>
@@ -54,7 +54,7 @@ const RootMenu = ( props ) => {
         </Link>
       <div className="nested navbar-item dropdown">
         <div className="dropdown-trigger">
-          <button className="button" aria-haspopup="true" aria-controls="dropdown-menu">
+          <button className="button first-link" aria-haspopup="true" aria-controls="dropdown-menu">
             <FormattedMessage id="activities"/>
             <span className="icon is-small" style={{ color: 'green'}}>
               <FaAngleRight  aria-hidden="true"/>
