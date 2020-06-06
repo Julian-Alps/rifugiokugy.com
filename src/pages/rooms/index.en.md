@@ -13,7 +13,7 @@ bgImage:
   image: /img/Valbruna_e_jof_fuart_01.jpg
 rooms:
   title: "Rooms"
-  text: "For lovers of comfort and privacy, you can book the Kugy Direct room, a romantic double room on the first floor. With its fifteen square meters, it is a very spacious room and the light tiles combined with the pine wood furnishings make the environment bright and welcoming. The private bathroom with modern finishes, equipped with shower and toilet, is also accessible to disabled people, as well as the room itself, accessible by elevator. For those who do not want to give up intimacy, the XXX room, just over ten square meters large, is located on the second and top floor of the building. Here too, the pine wood furniture gives the room that touch of order and brightness. It has a private bathroom with all essential services and can be reached by lift."
+  text: "For lovers of comfort and privacy, you can book the Kugy Direct room, a romantic double room on the first floor. With its fifteen square meters, it is a very spacious room and the light tiles combined with the pine wood furnishings make the environment bright and welcoming. The private bathroom with modern finishes, equipped with shower and toilet, is also accessible to disabled people, as well as the room itself, accessible by elevator."
   imageInfo:
     image: /img/camera_6_persone_Rifugio_Kugy.jpg
     alt: "The rooms"
