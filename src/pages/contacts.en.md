@@ -24,8 +24,8 @@ phone: '+39 0428 60340'
 email: 'info@rifugiokugy.com'
 whatsapp: '+39 333 799 9272'
 fb: 'rifugiokugy'
-linkinsta: 'kaki'
-instagram: '@kaki'
+linkinsta: 'rifugiokugy'
+instagram: '@rifugiokugy'
 locations:
   lat: 46.4929172
   lng: 13.4911627
