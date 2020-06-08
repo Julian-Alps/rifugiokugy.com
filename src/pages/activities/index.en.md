@@ -1,6 +1,7 @@
 ---
 id: '10'
-title: "Activities"
+title: "Activities page at the  Rifugio Kugy (Kugy Refuge)"
+description: "Introductory page to the activities around the Rifugio Kugy (Kugy Refuge): trekking, cross-country bike, and much more."
 templateKey: activities
 tags:
   - activities

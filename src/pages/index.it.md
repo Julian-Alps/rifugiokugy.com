@@ -1,7 +1,7 @@
 ---
 id: '01'
-title: "Pagina home italiano"
-description: "qualche contenuto"
+title: "Pagina home italiano del Rifugio Kugy"
+description: "Pagina home del sito ufficiale del Rifugio Kugy - casa alpina - Valbruna (UD) situato nelle Alpi Giulie"
 templateKey: home
 tags:
   - stanze

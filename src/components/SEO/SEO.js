@@ -33,8 +33,10 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
     render={({ site: { siteMetadata: seo } }) => {
       const postMeta =
         frontmatter || postData.childMarkdownRemark.frontmatter || {};
+        console.log(frontmatter);
 
       const title = postMeta.title || seo.title;
+      console.log(title);
       const description = postMeta.description || seo.description;
       const image = postImage ? `${seo.siteUrl}${postImage}` : seo.image;
       const url = postMeta.slug

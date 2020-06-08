@@ -1,7 +1,7 @@
 ---
 id: '02'
-title: "Pagina del negozio"
-description: "Qualcosa su di me"
+title: "Pagina del negozio del Rifugio Kugy"
+description: "I prodotti del nostro territorio e non, disponibili nel punto vendita del Rifugio Kugy"
 templateKey: shop
 tags:
   - bottega
@@ -34,5 +34,4 @@ ourProducts:
 path: /it/bottega/
 slug: /it/bottega/
 ---
-
-Questa è la pagina shop
+# I prodotti in vendita al Rifugio Kugy

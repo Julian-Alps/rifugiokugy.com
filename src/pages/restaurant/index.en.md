@@ -1,5 +1,7 @@
 ---
 id: '03'
+title: "Restaurant page at Rifugio Kugy"
+description: "On this page of the Kugy Refuge website you can find: the menu of our dishes, the offer of wines and beers."
 templateKey: restaurant
 tags:
   - restaurant
