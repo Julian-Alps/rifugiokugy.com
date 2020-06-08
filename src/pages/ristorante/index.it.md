@@ -65,21 +65,14 @@ Nel nostro menù abbiamo due dolci immancabili: lo **strudel** accompagnato da u
 
 ### Vini
 
-- Vino sfuso dell’Azienda Agricola Scribano, Bianco 2018, Merlot 2018, Cabernet Franc 2018 arriva dalla Valle del fiume Judrio
+- Vino sfuso dell’Azienda Agricola Pitacco, Bianco 2018, Merlot 2018, Cabernet Franc 2018
 - Prosecco Pederiva
-- Vini bianchi e rossi dell’azienda Butussi di Corno di Rosazzo della linea Kreti:
-- Ribolla Gialla Spumante Extra Dry
-- Friulano DOC Friuli 2018
-- Pinot Grigio DOC Friuli 2018
-- Merlot DOC Friuli 2018
-- Cabernet DOC Friuli 2018
-
 
 ### Birre
 
-- Birra Stiegl - Hubertus alla spina provenienza Austria
+- Birra Stiegl alla spina provenienza Austria
+
 Birrette in bottiglia:
-- Alpenstoff da 0,33 (D) Unser Burgerbrau Tipologia: Birra Artigianale Hells
 
 - Birra Weizen (D) Unser Burgerbrau da 0,5
 - Birra Unser Burgerbrau (D) Braumeister 0.5

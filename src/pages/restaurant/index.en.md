@@ -68,15 +68,8 @@ In our menu we have two inevitable desserts: the **strudel** accompanied by a va
 
 ### Wines
 
-- Bulk wine from the Scribano Agricultural Company, Bianco 2018, Merlot 2018, Cabernet Franc 2018 comes from the Judrio River Valley
+- Bulk wine from the Pitacco Agricultural Company, Bianco 2018, Merlot 2018, Cabernet Franc 2018
 - Prosecco Pederiva
-- White and red wines from the Butussi di Corno di Rosazzo company from the Kreti line:
-- Ribolla Gialla Extra Dry Sparkling Wine
-- Friulano DOC Friuli 2018
-- Pinot Grigio DOC Friuli 2018
-- Merlot DOC Friuli 2018
-- Cabernet DOC Friuli 2018
-
 
 ### Beers
 
