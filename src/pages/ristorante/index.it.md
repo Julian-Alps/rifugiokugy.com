@@ -1,5 +1,7 @@
 ---
 id: '03'
+title: A tavola al Rifugio Kugy
+description: "In questa pagina del sito Rifugio Kugy potete trovare: il menu dei nostri piatti, l'offerta dei vini e le birre."
 templateKey: restaurant
 tags:
   - colazione

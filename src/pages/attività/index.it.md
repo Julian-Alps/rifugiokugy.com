@@ -1,5 +1,7 @@
 ---
 id: '10'
+title: "Pagina delle attività al Rifugio Kugy"
+description: "Pagina introduttiva alle attività intorno al Rifugio Kugy: trekking, bici sci di fondo, e molto altro."
 title: "Attività"
 templateKey: activities
 tags:

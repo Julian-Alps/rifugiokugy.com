@@ -1,7 +1,7 @@
 ---
 id: '05'
-title: "Contact page"
-description: "Page to send an e-mail"
+title: "Contact page - Rifugio Kugy (Kugy Refuge)"
+description: "Page to send an e-mail and get other useful informations about Rifugio Kugy (Kugy Refuge)"
 templateKey: contacts
 tags:
   - contacts
@@ -38,4 +38,4 @@ imageCardSL:
   website: www.rifugiokugy.com
 ---
 
-In this page you can send an e-mail.
+In this page you can send an e-mail and get other informations.

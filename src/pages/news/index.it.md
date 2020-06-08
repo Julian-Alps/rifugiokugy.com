@@ -1,7 +1,7 @@
 ---
 id: '09'
-title: "Pagina delle News"
-description: "Pagina delle News"
+title: "Pagina delle News del Rifugio Kugy"
+description: "Pagina delle News del Rifugio Kugy - Valbruna (UD)"
 templateKey: news-index
 lang: it
 date: "20-05-2020"

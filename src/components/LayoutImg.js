@@ -100,7 +100,7 @@ class TemplateWrapper extends Component {
           <Helmet
             key="app-head"
             defaultTitle={this.title}
-            titleTemplate={`%s | ${this.title}`}
+            titleTemplate={`${this.title}`}
           >
           <html lang={this.langKey} />
           <meta name="description"  content={this.description}/>

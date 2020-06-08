@@ -1,7 +1,7 @@
 ---
 id: '09'
-title: "News page"
-description: "News page"
+title: "News page of Rifugio Kugy (Kugy Refuge)"
+description: "Official News page for Rifugio Kugy (Kugy Refuge)"
 templateKey: news-index
 lang: en
 date: "20-05-2020"

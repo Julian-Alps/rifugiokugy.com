@@ -1,7 +1,7 @@
 ---
 id: '05'
-title: "Pagina di contatto"
-description: "Pagina per contattarmi"
+title: "Pagina di contatto del Rifugio Kugy"
+description: "Pagina per contattare il Rifugio Kugy e avere altre informazioni."
 templateKey: contacts
 tags:
   - contatti
