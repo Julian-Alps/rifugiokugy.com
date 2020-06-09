@@ -75,7 +75,7 @@ Nel nostro menù abbiamo due dolci immancabili: lo **strudel** accompagnato da u
 Birrette in bottiglia:
 
 - Birra Weizen (D) Unser Burgerbrau da 0,5
-- Birra Unser Burgerbrau (D) Braumeister 0.5
+- Birra Gustl Unser Burgerbrau (D) 0.5
 - Birra analcolica Beck’s Blue 0.33
 - Birra Hubertus Herren Pils 0.33
 

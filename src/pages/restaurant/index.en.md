@@ -74,11 +74,11 @@ In our menu we have two inevitable desserts: the **strudel** accompanied by a va
 ### Beers
 
 - Stiegl beer - Hubertus on tap from Austria
+
 Bottled beers:
-- Alpenstoff da 0,33 (D) Unser Burgerbrau Typology: Hells Craft Beer
 
 - Weizen (D) Unser Burgerbrau beer of 0.5
-- Unser Burgerbrau Beer (D) Braumeister 0.5
+- Gustl Unser Burgerbrau beer (D) 0.5
 - Non-alcoholic beer Beck's Blue 0.33
 - Hubertus Herren Pils beer 0.33
 
