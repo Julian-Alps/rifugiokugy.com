@@ -5,7 +5,10 @@ title: Il nuovo sito web del Rifugio Kugy
 date: 2020-10-06
 description: Un articolo per introdurre il sito web del Rifugio Kugy , la filosofia open source e i nostri progetti.
 lang: it
-image: /img/Valbruna_e_jof_fuart_01.jpg
+image: /img/Valbruna_e_jof_fuart_01.
+bgImage:
+  alt: "Valbruna e il jof Fuart "
+  image: /img/Valbruna_e_jof_fuart_01.jpg
 tags:
   - gatsbyjs
   - netlify
@@ -13,3 +16,5 @@ tags:
   - open-source
   - sito-web
 ---
+
+## Finalmente il nuovo sito è online !!

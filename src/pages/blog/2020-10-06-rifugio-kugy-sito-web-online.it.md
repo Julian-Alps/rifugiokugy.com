@@ -6,6 +6,9 @@ date: 2020-10-06
 description: An article to introduce the Rifugio Kugy (Kugy Refuge) website, the open source philosophy and our projects.
 lang: en
 image: /img/Valbruna_e_jof_fuart_01.jpg
+bgImage:
+  alt: "Valbruna and the Jof Fuart"
+  image: /img/Valbruna_e_jof_fuart_01.jpg
 tags:
   - gatsbyjs
   - netlify
@@ -13,3 +16,5 @@ tags:
   - open-source
   - website
 ---
+
+## Finally the new site is online !!
