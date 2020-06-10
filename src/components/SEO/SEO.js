@@ -80,6 +80,7 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost }) => (
             organization={seo.organization}
             defaultTitle={seo.title}
           />
+        <meta name="google-site-verification" content="vkzMPkR2C66yqbLk9lHmGs-OzUPaUsFZDp7ymNqweHc" />
         </React.Fragment>
       );
     }}
