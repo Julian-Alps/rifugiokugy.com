@@ -1,28 +1,28 @@
 ---
 id: '11'
 templateKey: blog-post
-title: Il nuovo sito web del Rifugio Kugy | www.rifugiokugy.com
+title: The new Rifugio Kugy (Kugy Refuge) website | www.rifugiokugy.com
 date: 2020-10-06
-description: Un articolo per introdurre il sito web del Rifugio Kugy, la filosofia open source e i nostri progetti.
-lang: it
+description: An article to introduce the Rifugio Kugy (Kugy Refuge) website, the open source philosophy and our projects.
+lang: en
 image: /img/Valbruna_e_jof_fuart_01.jpg
 bgImage:
-  alt: "Valbruna e il jof Fuart"
+  alt: "Valbruna and the Jof Fuart"
   image: /img/Valbruna_e_jof_fuart_01.jpg
 tags:
   - gatsbyjs
   - netlify
   - github
   - open-source
-  - sito-web
+  - website
 ---
 
-## Finalmente il nuovo sito www.rifugiokugy.com è online !!
+## Finally the new site www.rifugiokugy.com is online !!
 
-Siamo lieti di annunciarvi che anche il nostro sito è ufficialmente online! Per la sua creazione ci siamo affidati a [gatsbyjs](https://www.gatsbyjs.org/), un framework open source che si basa sul più innovativo React (eccezionale libreria JavaScript per creare interfacce utente). Il sito fa parte di un'organizzazione github open source all'indirizzo: https://github.com/Julian-Alps/rifugiokugy.com e si avvale del servizio di hosting Netlify, con rete CDN. Di questo ed di altri argomenti inerenti ne riparleremo in un altro articolo.
+We are happy to announce that our site is also officially online! For its creation we relied on [gatsbyjs] (https://www.gatsbyjs.org/), an open source framework that is based on the most innovative React (exceptional JavaScript library for creating user interfaces). The site is part of an open source github organization at: https://github.com/Julian-Alps/rifugiokugy.com and uses the Netlify hosting service, with CDN network. We will talk about this and other related topics in another article.
 
-Ma dopo questa parentesi tecnica, veniamo ai contenuti. Abbiamo voluto realizzare un sito web fruibile a tutti e facilmente navigabile. Al suo interno trovate le informazioni necessarie riguardanti il Rifugio Kugy e i servizi offerti. Potete esplorare la sezione [“dormire in rifugio”](https://www.rifugiokugy.com/it/camere) e scoprire le stanze a disposizione, controllare i prezzi della mezza pensione e del b&b. Lasciatevi ispirare dal nostro menu nella sezione [“a tavola”](https://www.rifugiokugy.com/it/ristorante), e andate a scoprire quali souvenir gastronomici acquistare nella parte dedicata alla [“Bottega”](https://www.rifugiokugy.com/it/shop). Sempre per quanto riguarda il cibo, abbiamo deciso di attivare un servizio utile e davvero al passo con i tempi: il servizio a domicilio e il take away.
+But after this technical parenthesis, we come to the contents. We wanted to create a website accessible to all and easily navigable. Inside you will find the necessary information regarding the Rifugio Kugy (Kugy Refuge) and the services offered. You can explore the section ["sleeping in a refuge"](https://www.rifugiokugy.com/en/rooms) and discover the rooms available, check the prices of the half board and the b & b. Let yourself be inspired by our menu in the ["restaurant"](https://www.rifugiokugy.com/en/restaurant) section, and find out which gastronomic souvenirs to buy in the part dedicated to the ["Shop"](https://www.rifugiokugy.com/en/shop). Still with regard to food, we decided to activate a useful service that is truly in step with the times: home delivery and take away.
 
-Una volta saziata la fame, non resta che dedicarsi all'esercizio fisico. Infatti, nella sezione [“attività”](https://www.rifugiokugy.com/it/attività) abbiamo pensato di offrirvi alcuni spunti per vivere al meglio il vostro soggiorno a Valbruna e dintorni. Molti dei percorsi si possono affrontare sia in estate che in inverno ma per praticità abbiamo suddiviso le attività in base alla loro migliore veste stagionale.
+Once hunger is satisfied, all that remains is to exercise. In fact, in the ["activities"](https://www.rifugiokugy.com/en/activities) section we thought to offer you some ideas to better enjoy your stay in Valbruna and surroundings. Many of the routes can be tackled both in summer and in winter but for convenience we have divided the activities according to their best seasonal appearance.
 
-Ora, come ultimo passaggio, non vi resta che controllare la sezione contatti, decidere una data e chiamarci per prenotare la vostra vacanza.
+Now, as a last step, you just have to check the contact section, decide a date and call us to book your holiday.
