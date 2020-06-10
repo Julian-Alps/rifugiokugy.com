@@ -82,3 +82,5 @@ Per gli amanti del genere, nei dintorni sono visitabili anche il forte Hensel a 
 Gli sci alpinisti, oltre che d’inverno, anche in primavera potranno dedicarsi a gite affascinanti e di livello facile: Sella Nabois, Jof di Somdogna, cima del Monte Cocco o la Vetta Bella.
 "
 ---
+
+Per godervi al massimo la vostra vacanza slow vi proponiamo alcune attività da svolgere durante il periodo estivo e invernale. Partendo dal Rifugio Kugy potrete esplorare la natura circostante come più vi piace! Che siate amanti del trekking o del nordic walking, dello sci di fondo o dello sci alpino, che siate ciaspolatori o ciclisti, il territorio offre una possibilità di svago a tutti quanti. E se dovesse piovere? Niente paura, non mancano le attività al coperto come l’arrampicata indoor, una visita alla malga per scoprire come viene realizzato il formaggio Montasio o, una gita alla suggestiva miniera di Raibl. 
