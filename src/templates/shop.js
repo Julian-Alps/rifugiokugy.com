@@ -10,7 +10,6 @@ import LeftCard from '../components/Cards/LeftCard'
 import RightCard from '../components/Cards/RightCard'
 
 const ShopPageTemplate = ({
-  title,
   content,
   contentComponent,
   territoryProducts,
@@ -21,7 +20,6 @@ const ShopPageTemplate = ({
   const PageContent = contentComponent || Content
   return (
       <div className="content">
-       <h1 className="title">{title}</h1>
         <section className="section">
           <PageContent className="container content" content={content} />
           </section>

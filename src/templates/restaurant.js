@@ -10,7 +10,6 @@ import LeftCard from '../components/Cards/LeftCard'
 import Testimonials from '../components/Testimonials'
 
 const RestaurantPageTemplate = ({
-  title,
   content,
   contentComponent,
   breakfast,
@@ -21,7 +20,6 @@ const RestaurantPageTemplate = ({
   const PageContent = contentComponent || Content
   return (
       <div className="content">
-       <h1 className="title">{title}</h1>
         <section className="content">
           <Title title={sapore.title}/>
           <p id="sapore-autentico">{sapore.text}</p>

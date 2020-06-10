@@ -1,5 +1,7 @@
 ---
 id: '03'
+title: "Restaurant page at Rifugio Kugy"
+description: "On this page of the Kugy Refuge website you can find: the menu of our dishes, the offer of wines and beers."
 templateKey: restaurant
 tags:
   - restaurant
@@ -66,24 +68,17 @@ In our menu we have two inevitable desserts: the **strudel** accompanied by a va
 
 ### Wines
 
-- Bulk wine from the Scribano Agricultural Company, Bianco 2018, Merlot 2018, Cabernet Franc 2018 comes from the Judrio River Valley
+- Bulk wine from the Pitacco Agricultural Company, Bianco 2018, Merlot 2018, Cabernet Franc 2018
 - Prosecco Pederiva
-- White and red wines from the Butussi di Corno di Rosazzo company from the Kreti line:
-- Ribolla Gialla Extra Dry Sparkling Wine
-- Friulano DOC Friuli 2018
-- Pinot Grigio DOC Friuli 2018
-- Merlot DOC Friuli 2018
-- Cabernet DOC Friuli 2018
-
 
 ### Beers
 
 - Stiegl beer - Hubertus on tap from Austria
+
 Bottled beers:
-- Alpenstoff da 0,33 (D) Unser Burgerbrau Typology: Hells Craft Beer
 
 - Weizen (D) Unser Burgerbrau beer of 0.5
-- Unser Burgerbrau Beer (D) Braumeister 0.5
+- Gustl Unser Burgerbrau beer (D) 0.5
 - Non-alcoholic beer Beck's Blue 0.33
 - Hubertus Herren Pils beer 0.33
 

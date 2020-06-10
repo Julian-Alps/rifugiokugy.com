@@ -1,6 +1,7 @@
 ---
 id: '10'
-title: "Activities"
+title: "Activities page at the  Rifugio Kugy (Kugy Refuge)"
+description: "Introductory page to the activities around the Rifugio Kugy (Kugy Refuge): trekking, cross-country bike, and much more."
 templateKey: activities
 tags:
   - activities
@@ -76,3 +77,5 @@ For lovers of the genre, the Hensel fort in Malborghetto and the Col Badin fort 
 In addition to winter, ski mountaineers can also enjoy fascinating and easy excursions in spring: Sella Nabois, Jof di Somdogna, the top of Monte Cocco or Vetta Bella.
 "
 ---
+
+To fully enjoy your slow holiday we offer you some activities to carry out during the summer and winter. Starting from the Kugy Refuge you can explore the surrounding nature as you like! Whether you love trekking or Nordic walking, cross-country skiing or downhill skiing, whether you are snowshoeing or cyclists, the area offers a chance for recreation for everyone. What if it rains? Don't worry, there is no shortage of indoor activities such as indoor climbing, a visit to the malga to find out how Montasio cheese is made or a trip to the suggestive Raibl mine.
