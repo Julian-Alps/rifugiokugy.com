@@ -4,6 +4,7 @@ import TagList from '../components/TagList'
 import { graphql } from 'gatsby'
 import Layout from '../components/LayoutImg'
 import SEO from '../components/SEO/SEO'
+import { Helmet } from 'react-helmet';
 import Content, { HTMLContent } from '../components/Content'
 import HomeDelivery from '../components/HomeDelivery'
 import LeftCard from '../components/Cards/LeftCard'
@@ -102,6 +103,9 @@ class HomePage extends React.Component {
           frontmatter={frontmatter}
           postImage={image}
         />
+      <Helmet>
+        <meta name="google-site-verification" content="vkzMPkR2C66yqbLk9lHmGs-OzUPaUsFZDp7ymNqweHc" />
+      </Helmet>
         <div>
             <HomePageTemplate
               image={dataMarkdown.frontmatter.image}
