@@ -35,7 +35,7 @@ breakfast:
 La nostra merenda:
 
 - **Affettati e formaggi misti del territorio** : prosciutto crudo, salame affumicato De Monte, pancetta, speck, lardo e formaggi misti di malga serviti con confetture di frutta e crostini con salsa al cren.
-- **Solo formaggi** : 5 gustosi assaggi con confetture e sottaceti (Il latteria Montasio, Il Malga Grantagar, Il caprino di Zore, La Ricotta di Ugovizza, La Ugovizella) o altri...da decidere (Latteria del Bunker, il formaggio nel fieno etc.)
+- **Solo formaggi** : 5 gustosi assaggi con confetture e sottaceti (Il latteria Montasio, il caprino di Zore, la Ricotta di Ugovizza, la Ugovizella, il formaggio nel fieno)
 - **Lardo del contadino e miele** : dell’azienda agricola Shira Baron su crostini di pane di segale.
 
 ### Primi
@@ -61,7 +61,7 @@ La nostra merenda:
 ### Dolci
 
 A fine pasto i **dolci**:
-Nel nostro menù abbiamo due dolci immancabili: lo **strudel** accompagnato da una salsa alla vaniglia o panna, e le **crostate**! Ma visto che ci piace stupirvi troverete altre sorprese della nostra pasticcera, come la torta al grano saraceno con i mirtilli rossi o quella alla ricotta, lo jogurt di malga e frutti di bosco, la panna cotta alle fragole e menta, l Per i nostri impasti usiamo le farine del Mulino Tuzzi (Patto del Grano) con cereali che provengono da agricoltura biologica non certificata.
+Nel nostro menù abbiamo due dolci immancabili: lo **strudel** accompagnato da una salsa alla vaniglia o panna, e le **crostate**! Ma visto che ci piace stupirvi troverete altre sorprese della nostra pasticcera, come la torta al grano saraceno con i mirtilli rossi o quella alla ricotta, lo jogurt di malga e frutti di bosco, la panna cotta alle fragole e menta. Per i nostri impasti usiamo le farine del Mulino Tuzzi (Patto del Grano) con cereali che provengono da agricoltura biologica non certificata.
 
 ### Vini
 

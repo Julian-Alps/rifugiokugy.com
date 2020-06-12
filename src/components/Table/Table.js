@@ -19,16 +19,6 @@ class Table extends React.Component {
           <th><abbr title="Lost"><FormattedMessage id="table-rooms-beds"/></abbr></th>
         </tr>
        </thead>
-       <tfoot>
-       <tr>
-        <th><abbr title="Name"><FormattedMessage id="table-rooms-names"/></abbr></th>
-        <th><abbr title="Name"><FormattedMessage id="table-rooms-number-persons"/></abbr></th>
-        <th><abbr title="Played"><FormattedMessage id="table-rooms-pensions"/></abbr></th>
-        <th><abbr title="Won"><FormattedMessage id="table-rooms-B&B"/></abbr></th>
-        <th><abbr title="Drawn"><FormattedMessage id="table-rooms-wc"/></abbr></th>
-        <th><abbr title="Lost"><FormattedMessage id="table-rooms-beds"/></abbr></th>
-       </tr>
-       </tfoot>
        <tbody>
        {rows.map( (row, id)=> (
         <tr key={id}>

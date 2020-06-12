@@ -20,7 +20,7 @@ testimonials:
 territoryProducts:
   title: "I prodotti del territorio"
   text: "Un ricordo dalle Alpi a casa tua.
-Confetture, grappe, birra artigianale, salumi, formaggi, vini, miele, i grissini del panificio Donadelli di Chiusaforte; abbiamo selezionato per voi eccellenti prodotti del territorio friulano alcuni realizzati con materie prime a km0. Se vi sono piaciuti potrete acquistarli e portarli a casa vostra per continuare a rivivere i sapori della montagna.
+Confetture, grappe, birra artigianale, salumi, formaggi, vini, miele, i grissini del panificio Donadelli di Chiusaforte; abbiamo selezionato per voi eccellenti prodotti del territorio friulano alcuni realizzati con materie prime a km 0. Se vi sono piaciuti potrete acquistarli e portarli a casa vostra per continuare a rivivere i sapori della montagna.
 "
   imageInfo:
     image: /img/Formaggi_val_canale.jpg
