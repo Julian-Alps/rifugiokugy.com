@@ -20,7 +20,7 @@ howtoget:
   - ✈️ In aereo, a 46 km dall'Aeroporto di Trieste - Ronchi dei Legionari
   - 🚀 In aereo, a 41 km dall'aeroporto di Klagenfurt
 address: "Rifugio Casa Alpina Kugy 33010 Valbruna UD"
-phone: '+39 0428 60340'
+phone: '+39 0428 871860'
 email: 'info@rifugiokugy.com'
 whatsapp: '+39 333 799 9272'
 fb: 'rifugiokugy'
