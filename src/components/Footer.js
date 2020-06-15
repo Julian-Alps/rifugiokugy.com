@@ -62,7 +62,7 @@ class Footer extends React.Component {
                   <a title="facebook" href="https://facebook.com/RifugioKugy/">
                     <FaFacebook className="facebook-icon"  size="2em"/>
                   </a>
-                  <a title="pinterest" href="https://www.pinterest.com">
+                  <a title="pinterest" href="https://www.pinterest.com/rifugiokugy/">
                     <FaPinterest className="pinterest-icon"  size="2em"/>
                   </a>
                   <a title="instagram" href="https://instagram.com/RifugioKugy">
