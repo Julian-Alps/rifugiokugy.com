@@ -1,7 +1,7 @@
 ---
 id: '01'
-title: "Pagina home italiano del Rifugio Kugy"
-description: "Pagina home del sito ufficiale del Rifugio Kugy - casa alpina - Valbruna (UD) situato nelle Alpi Giulie"
+title: "Rifugio Kugy Casa Alpina Valbruna | magiche Alpi Giulie"
+description: "Pagina home del sito ufficiale del Rifugio Kugy - casa alpina - Valbruna (UD) situato nelle magiche Alpi Giulie"
 templateKey: home
 tags:
   - stanze
@@ -75,7 +75,8 @@ testimonials:
      "Non cercate nelle montagne un'impalcatura per arrampicare, cercate la loro anima."
 ---
 
-# Benvenuti al Rifugio Kugy
+# Benvenuti al Rifugio Kugy Casa Alpina Valbruna!
+## Lasciatevi sorpendere dalle magiche Alpi Giulie
 <br>
 <blockquote style="color: gray">
 <p>“Quando mi apparivano sopra le alture del Carso, nel riverbero luminoso del mare, inondate di luce e di sole, nella loro calma solennità, così lontane e irraggiungibili, la mia anima le stringeva in un abbraccio, con tutta la violenza dei suoi sogni. [...] Per quanti monti io abbia visti, niente uguaglia le Giulie. I sogni della giovinezza vi hanno creata la patria dell’anima mia.”</p><cite>Dalla vita di un alpinista - Julius Kugy</cite>
