@@ -45,6 +45,14 @@ module.exports = {
         cookieDomain: "rifugiokugy.com",
       }
     },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Pacifico', 'Margarine', 'sans-serif']
+        }
+      }
+    },
     'gatsby-plugin-resolve-src',
     'gatsby-plugin-sass',
     {

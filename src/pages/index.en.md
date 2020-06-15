@@ -1,7 +1,7 @@
 ---
 id: '01'
-title: "English home page"
-description: "qualche contenuto"
+title: "Rifugio Kugy Casa Alpina Valbruna | magical Julian Alps"
+description: "Rifugio Kugy (Kugy Refuge) official website home page - alpine house - Valbruna (UD) located in the magical Julian Alps"
 templateKey: home
 tags:
   - rooms
@@ -74,7 +74,8 @@ testimonials:
       "Don't look at the mountains like a scaffold to climb, look for their soul."
 ---
 
-# Welcome to Refuge Kugy
+# Welcome to Refuge Kugy Casa Alpina Valbruna!
+## Be surprised by the magical Julian Alps
 <br>
 <blockquote style="color: gray">
 <p>“When they appeared to me on the heights of the Karst, in the luminous glare of the sea, flooded with light and sun, in their calm solemnity, so distant and unreachable, my soul held them in an embrace, with all the violence of her dreams. [...] No matter how many mountains I have seen, nothing equals the Giulie. The dreams of youth created the homeland of my soul.”</p><cite>Dalla vita di un alpinista - Julius Kugy</cite>
