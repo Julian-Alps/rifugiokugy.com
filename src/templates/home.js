@@ -1,3 +1,4 @@
+
 import React from "react"
 import * as PropTypes from 'prop-types'
 import TagList from '../components/TagList'
@@ -13,7 +14,7 @@ import Table from '../components/Table/Table'
 import FullCard from '../components/Cards/FullCard'
 import Title from '../components/Cards/Title'
 import Testimonials from '../components/Testimonials'
-import OsmMap from '../components/OsmMap'
+import InfoMap from '../components/InfoMap'
 
 const HomePageTemplate = ({
   rooms,
@@ -26,13 +27,15 @@ const HomePageTemplate = ({
   contentComponent,
   titleHD,
   textHD,
+  mapsMessage,
+  mapsLink,
+  mapsImage,
   tags,
   langKey
 }) => {
   const PageContent = contentComponent || Content
   const lat = 46.49273
   const lng = 13.49232
-  const message = 'message!'
 
   return (
     <div className="content">
@@ -53,7 +56,7 @@ const HomePageTemplate = ({
       </div>
       <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#709C34' frameColor='#709C34'/>
       <div className="content" id="territory">
-        <OsmMap lat={lat} lng={lng} message={message}/>
+        <InfoMap lat={lat} lng={lng} link={mapsLink} infoMap={mapsImage} message={mapsMessage}/>
       </div>
       <section className="section">
           <TagList tags={tags} langKey={langKey}/>
@@ -70,6 +73,9 @@ HomePageTemplate.propTypes = {
   contentComponent: PropTypes.func,
   titleHD: PropTypes.string,
   textHD: PropTypes.string,
+  mapsMessage: PropTypes.string,
+  mapsLink: PropTypes.string,
+  mapsImage: PropTypes.object,
   heading: PropTypes.string,
   rows: PropTypes.array,
   titlePrice: PropTypes.string,
@@ -96,6 +102,7 @@ class HomePage extends React.Component {
     const titleHD = frontmatter.titleHD
     const textHD = frontmatter.textHD
     const titlePrice = frontmatter.titlePrice
+    const maps = frontmatter.maps
 
     return (
       <Layout className="hero-body" data={this.props.data} bgImage={bgImage} jsonData={jsonData} location={this.props.location}>
@@ -119,6 +126,9 @@ class HomePage extends React.Component {
               contentComponent={HTMLContent}
               titleHD={titleHD}
               textHD={textHD}
+              mapsMessage={maps.message}
+              mapsLink={maps.link}
+              mapsImage={maps.imageComp}
               title={dataMarkdown.frontmatter.title}
               content={dataMarkdown.html}
               tags={tags}
@@ -228,6 +238,20 @@ export const pageQuery = graphql`
             height
             link
             title
+            alt
+          }
+        }
+        maps {
+          message
+          link
+          imageComp {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1500, quality: 84) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             alt
           }
         }

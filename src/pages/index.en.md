@@ -34,6 +34,12 @@ Enjoying the sun and breathing good air has never been easier."
   imageComp:
     image: /img/bike_activities_val_saisera_rifugio_kugy.jpg
     alt: "Activities"
+maps:
+  message: 'Visit the interactive map'
+  link: "contacts"
+  imageComp:
+    image: /img/Val_Saisera_Jof_Fuart_Rifugio_Kugy.jpg
+    alt: "Activities"
 masonry:
   photos:
     - { src: 'https://ucarecdn.com/d819dba8-695b-41a5-b575-a950d1f789f4/camerata_Rifugio_Kugy.jpg',
