@@ -74,7 +74,7 @@ titlePrice: Prezzi
 rows:
   - {name: 'Diretta Kugy', num: '2', price: '50€', pens: '35€', wc: '1', type: 'Matrimoniale'}
   - {name: 'Gola Nord Est', num: '6', price: '50€', pens: '35€', wc: '1', type: 'Castello'}
-  - {name: 'Cengia degli Dei', num: '12', price: '46€', pens: '31€', wc: '4', type: 'Castello'}
+  - {name: 'Cengia degli Dei', num: '12', price: '50€', pens: '35€', wc: '4', type: 'Castello'}
 testimonials:
   - author: Julius Kugy
     quote: >-
