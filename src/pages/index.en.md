@@ -73,7 +73,7 @@ titlePrice: Prices
 rows:
   - {name: 'Diretta Kugy', num: '2', price: '50€', pens: '35€', wc: '1', type: 'Double bed'}
   - {name: 'Gola Nord Est', num: '6', price: '50€', pens: '35€', wc: '1', type: 'Bunk bed'}
-  - {name: 'Cengia degli Dei', num: '12', price: '46€', pens: '31€', wc: '4', type: 'Bunk bed'}
+  - {name: 'Cengia degli Dei', num: '12', price: '50€', pens: '35€', wc: '4', type: 'Bunk bed'}
 testimonials:
   - author: anonimous
     quote: >-
