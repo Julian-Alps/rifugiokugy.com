@@ -35,6 +35,12 @@ activities:
   imageComp:
     image: /img/attività_in_bici_val_saisera_rifugio_kugy.jpg
     alt: "Attività"
+maps:
+  message: 'Visita la mappa interattiva'
+  link: "contatti"
+  imageComp:
+    image: /img/Val_Saisera_Jof_Fuart_Rifugio_Kugy.jpg
+    alt: "Activities"
 masonry:
   photos:
     - { src: 'https://ucarecdn.com/d819dba8-695b-41a5-b575-a950d1f789f4/camerata_Rifugio_Kugy.jpg',
