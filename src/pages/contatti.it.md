@@ -17,8 +17,8 @@ howtoget:
   - 🚲 In bicicletta, a 5 minuti dalla Ciclovia Alpe Adria
   - 🚋 In Treno, a 5 minuti dalla stazione ferroviaria di Ugovizza - Valbruna
   - 🚗 In auto, a 5 minuti dall’uscita dell'autostrada A23. Uscire  al casello Valbruna-Malborghetto-Camporosso proseguire  a sinistra in direzione Valbruna
-  - ✈️ In aereo, a 46 km dall'Aeroporto di Trieste - Ronchi dei Legionari
-  - 🚀 In aereo, a 41 km dall'aeroporto di Klagenfurt
+  - ✈️ In aereo, a 127,1 km dall'Aeroporto di Trieste - Ronchi dei Legionari
+  - 🚀 In aereo, a 92,8 km dall'aeroporto di Klagenfurt
 address: "Rifugio Casa Alpina Kugy 33010 Valbruna UD"
 phone: '+39 0428 871860'
 email: 'info@rifugiokugy.com'
