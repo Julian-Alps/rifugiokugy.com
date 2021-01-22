@@ -71,7 +71,7 @@ module.exports = {
   'contact.send': 'Invia',
   'not_found': "404 - Pagina Non Trovata",
   '404': "Sei giunto ad una pagina che non esiste più o hai sbagliato il percorso...",
-  'copyright': "2020, Rifugio Kugy - Tutti i diritti riservati.",
+  'copyright': "2021, Rifugio Kugy - Tutti i diritti riservati.",
   'menu-icon-message': "Scegli una sezione",
   'menu-icon-subtitle': "Sezione opere d'arte",
   'menu-icon-painting': "Pittura",
