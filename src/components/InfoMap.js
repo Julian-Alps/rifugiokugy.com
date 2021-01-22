@@ -8,7 +8,6 @@ export default class InfoMap extends Component {
     const message = props.message;
     const link = props.link;
     const imageComp = props.infoMap
-    console.log(imageComp);
     const imageStyle = props.imageStyle
     return(
       <div className='content' >
