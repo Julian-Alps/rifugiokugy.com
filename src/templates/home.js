@@ -21,6 +21,7 @@ const HomePageTemplate = ({
   masonry,
   titlePrice,
   rows,
+  priceMessage,
   activities,
   testimonials,
   content,
@@ -53,6 +54,7 @@ const HomePageTemplate = ({
       <div className="content" id="prices">
         <Title title={titlePrice}/>
         <Table rows={rows}/>
+        <p className="subtitle">{priceMessage}</p>
       </div>
       <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#709C34' frameColor='#709C34'/>
       <div className="content" id="territory">
@@ -121,6 +123,7 @@ class HomePage extends React.Component {
               masonry={frontmatter.masonry}
               titlePrice={titlePrice}
               rows={dataMarkdown.frontmatter.rows}
+              priceMessage={frontmatter.priceMessage}
               activities={frontmatter.activities}
               testimonials={dataMarkdown.frontmatter.testimonials}
               contentComponent={HTMLContent}
@@ -177,6 +180,7 @@ export const pageQuery = graphql`
         tags
         lang
         titlePrice
+        priceMessage
         rows {
           name
           num
