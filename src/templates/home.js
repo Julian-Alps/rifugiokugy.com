@@ -98,7 +98,7 @@ class HomePage extends React.Component {
     const jsonData = data.allArticlesJson.edges[0].node.articles;
     const langKey = dataMarkdown.frontmatter.lang
     const { frontmatter } = data.markdownRemark;
-    const image = frontmatter.image.childImageSharp.fluid.src;
+    const image = frontmatter.image.childImageSharp.gatsbyImageData.src;
     const tags = frontmatter.tags;
     const bgImage = frontmatter.bgImage;
     const titleHD = frontmatter.titleHD
@@ -151,137 +151,124 @@ HomePage.propTypes = {
 
 export default HomePage
 
-export const pageQuery = graphql`
-  query HomePageQuery($id: String!) {
-    site {
-      siteMetadata {
-        languages {
-          defaultLangKey
-          langs
-        }
-      }
-    }
-    allArticlesJson(filter:{title:{eq:"home"}}){
-   edges{
-     node{
-       articles {
-         en
-         it
-       }
-     }
-   }
- }
-    markdownRemark(id: {eq: $id}) {
-      html
-      frontmatter {
-        id
-        title
-        description
-        tags
-        lang
-        titlePrice
-        priceMessage
-        rows {
-          name
-          num
-          price
-          pens
-          wc
-          type
-        }
-        image {
-          childImageSharp {
-            fluid(maxWidth: 1500, quality: 84) {
-              ...GatsbyImageSharpFluid
-              src
-            }
-          }
-        }
-        bgImage {
-          alt
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1500, quality: 84) {
-                ...GatsbyImageSharpFluid
-                src
-              }
-            }
-          }
-        }
-        heading
-        testimonials {
-          author
-          quote
-        }
-        titleHD
-        textHD
-        rooms {
-          title
-          text
-          links {
-            href
-            text
-          }
-          imageInfo {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1500, quality: 84) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            alt
-          }
-        }
-        masonry{
-          photos{
-            src
-            srcSet
-            sizes
-            width
-            height
-            link
-            title
-            alt
-          }
-        }
-        maps {
-          message
-          link
-          imageComp {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1500, quality: 84) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            alt
-          }
-        }
-        activities {
-          title
-          slogan
-          text
-          links {
-            href
-            text
-          }
-          imageComp {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1500, quality: 84) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            alt
-          }
-        }
-      }
-      fields {
-        slug
+export const pageQuery = graphql`query HomePageQuery($id: String!) {
+  site {
+    siteMetadata {
+      languages {
+        defaultLangKey
+        langs
       }
     }
   }
+  allArticlesJson(filter: {title: {eq: "home"}}) {
+    edges {
+      node {
+        articles {
+          en
+          it
+        }
+      }
+    }
+  }
+  markdownRemark(id: {eq: $id}) {
+    html
+    frontmatter {
+      id
+      title
+      description
+      tags
+      lang
+      titlePrice
+      priceMessage
+      rows {
+        name
+        num
+        price
+        pens
+        wc
+        type
+      }
+      image {
+        childImageSharp {
+          gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+        }
+      }
+      bgImage {
+        alt
+        image {
+          childImageSharp {
+            gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+          }
+        }
+      }
+      heading
+      testimonials {
+        author
+        quote
+      }
+      titleHD
+      textHD
+      rooms {
+        title
+        text
+        links {
+          href
+          text
+        }
+        imageInfo {
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+            }
+          }
+          alt
+        }
+      }
+      masonry {
+        photos {
+          src
+          srcSet
+          sizes
+          width
+          height
+          link
+          title
+          alt
+        }
+      }
+      maps {
+        message
+        link
+        imageComp {
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+            }
+          }
+          alt
+        }
+      }
+      activities {
+        title
+        slogan
+        text
+        links {
+          href
+          text
+        }
+        imageComp {
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+            }
+          }
+          alt
+        }
+      }
+    }
+    fields {
+      slug
+    }
+  }
+}
 `

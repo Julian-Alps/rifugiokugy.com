@@ -51,7 +51,7 @@ class ShopPage extends React.Component {
     }
     const jsonData = this.props.data.allArticlesJson.edges[0].node.articles;
     const { frontmatter } = dataMarkdown;
-    const image = frontmatter.image.childImageSharp.fluid.src;
+    const image = frontmatter.image.childImageSharp.gatsbyImageData.src;
     const langKey = frontmatter.lang;
     const tags = frontmatter.tags;
     const bgImage = frontmatter.bgImage;
@@ -85,89 +85,78 @@ ShopPage.propTypes = {
 
 export default ShopPage
 
-export const pageQuery = graphql`
-  query ShopPageQuery($id: String!) {
-    site {
-      siteMetadata {
-        languages {
-          defaultLangKey
-          langs
-        }
-      }
-    }
-    allArticlesJson(filter:{title:{eq:"home"}}){
-   edges{
-     node{
-       articles {
-         en
-         it
-       }
-     }
-   }
- }
-    markdownRemark(id: {eq: $id}) {
-      html
-      frontmatter {
-        id
-        title
-        description
-        tags
-        lang
-        testimonials {
-          author
-          quote
-        }
-        image {
-          childImageSharp {
-            fluid(maxWidth: 1500, quality: 84) {
-              ...GatsbyImageSharpFluid
-              src
-            }
-          }
-        }
-        bgImage {
-          alt
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1500, quality: 84) {
-                ...GatsbyImageSharpFluid
-                src
-              }
-            }
-          }
-        }
-        territoryProducts {
-          title
-          text
-          imageInfo {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1500, quality: 84) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            alt
-          }
-        }
-        ourProducts {
-          title
-          text
-          imageInfo {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1500, quality: 84) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            alt
-          }
-        }
-      }
-      fields {
-        slug
+export const pageQuery = graphql`query ShopPageQuery($id: String!) {
+  site {
+    siteMetadata {
+      languages {
+        defaultLangKey
+        langs
       }
     }
   }
+  allArticlesJson(filter: {title: {eq: "home"}}) {
+    edges {
+      node {
+        articles {
+          en
+          it
+        }
+      }
+    }
+  }
+  markdownRemark(id: {eq: $id}) {
+    html
+    frontmatter {
+      id
+      title
+      description
+      tags
+      lang
+      testimonials {
+        author
+        quote
+      }
+      image {
+        childImageSharp {
+          gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+        }
+      }
+      bgImage {
+        alt
+        image {
+          childImageSharp {
+            gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+          }
+        }
+      }
+      territoryProducts {
+        title
+        text
+        imageInfo {
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+            }
+          }
+          alt
+        }
+      }
+      ourProducts {
+        title
+        text
+        imageInfo {
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+            }
+          }
+          alt
+        }
+      }
+    }
+    fields {
+      slug
+    }
+  }
+}
 `
