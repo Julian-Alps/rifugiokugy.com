@@ -52,7 +52,7 @@ const BlogPost = ({ data, location }) => {
   const { markdownRemark: post } = data
   const jsonData = data.allArticlesJson.edges[0].node.articles;
   const langKey = post.frontmatter.lang;
-  const image = post.frontmatter.image.childImageSharp.fluid.src;
+  const image = post.frontmatter.image.childImageSharp.gatsbyImageData.src;
   const bgImage = post.frontmatter.bgImage;
 
   return (
@@ -90,56 +90,50 @@ BlogPost.propTypes = {
 
 export default BlogPost
 
-export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
-    site {
-      siteMetadata {
-        title
-        languages{
-          langs
-          defaultLangKey
-        }
-      }
-    }
-    allArticlesJson(filter:{title:{eq:"home"}}){
-   edges{
-     node{
-       articles {
-         en
-         it
-       }
-     }
-   }
- }
-    markdownRemark(id: { eq: $id }) {
-      id
-      html
-      frontmatter {
-        id
-        title
-        image{
-          childImageSharp {
-        fluid(maxWidth: 1380) {
-          src
-            }
-          }
-        }
-        bgImage {
-          alt
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1500, quality: 84) {
-                ...GatsbyImageSharpFluid
-                src
-              }
-            }
-          }
-        }
-        description
-        date
-        tags
-        lang
+export const pageQuery = graphql`query BlogPostByID($id: String!) {
+  site {
+    siteMetadata {
+      title
+      languages {
+        langs
+        defaultLangKey
       }
     }
   }
+  allArticlesJson(filter: {title: {eq: "home"}}) {
+    edges {
+      node {
+        articles {
+          en
+          it
+        }
+      }
+    }
+  }
+  markdownRemark(id: {eq: $id}) {
+    id
+    html
+    frontmatter {
+      id
+      title
+      image {
+        childImageSharp {
+          gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
+        }
+      }
+      bgImage {
+        alt
+        image {
+          childImageSharp {
+            gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+          }
+        }
+      }
+      description
+      date
+      tags
+      lang
+    }
+  }
+}
 `

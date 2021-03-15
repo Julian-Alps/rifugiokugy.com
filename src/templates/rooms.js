@@ -48,7 +48,7 @@ class RoomsPage extends React.Component {
     }
     const jsonData = this.props.data.allArticlesJson.edges[0].node.articles
     const { frontmatter } = dataMarkdown
-    const image = frontmatter.image.childImageSharp.fluid.src
+    const image = frontmatter.image.childImageSharp.gatsbyImageData.src
     const bgImage = frontmatter.bgImage
     const langKey = frontmatter.lang
     const tags = frontmatter.tags
@@ -81,9 +81,8 @@ RoomsPage.propTypes = {
 
 export default RoomsPage
 
-export const pageQuery = graphql`
-  query RoomsPageQuery($id: String!) {
-    site {
+export const pageQuery = graphql`query RoomsPageQuery($id: String!) {
+  site {
     siteMetadata {
       languages {
         defaultLangKey
@@ -119,9 +118,7 @@ export const pageQuery = graphql`
         imageInfo {
           image {
             childImageSharp {
-              fluid(maxWidth: 1500, quality: 84) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
             }
           }
           alt
@@ -133,9 +130,7 @@ export const pageQuery = graphql`
         imageInfo {
           image {
             childImageSharp {
-              fluid(maxWidth: 1500, quality: 84) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
             }
           }
           alt
@@ -143,20 +138,14 @@ export const pageQuery = graphql`
       }
       image {
         childImageSharp {
-          fluid(maxWidth: 1500, quality: 84) {
-            ...GatsbyImageSharpFluid
-            src
-          }
+          gatsbyImageData(quality: 84, layout: FULL_WIDTH)
         }
       }
       bgImage {
         alt
         image {
           childImageSharp {
-            fluid(maxWidth: 1500, quality: 84) {
-              ...GatsbyImageSharpFluid
-              src
-            }
+            gatsbyImageData(quality: 84, layout: FULL_WIDTH)
           }
         }
       }
