@@ -52,51 +52,45 @@ NewsIndexPage.propTypes = {
  }).isRequired,
 }
 
-export const pageQuery = graphql`
-  query NewsIndex($id: String!)
-   {
-    site {
-      siteMetadata {
-        title
-        languages{
-          langs
-          defaultLangKey
+export const pageQuery = graphql`query NewsIndex($id: String!) {
+  site {
+    siteMetadata {
+      title
+      languages {
+        langs
+        defaultLangKey
+      }
+    }
+  }
+  allArticlesJson(filter: {title: {eq: "home"}}) {
+    edges {
+      node {
+        articles {
+          en
+          it
         }
       }
     }
-    allArticlesJson(filter:{title:{eq:"home"}}){
-   edges{
-     node{
-       articles {
-         en
-         it
-       }
-     }
-   }
   }
-    markdownRemark(id: { eq: $id })
-     {
+  markdownRemark(id: {eq: $id}) {
+    id
+    html
+    frontmatter {
       id
-      html
-      frontmatter {
-        id
-        date
-        title
-        description
-        tags
-        lang
-        bgImage {
-          alt
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1500, quality: 84) {
-                ...GatsbyImageSharpFluid
-                src
-              }
-            }
+      date
+      title
+      description
+      tags
+      lang
+      bgImage {
+        alt
+        image {
+          childImageSharp {
+            gatsbyImageData(quality: 84, layout: FULL_WIDTH)
           }
         }
       }
     }
+  }
 }
 `

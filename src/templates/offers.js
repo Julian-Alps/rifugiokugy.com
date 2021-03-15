@@ -39,7 +39,7 @@ class OffersPage extends React.Component {
     }
     const jsonData = this.props.data.allArticlesJson.edges[0].node.articles;
     const { frontmatter } = dataMarkdown;
-    const image = frontmatter.image.childImageSharp.fluid.src;
+    const image = frontmatter.image.childImageSharp.gatsbyImageData.src;
     const bgImage = frontmatter.bgImage;
     const langKey = frontmatter.lang;
     const tags = frontmatter.tags;
@@ -71,65 +71,58 @@ OffersPage.propTypes = {
 
 export default OffersPage
 
-export const pageQuery = graphql`
-  query OffersPageQuery($id: String!) {
-    site {
-      siteMetadata {
-        languages {
-          defaultLangKey
-          langs
-        }
-      }
-    }
-    allArticlesJson(filter:{title:{eq:"home"}}){
-   edges{
-     node{
-       articles {
-         en
-         it
-       }
-     }
-   }
- }
-    markdownRemark(id: {eq: $id}) {
-      html
-      frontmatter {
-        id
-        title
-        description
-        tags
-        lang
-        rows {
-          name
-          num
-          price
-          pens
-          wc
-          type
-        }
-        image {
-          childImageSharp {
-            fluid(maxWidth: 1500, quality: 84) {
-              ...GatsbyImageSharpFluid
-              src
-            }
-          }
-        }
-        bgImage {
-          alt
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1500, quality: 84) {
-                ...GatsbyImageSharpFluid
-                src
-              }
-            }
-          }
-        }
-      }
-      fields {
-        slug
+export const pageQuery = graphql`query OffersPageQuery($id: String!) {
+  site {
+    siteMetadata {
+      languages {
+        defaultLangKey
+        langs
       }
     }
   }
+  allArticlesJson(filter: {title: {eq: "home"}}) {
+    edges {
+      node {
+        articles {
+          en
+          it
+        }
+      }
+    }
+  }
+  markdownRemark(id: {eq: $id}) {
+    html
+    frontmatter {
+      id
+      title
+      description
+      tags
+      lang
+      rows {
+        name
+        num
+        price
+        pens
+        wc
+        type
+      }
+      image {
+        childImageSharp {
+          gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+        }
+      }
+      bgImage {
+        alt
+        image {
+          childImageSharp {
+            gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+          }
+        }
+      }
+    }
+    fields {
+      slug
+    }
+  }
+}
 `

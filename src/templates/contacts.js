@@ -229,7 +229,7 @@ class ContactPage extends React.Component {
     const linkinsta = dataMarkdown.frontmatter.linkinsta;
     const instagram = dataMarkdown.frontmatter.instagram;
     const { frontmatter } = dataMarkdown;
-    const imageSEO = frontmatter.image.childImageSharp.fluid.src;
+    const imageSEO = frontmatter.image.childImageSharp.gatsbyImageData.src;
     const bgImage = frontmatter.bgImage;
     return (
       <Layout className="hero-body" data={data} bgImage={bgImage} jsonData={jsonData} location={location}>
@@ -276,70 +276,63 @@ ContactPage.propTypes = {
 
 export default ContactPage;
 
-export const pageQuery = graphql`
-  query ContactPageQuery($id: String!) {
-    site {
-      siteMetadata {
-        languages {
-          defaultLangKey
-          langs
+export const pageQuery = graphql`query ContactPageQuery($id: String!) {
+  site {
+    siteMetadata {
+      languages {
+        defaultLangKey
+        langs
+      }
+    }
+  }
+  allArticlesJson(filter: {title: {eq: "home"}}) {
+    edges {
+      node {
+        articles {
+          en
+          it
         }
       }
     }
-    allArticlesJson(filter:{title:{eq:"home"}}){
-   edges{
-     node{
-       articles {
-         en
-         it
-       }
-     }
-   }
   }
-    markdownRemark(id: {eq: $id}) {
-      html
-      frontmatter {
-        id
-        title
-        description
-        tags
-        lang
+  markdownRemark(id: {eq: $id}) {
+    html
+    frontmatter {
+      id
+      title
+      description
+      tags
+      lang
+      image {
+        childImageSharp {
+          gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+        }
+      }
+      bgImage {
+        alt
         image {
           childImageSharp {
-            fluid(maxWidth: 1500, quality: 84) {
-              ...GatsbyImageSharpFluid
-              src
-            }
+            gatsbyImageData(quality: 84, layout: FULL_WIDTH)
           }
         }
-        bgImage {
-          alt
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1500, quality: 84) {
-                ...GatsbyImageSharpFluid
-                src
-              }
-            }
-          }
-        }
-        howtoget
-        address
-        phone
-        email
-        whatsapp
-        fb
-        locations{
-          lat
-          lng
-          message
-        }
-        linkinsta
-        instagram
       }
-      fields {
-        slug
+      howtoget
+      address
+      phone
+      email
+      whatsapp
+      fb
+      locations {
+        lat
+        lng
+        message
       }
+      linkinsta
+      instagram
+    }
+    fields {
+      slug
     }
   }
+}
 `
