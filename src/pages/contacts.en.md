@@ -30,12 +30,6 @@ locations:
   lat: 46.4929172
   lng: 13.4911627
   message: 'Rifugio Kugy - casa alpina'
-imageCardSL:
-  alt: "immagine"
-  image: /img/128x128.png
-  name: Rifugio Kugy
-  description: We are waiting for you in Valbruna!
-  website: www.rifugiokugy.com
 ---
 
 In this page you can send an e-mail and get other informations.
