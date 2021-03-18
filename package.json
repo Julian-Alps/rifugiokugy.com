@@ -19,7 +19,7 @@
     "dependencies": "^0.0.1",
     "gatsby": "^3.0.0",
     "gatsby-cli": "^3.0.0",
-    "gatsby-image": "^3.0.0",
+    "gatsby-image": "^3.1.0",
     "gatsby-plugin-canonical-urls": "^3.0.0",
     "gatsby-plugin-feed": "^3.0.0",
     "gatsby-plugin-google-analytics": "^3.0.0",
@@ -80,7 +80,9 @@
   ],
   "license": "MIT",
   "main": "n/a",
-  "resolutions": "",
+  "resolutions": {
+    "webpack-assets-manifest": "5.0.1"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
