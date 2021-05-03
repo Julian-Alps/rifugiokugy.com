@@ -71,11 +71,11 @@ titleHD: Servizio a domicilio
 textHD: >-
   Ci sentiamo al passo con i tempi e per questo abbiamo deciso di offrirvi un servizio a domicilio. Se non avete voglia di cucinare ma non volete rinunciare al buon cibo è disponibile anche il servizio take away. Per le prenotazioni basta chiamarci o contattarci via sms o whatsapp.
 titlePrice: Prezzi
-priceMessage: Durante il periodo invernale i prezzi per la mezza pensione e B&B sono maggiorati di 5 euro.
+priceMessage: Durante il periodo invernale i prezzi per la mezza pensione e B&B sono maggiorati di 5 euro. Sacco lenzuolo 5 euro.
 rows:
-  - {name: 'Diretta Kugy', num: '2', price: '50€', pens: '35€', wc: '1', type: 'Matrimoniale'}
-  - {name: 'Gola Nord Est', num: '6', price: '50€', pens: '35€', wc: '1', type: 'Castello'}
-  - {name: 'Cengia degli Dei', num: '12', price: '50€', pens: '35€', wc: '4', type: 'Castello'}
+  - {name: 'Diretta Kugy', num: '2', price: '55€', pens: '40€', wc: '1', type: 'Matrimoniale (con biancheria inclusa)'}
+  - {name: 'Gola Nord Est', num: '6', price: '50€', pens: '35€', wc: '1', type: 'Castello (obbligatorio sacco lenzuolo)'}
+  - {name: 'Cengia degli Dei', num: '12', price: '45€', pens: '30€', wc: '4', type: 'Castello (obbligatorio sacco lenzuolo)'}
 testimonials:
   - author: Julius Kugy
     quote: >-

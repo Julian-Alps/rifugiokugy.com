@@ -70,11 +70,11 @@ titleHD: Home delivery service
 textHD: >-
   We feel in step with the times and for this reason we have decided to offer you a home delivery service. If you don't feel like cooking but don't want to give up good food, take away service is also available. For reservations just call us or contact us via sms or whatsapp.
 titlePrice: Prices
-priceMessage: During the winter the prices for half pension and B&B are increased by 5 euros.
+priceMessage: During the winter the prices for half pension and B&B are increased by 5 euros. Sheet bag 5 euros.
 rows:
-  - {name: 'Diretta Kugy', num: '2', price: '50€', pens: '35€', wc: '1', type: 'Double bed'}
-  - {name: 'Gola Nord Est', num: '6', price: '50€', pens: '35€', wc: '1', type: 'Bunk bed'}
-  - {name: 'Cengia degli Dei', num: '12', price: '50€', pens: '35€', wc: '4', type: 'Bunk bed'}
+  - {name: 'Diretta Kugy', num: '2', price: '55€', pens: '40€', wc: '1', type: 'Double bed (sheets included)'}
+  - {name: 'Gola Nord Est', num: '6', price: '50€', pens: '35€', wc: '1', type: 'Bunk bed (mandatory sheet bag)'}
+  - {name: 'Cengia degli Dei', num: '12', price: '45€', pens: '30€', wc: '4', type: 'Bunk bed (mandatory sheet bag)'}
 testimonials:
   - author: anonimous
     quote: >-
