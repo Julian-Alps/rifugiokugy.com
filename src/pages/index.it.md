@@ -67,15 +67,13 @@ masonry:
     "https://ucarecdn.com/45be4e9f-7a13-4c85-a47e-ebbc2e497ecd/-/resize/1200x/ 1200w"
     ],
     sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/it/camere/#rooms', alt: 'Camera 2 persone', title: 'Camera 2 persone' }
-titleHD: Servizio a domicilio
-textHD: >-
-  Ci sentiamo al passo con i tempi e per questo abbiamo deciso di offrirvi un servizio a domicilio. Se non avete voglia di cucinare ma non volete rinunciare al buon cibo è disponibile anche il servizio take away. Per le prenotazioni basta chiamarci o contattarci via sms o whatsapp.
 titlePrice: Prezzi
-priceMessage: Durante il periodo invernale i prezzi per la mezza pensione e B&B sono maggiorati di 5 euro. Sacco lenzuolo 5 euro.
+priceMessage: Sacco lenzuolo 5 euro.
 rows:
   - {name: 'Diretta Kugy', num: '2', price: '55€', pens: '40€', wc: '1', type: 'Matrimoniale (con biancheria inclusa)'}
+  - {name: 'Scabiosa Trenta', num: '2', price: '55€', pens: '40€', wc: '1', type: 'Matrimoniale (con biancheria inclusa)'}
   - {name: 'Gola Nord Est', num: '6', price: '50€', pens: '35€', wc: '1', type: 'Castello (obbligatorio sacco lenzuolo)'}
-  - {name: 'Cengia degli Dei', num: '12', price: '45€', pens: '30€', wc: '4', type: 'Castello (obbligatorio sacco lenzuolo)'}
+  - {name: 'Cengia degli Dei', num: '14', price: '45€', pens: '30€', wc: '4', type: 'Castello (obbligatorio sacco lenzuolo)'}
 testimonials:
   - author: Julius Kugy
     quote: >-

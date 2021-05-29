@@ -7,7 +7,7 @@ import Layout from '../components/LayoutImg'
 import SEO from '../components/SEO/SEO'
 import { Helmet } from 'react-helmet';
 import Content, { HTMLContent } from '../components/Content'
-import HomeDelivery from '../components/HomeDelivery'
+//import HomeDelivery from '../components/HomeDelivery'
 import LeftCard from '../components/Cards/LeftCard'
 import RoomGal from '../components/Masonry/RoomGal'
 import Table from '../components/Table/Table'
@@ -26,8 +26,6 @@ const HomePageTemplate = ({
   testimonials,
   content,
   contentComponent,
-  titleHD,
-  textHD,
   mapsMessage,
   mapsLink,
   mapsImage,
@@ -42,9 +40,6 @@ const HomePageTemplate = ({
     <div className="content">
       <div className="content" id="welcome">
         <PageContent className="container content" content={content} />
-      </div>
-      <div className="section">
-        <HomeDelivery title={titleHD} text={textHD} />
       </div>
       <div className="content">
         <LeftCard className="section" idlink="sleeping" leftCard={rooms} interiorColor='has-background-white' frameColor='#709C34'/>
@@ -73,8 +68,6 @@ HomePageTemplate.propTypes = {
   activities: PropTypes.object,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  titleHD: PropTypes.string,
-  textHD: PropTypes.string,
   mapsMessage: PropTypes.string,
   mapsLink: PropTypes.string,
   mapsImage: PropTypes.object,
@@ -101,8 +94,6 @@ class HomePage extends React.Component {
     const image = frontmatter.image.childImageSharp.gatsbyImageData.src;
     const tags = frontmatter.tags;
     const bgImage = frontmatter.bgImage;
-    const titleHD = frontmatter.titleHD
-    const textHD = frontmatter.textHD
     const titlePrice = frontmatter.titlePrice
     const maps = frontmatter.maps
 
@@ -127,8 +118,6 @@ class HomePage extends React.Component {
               activities={frontmatter.activities}
               testimonials={dataMarkdown.frontmatter.testimonials}
               contentComponent={HTMLContent}
-              titleHD={titleHD}
-              textHD={textHD}
               mapsMessage={maps.message}
               mapsLink={maps.link}
               mapsImage={maps.imageComp}
@@ -206,8 +195,6 @@ export const pageQuery = graphql`query HomePageQuery($id: String!) {
         author
         quote
       }
-      titleHD
-      textHD
       rooms {
         title
         text
