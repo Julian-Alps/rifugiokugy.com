@@ -11,7 +11,7 @@ const Logo = ({ logo }) => (
            left: '40%',
            top: '70%',
            padding: '10% 1%',
-           width: '340px' }} />
+           width: '220px' }} />
   </Link>
 )
 

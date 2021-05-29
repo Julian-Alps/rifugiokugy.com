@@ -9,9 +9,9 @@ const LogoMobile = ({ logo }) => (
          style={{
            position: 'relative',
            left: '1%',
-           top: '0%',
+           top: '1%',
            padding: '1% 1%',
-           width: '120px' }} />
+           width: '100px' }} />
   </Link>
 )
 
