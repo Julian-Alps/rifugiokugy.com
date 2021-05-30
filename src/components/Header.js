@@ -3,7 +3,7 @@ import * as PropTypes from "prop-types"
 import { Link } from 'gatsby'
 import Logo from '../components/Logo'
 import LogoMobile from '../components/LogoMobile'
-import logo from '../img/Logo_Rifugio_Kugy.svg'
+import logo from '../img/Logo_Rifugio_Kugy_wide.svg'
 import SelectLanguage from './SelectLanguage';
 import { FormattedMessage } from 'react-intl';
 import menuTree from '../data/menuTree'

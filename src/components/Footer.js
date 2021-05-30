@@ -7,7 +7,7 @@ import menuTree from '../data/menuTree'
 import { FaFacebook, FaPinterest, FaInstagram, FaYoutube } from 'react-icons/fa';
 import Copyright from '../components/Copyright'
 import ScrollToTop from '../components/ScrollToTop'
-import logo from '../img/logo-Rifugio-Kugy-bg-dark.svg'
+import logo from '../img/Logo_Rifugio_Kugy_w.svg'
 
 class Footer extends React.Component {
   render() {

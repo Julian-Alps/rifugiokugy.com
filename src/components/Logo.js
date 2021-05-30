@@ -4,14 +4,15 @@ import { Link } from 'gatsby'
 
 const Logo = ({ logo }) => (
 
-  <Link to="/" title="Rifugio Kugy">
-    <img src={logo} alt="Rifugio Kugy logo" id="logo"
+  <Link to="/" className="navbar-item" title="Rifugio Kugy">
+    <img src={logo} alt="logo Rifugio Kugy casa alpina Valbruna" id="logo"
          style={{
-           position: 'absolute',
-           left: '40%',
-           top: '70%',
-           padding: '10% 1%',
-           width: '220px' }} />
+           //position: 'relative',
+           //left: '1%',
+           //top: '1%',
+           //padding: '1% 1%',
+           margin: '10%',
+           width: '88px' }} />
   </Link>
 )
 
