@@ -66,15 +66,13 @@ masonry:
       "https://ucarecdn.com/45be4e9f-7a13-4c85-a47e-ebbc2e497ecd/-/resize/1200x/ 1200w"
     ],
     sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/rooms/#rooms', alt: 'Room 2 person', title: 'Room 2 person' }
-titleHD: Home delivery service
-textHD: >-
-  We feel in step with the times and for this reason we have decided to offer you a home delivery service. If you don't feel like cooking but don't want to give up good food, take away service is also available. For reservations just call us or contact us via sms or whatsapp.
 titlePrice: Prices
-priceMessage: During the winter the prices for half pension and B&B are increased by 5 euros. Sheet bag 5 euros.
+priceMessage: Sheet bag 5 euros.
 rows:
   - {name: 'Diretta Kugy', num: '2', price: '55€', pens: '40€', wc: '1', type: 'Double bed (sheets included)'}
+  - {name: 'Scabiosa Trenta', num: '2', price: '55€', pens: '40€', wc: '1', type: 'Double bed (sheets included)'}
   - {name: 'Gola Nord Est', num: '6', price: '50€', pens: '35€', wc: '1', type: 'Bunk bed (mandatory sheet bag)'}
-  - {name: 'Cengia degli Dei', num: '12', price: '45€', pens: '30€', wc: '4', type: 'Bunk bed (mandatory sheet bag)'}
+  - {name: 'Cengia degli Dei', num: '14', price: '45€', pens: '30€', wc: '4', type: 'Bunk bed (mandatory sheet bag)'}
 testimonials:
   - author: anonimous
     quote: >-
