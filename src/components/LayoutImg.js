@@ -10,12 +10,6 @@ import './all.sass'
 import CookieConsent from 'react-cookie-consent'
 import { FormattedMessage } from 'react-intl'
 
-if (!Intl.RelativeTimeFormat) {
-  require('@formatjs/intl-relativetimeformat/polyfill');
-  require('@formatjs/intl-relativetimeformat/dist/locale-data/en');
-  require('@formatjs/intl-relativetimeformat/dist/locale-data/it');
-}
-
 const getIdJsonUrl = (id, langKey, jsonData) => {
   if(id !== 'undefined'){
   let res;
