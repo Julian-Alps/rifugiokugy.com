@@ -71,6 +71,7 @@ HomePageTemplate.propTypes = {
   mapsMessage: PropTypes.string,
   mapsLink: PropTypes.string,
   mapsImage: PropTypes.object,
+  priceMessage: PropTypes.string,
   heading: PropTypes.string,
   rows: PropTypes.array,
   titlePrice: PropTypes.string,
