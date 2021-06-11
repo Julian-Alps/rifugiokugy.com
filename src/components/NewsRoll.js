@@ -76,7 +76,8 @@ NewsRoll.propTypes = {
   }),
 }
 
-export default (langKey) => (
+// eslint-disable-next-line react/display-name
+export default () => (
   <StaticQuery
     query={graphql`
     query NewsRollQuery {
