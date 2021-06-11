@@ -18,11 +18,11 @@
     "gatsby-cli": "^3.6.0",
     "gatsby-image": "^3.6.0",
     "gatsby-plugin-canonical-urls": "^3.6.0",
-    "gatsby-plugin-feed": "^3.6.0",
+    "gatsby-plugin-feed": "^3.7.1",
     "gatsby-plugin-google-analytics": "^3.6.0",
     "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-i18n-tags": "^1.0.0",
-    "gatsby-plugin-image": "^1.6.0",
+    "gatsby-plugin-image": "^1.7.1",
     "gatsby-plugin-manifest": "^3.6.0",
     "gatsby-plugin-netlify": "^3.6.0",
     "gatsby-plugin-netlify-cms": "^5.6.0",
@@ -82,14 +82,14 @@
     "start": "gatsby serve"
   },
   "devDependencies": {
-    "@creativebulma/bulma-collapsible": "^1.0.3",
+    "@creativebulma/bulma-collapsible": "^1.0.4",
     "@typescript-eslint/eslint-plugin": "^2.28.0",
     "@typescript-eslint/parser": "^2.28.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.22.0",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-webpack-plugin": "^2.5.2",
+    "eslint": "^7.28.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-webpack-plugin": "^2.5.4",
     "gatsby-plugin-eslint": "^3.0.0"
   }
 }
