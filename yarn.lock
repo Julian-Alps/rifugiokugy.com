@@ -13217,13 +13217,6 @@ react-input-autosize@^3.0.0:
   dependencies:
     prop-types "^15.5.8"
 
-react-intl-format@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/react-intl-format/-/react-intl-format-0.1.2.tgz#d22c9089bb0fb3bb98713c8d8e9bae36a42883d4"
-  integrity sha1-0iyQibsPs7uYcTyNjpuuNqQog9Q=
-  dependencies:
-    invariant "^2.2.2"
-
 react-intl@^4.6.9:
   version "4.7.6"
   resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-4.7.6.tgz#7538df3412ca5aae882ce709b1e0ba291a41a282"
