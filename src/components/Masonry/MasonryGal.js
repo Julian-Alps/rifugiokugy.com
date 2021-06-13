@@ -54,7 +54,7 @@ function MasonryGal({ photos }) {
 }
 
 MasonryGal.propTypes = {
-  photos: PropTypes.object,
+  photos: PropTypes.array,
 }
 
 export default MasonryGal;
