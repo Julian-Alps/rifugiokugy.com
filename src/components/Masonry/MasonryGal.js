@@ -2,6 +2,7 @@ import React, { useState, useCallback } from "react";
 import Gallery from 'react-photo-gallery';
 import Carousel, { Modal, ModalGateway } from "react-images";
 import renderImg from './RenderImages';
+import PropTypes from 'prop-types'
 
 function columns(containerWidth) {
   let columns = 1;
@@ -50,6 +51,10 @@ function MasonryGal({ photos }) {
       </ModalGateway>
     </div>
     );
+}
+
+MasonryGal.propTypes = {
+  photos: PropTypes.object,
 }
 
 export default MasonryGal;
