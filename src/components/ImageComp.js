@@ -15,7 +15,7 @@ const ImageComp = ({ imageComp, imageStyle }) => {
     );
   }
 
-  if (!!childImageSharp) {
+  if (childImageSharp) {
     return (
       <GatsbyImage
         image={childImageSharp.gatsbyImageData}
