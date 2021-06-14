@@ -16,7 +16,7 @@ function MasonryGal({ photos }) {
 
     const [currentImage, setCurrentImage] = useState(0);
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
-
+    // eslint-disable-next-line no-unused-vars
     const openLightbox = useCallback((event, { photo, index }) => {
       setCurrentImage(index);
       setViewerIsOpen(true);
