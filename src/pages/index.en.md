@@ -58,12 +58,12 @@ masonry:
       "https://ucarecdn.com/28492454-4fe7-429f-aac7-50b9aef3dc86/-/resize/1200x/ 1200w"
     ],
     sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/rooms/#rooms', alt: 'Room 6 person', title: 'Room 6 person' }
-    - { src: 'https://ucarecdn.com/45be4e9f-7a13-4c85-a47e-ebbc2e497ecd/camera_2_pers_rifugio_kugy.jpg',
+    - { src: 'https://ucarecdn.com/7652d96d-02dd-467a-8377-ac8cef862971/Camera_diretta_kugy_rifugio_valbruna.jpg',
     srcSet: [
-      "https://ucarecdn.com/45be4e9f-7a13-4c85-a47e-ebbc2e497ecd/-/resize/500x/ 500w",
-      "https://ucarecdn.com/45be4e9f-7a13-4c85-a47e-ebbc2e497ecd/-/resize/800x/ 800w",
-      "https://ucarecdn.com/45be4e9f-7a13-4c85-a47e-ebbc2e497ecd/-/resize/1024x/ 1024w",
-      "https://ucarecdn.com/45be4e9f-7a13-4c85-a47e-ebbc2e497ecd/-/resize/1200x/ 1200w"
+      "https://ucarecdn.com/7652d96d-02dd-467a-8377-ac8cef862971/-/resize/500x/ 500w",
+      "https://ucarecdn.com/7652d96d-02dd-467a-8377-ac8cef862971/-/resize/800x/ 800w",
+      "https://ucarecdn.com/7652d96d-02dd-467a-8377-ac8cef862971/-/resize/1024x/ 1024w",
+      "https://ucarecdn.com/7652d96d-02dd-467a-8377-ac8cef862971/-/resize/1200x/ 1200w"
     ],
     sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/rooms/#rooms', alt: 'Room 2 person', title: 'Room 2 person' }
 titlePrice: Prices
