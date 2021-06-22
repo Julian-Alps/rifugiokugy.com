@@ -67,7 +67,7 @@ masonry:
     ],
     sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/rooms/#rooms', alt: 'Room 2 person', title: 'Room 2 person' }
 titlePrice: Prices
-priceMessage: Sheet bag 5 euros.
+priceMessage: Prices for person. Sheet bag 5 euros.
 rows:
   - {name: 'Diretta Kugy', num: '2', price: '55€', pens: '40€', wc: '1', type: 'Double bed (sheets included)'}
   - {name: 'Scabiosa Trenta', num: '2', price: '55€', pens: '40€', wc: '1', type: 'Double bed (sheets included)'}

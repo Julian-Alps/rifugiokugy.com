@@ -68,7 +68,7 @@ masonry:
     ],
     sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/it/camere/#rooms', alt: 'Camera 2 persone', title: 'Camera 2 persone' }
 titlePrice: Prezzi
-priceMessage: Sacco lenzuolo 5 euro.
+priceMessage: Prezzi per persona. Sacco lenzuolo 5 euro.
 rows:
   - {name: 'Diretta Kugy', num: '2', price: '55€', pens: '40€', wc: '1', type: 'Matrimoniale (con biancheria inclusa)'}
   - {name: 'Scabiosa Trenta', num: '2', price: '55€', pens: '40€', wc: '1', type: 'Matrimoniale (con biancheria inclusa)'}
