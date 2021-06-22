@@ -60,7 +60,7 @@
     "react-image-gallery": "^1.1.1",
     "react-images": "^1.1.2",
     "react-intl": "^4.6.9",  
-    "react-leaflet": "^3.2.0",
+    "react-leaflet": "^2.6.3",
     "react-photo-gallery": "^8.0.0",
     "sass": "^1.35.1",
     "showdown": "^1.9.1",
