@@ -2,6 +2,7 @@ import React, { useState, useCallback } from "react";
 import Gallery from 'react-photo-gallery';
 import Carousel, { Modal, ModalGateway } from "react-images";
 import renderImg from './RenderImages';
+import PropTypes from 'prop-types'
 
 function columns(containerWidth) {
   let columns = 1;
@@ -15,7 +16,7 @@ function MasonryGal({ photos }) {
 
     const [currentImage, setCurrentImage] = useState(0);
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
-
+    // eslint-disable-next-line no-unused-vars
     const openLightbox = useCallback((event, { photo, index }) => {
       setCurrentImage(index);
       setViewerIsOpen(true);
@@ -50,6 +51,10 @@ function MasonryGal({ photos }) {
       </ModalGateway>
     </div>
     );
+}
+
+MasonryGal.propTypes = {
+  photos: PropTypes.array,
 }
 
 export default MasonryGal;

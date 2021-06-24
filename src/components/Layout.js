@@ -10,12 +10,6 @@ import './all.sass'
 import CookieConsent from 'react-cookie-consent'
 import { FormattedMessage } from 'react-intl'
 
-if (!Intl.RelativeTimeFormat) {
-  require('@formatjs/intl-relativetimeformat/polyfill');
-  require('@formatjs/intl-relativetimeformat/dist/locale-data/en');
-  require('@formatjs/intl-relativetimeformat/dist/locale-data/it');
-}
-
 const getIdJsonUrl = (id, langKey, jsonData) => {
   if(id !== 'undefined'){
   let res;
@@ -35,7 +29,7 @@ const getIdJsonUrl = (id, langKey, jsonData) => {
   }
 };
 
-const startPath = (langKey, langsMenu, basename, _url) => {
+const startPath = (langKey, basename, _url) => {
   const lengthLangKey = langKey.length;
   let indx;
   indx = _url.indexOf(basename);
@@ -43,7 +37,7 @@ const startPath = (langKey, langsMenu, basename, _url) => {
   return basePath;
 };
 
-const check_path = (langKey, _url, id_article, jsonData) => {
+const check_path = (langKey, id_article, jsonData) => {
   let basename
   if (id_article !== 'undefined'){
     basename = getIdJsonUrl(id_article, langKey, jsonData);
@@ -51,13 +45,16 @@ const check_path = (langKey, _url, id_article, jsonData) => {
   return [basename, id_article];
 }
 
-const setLangsMenu = ( langsMenu, id, basePath, jsonData) => {
+const setLangsMenu = ( langsMenu, id, basePath, jsonData) => { 
   if(id !== 'undefined'){
-  langsMenu[0].link = `/en/${basePath}` + getIdJsonUrl(id, 'en', jsonData) + '/';
-  langsMenu[1].link = `/it/${basePath}` + getIdJsonUrl(id, 'it', jsonData) + '/';
-  }else{
-  console.log("missed id in the setLangsMenu() function!");
-  }
+    if (id === 0) {
+      langsMenu[0].link = `/en/`;
+      langsMenu[1].link = `/it/`;
+    } else {
+      langsMenu[0].link = `/en/${basePath}` + getIdJsonUrl(id, 'en', jsonData) + '/';  
+      langsMenu[1].link = `/it/${basePath}` + getIdJsonUrl(id, 'it', jsonData) + '/'; 
+    }
+ } else {  console.log("missed id in the setLangsMenu() function!");  }
 };
 
 class TemplateWrapper extends Component {
@@ -77,8 +74,8 @@ class TemplateWrapper extends Component {
     this.langsMenu = getLangs(langs, this.langKey, getUrlForLang(this.homeLink, url));
     const id_article = data.markdownRemark.frontmatter.id;
     const id = Number(id_article) - 1;
-    const basename = check_path(this.langKey, url, id, jsonData);
-    var basePath = startPath(this.langKey, this.langsMenu, basename[0], url);
+    const basename = check_path(this.langKey, id, jsonData);
+    var basePath = startPath(this.langKey, basename[0], url);
     //finally here we set the desired url...
     setLangsMenu( this.langsMenu, basename[1], basePath, jsonData);
 
