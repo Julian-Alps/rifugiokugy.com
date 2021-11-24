@@ -21,6 +21,9 @@ const HomePageTemplate = ({
   masonry,
   titlePrice,
   rows,
+  rows2,
+  pricemsg1,
+  pricemsg2,
   priceMessage,
   activities,
   testimonials,
@@ -42,24 +45,29 @@ const HomePageTemplate = ({
         <PageContent className="container content" content={content} />
       </div>
       <div className="content">
-        <LeftCard className="section" idlink="sleeping" leftCard={rooms} interiorColor='has-background-white' frameColor='#709C34'/>
+        <LeftCard className="section" idlink="sleeping" leftCard={rooms} interiorColor='has-background-white' frameColor='#709C34' />
         <RoomGal masonry={masonry} />
       </div>
       <Testimonials testimonials={testimonials} />
       <div className="content" id="prices">
-        <Title title={titlePrice}/>
-        <Table rows={rows}/>
-        <p className="subtitle">{priceMessage}</p>
+        <Title title={titlePrice} />
+        <div className="content">
+          <p className="subtitle">{pricemsg1}</p>
+          <Table rows={rows} />
+          <p className="subtitle">{pricemsg2}</p>
+          <Table rows={rows2} />
+          <p className="subtitle">{priceMessage}</p>
+        </div>
       </div>
-      <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#709C34' frameColor='#709C34'/>
+      <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#709C34' frameColor='#709C34' />
       <div className="content" id="territory">
-        <InfoMap lat={lat} lng={lng} link={mapsLink} infoMap={mapsImage} message={mapsMessage}/>
+        <InfoMap lat={lat} lng={lng} link={mapsLink} infoMap={mapsImage} message={mapsMessage} />
       </div>
       <section className="section">
-          <TagList tags={tags} langKey={langKey}/>
+        <TagList tags={tags} langKey={langKey} />
       </section>
     </div>
-)
+  )
 }
 
 HomePageTemplate.propTypes = {
@@ -72,8 +80,11 @@ HomePageTemplate.propTypes = {
   mapsLink: PropTypes.string,
   mapsImage: PropTypes.object,
   priceMessage: PropTypes.string,
+  pricemsg1: PropTypes.string,
+  pricemsg2: PropTypes.string,
   heading: PropTypes.string,
   rows: PropTypes.array,
+  rows2: PropTypes.array,
   titlePrice: PropTypes.string,
   tags: PropTypes.array,
   testimonials: PropTypes.array,
@@ -115,6 +126,9 @@ class HomePage extends React.Component {
               masonry={frontmatter.masonry}
               titlePrice={titlePrice}
               rows={dataMarkdown.frontmatter.rows}
+              rows2={dataMarkdown.frontmatter.rows2}
+              pricemsg1={frontmatter.pricemsg1}
+              pricemsg2={frontmatter.pricemsg2}
               priceMessage={frontmatter.priceMessage}
               activities={frontmatter.activities}
               testimonials={dataMarkdown.frontmatter.testimonials}
@@ -170,7 +184,17 @@ export const pageQuery = graphql`query HomePageQuery($id: String!) {
       lang
       titlePrice
       priceMessage
+      pricemsg1
+      pricemsg2
       rows {
+        name
+        num
+        price
+        pens
+        wc
+        type
+      }
+      rows2 {
         name
         num
         price
