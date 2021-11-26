@@ -11,12 +11,12 @@ class Table extends React.Component {
        <table className="table is-bordered is-fullwidth">
         <thead>
          <tr>
-          <th><abbr title="Name"><FormattedMessage id="table-rooms-names"/></abbr></th>
-          <th><abbr title="Name"><FormattedMessage id="table-rooms-number-persons"/></abbr></th>
-          <th><abbr title="Played"><FormattedMessage id="table-rooms-pensions"/></abbr></th>
-          <th><abbr title="Won"><FormattedMessage id="table-rooms-B&B"/></abbr></th>
-          <th><abbr title="Drawn"><FormattedMessage id="table-rooms-wc"/></abbr></th>
-          <th><abbr title="Lost"><FormattedMessage id="table-rooms-beds"/></abbr></th>
+          <th><abbr title="Room Name"><FormattedMessage id="table-rooms-names"/></abbr></th>
+          <th><abbr title="Number Persons"><FormattedMessage id="table-rooms-number-persons"/></abbr></th>
+          <th><abbr title="Half Pension"><FormattedMessage id="table-rooms-pensions"/></abbr></th>
+          <th><abbr title="B&B"><FormattedMessage id="table-rooms-B&B"/></abbr></th>
+          <th><abbr title="WC"><FormattedMessage id="table-rooms-wc"/></abbr></th>
+          <th><abbr title="Bed Types"><FormattedMessage id="table-rooms-beds"/></abbr></th>
         </tr>
        </thead>
        <tbody>
