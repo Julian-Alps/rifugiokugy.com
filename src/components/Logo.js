@@ -10,9 +10,12 @@ const Logo = ({ logo }) => (
            //position: 'relative',
            //left: '1%',
            //top: '1%',
+           //bottom: '1%',
+           //height: '28px',
            //padding: '1% 1%',
-           margin: '10%',
-           width: '88px' }} />
+           //margin: '12%',
+           //width: '80%' 
+           }} />
   </Link>
 )
 
