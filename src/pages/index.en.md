@@ -69,12 +69,12 @@ masonry:
 titlePrice: Prices
 priceMessage: Prices for person. Sheet bag 5 euros.
 pricemsg1: "From 3/12/2021 to 27/12/2021 and from 11/01/2022 to 31/03/2022:"
-pricemsg2: "From 27/12/2021 to 10/01/2021 minimum two nights:"
+pricemsg2: "From 27/12/2021 to 10/01/2021 minimum two nights, only half-pension:"
 rows:
-  - {name: 'Diretta Kugy', num: '2', price: '60€', pens: '40€', wc: '1', type: 'Double bed (sheets included)'}
-  - {name: 'Scabiosa Trenta', num: '2', price: '60€', pens: '40€', wc: '1', type: 'Double bed (sheets included)'}
-  - {name: 'Gola Nord Est', num: '6', price: '53€', pens: '35€', wc: '1', type: 'Bunk bed (mandatory sheet bag)'}
-  - {name: 'Cengia degli Dei', num: '14', price: '48€', pens: '30€', wc: '4', type: 'Bunk bed (mandatory sheet bag)'}
+  - {name: 'Diretta Kugy', num: '2', price: '60€', pens: '45€', wc: '1', type: 'Double bed (sheets included)'}
+  - {name: 'Scabiosa Trenta', num: '2', price: '60€', pens: '45€', wc: '1', type: 'Double bed (sheets included)'}
+  - {name: 'Gola Nord Est', num: '6', price: '53€', pens: '38€', wc: '1', type: 'Bunk bed (mandatory sheet bag)'}
+  - {name: 'Cengia degli Dei', num: '14', price: '48€', pens: '33€', wc: '4', type: 'Bunk bed (mandatory sheet bag)'}
 rows2:
   - {name: 'Diretta Kugy', num: '2', price: '65€', pens: '40€', wc: '1', type: 'Double bed (sheets included)'}
   - {name: 'Scabiosa Trenta', num: '2', price: '65€', pens: '40€', wc: '1', type: 'Double bed (sheets included)'}

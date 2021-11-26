@@ -11,6 +11,7 @@ import Content, { HTMLContent } from '../components/Content'
 import LeftCard from '../components/Cards/LeftCard'
 import RoomGal from '../components/Masonry/RoomGal'
 import Table from '../components/Table/Table'
+import TableLight from '../components/Table/TableLight'
 import FullCard from '../components/Cards/FullCard'
 import Title from '../components/Cards/Title'
 import Testimonials from '../components/Testimonials'
@@ -55,7 +56,7 @@ const HomePageTemplate = ({
           <p className="subtitle">{pricemsg1}</p>
           <Table rows={rows} />
           <p className="subtitle">{pricemsg2}</p>
-          <Table rows={rows2} />
+          <TableLight rows={rows2} />
           <p className="subtitle">{priceMessage}</p>
         </div>
       </div>
