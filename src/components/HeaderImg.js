@@ -2,8 +2,8 @@ import React from 'react'
 import * as PropTypes from "prop-types"
 import { Link } from 'gatsby'
 import Logo from '../components/Logo'
-import LogoMobile from '../components/LogoMobile'
-import logo from '../img/logo-Rifugio-Kugy-bg-light.svg'
+//import LogoMobile from '../components/LogoMobile'
+import logo from '../img/Logo_Rifugio_Kugy_wide_w.svg'
 import BGImage from '../components/BGImage'
 import SelectLanguage from './SelectLanguage';
 import { FormattedMessage } from 'react-intl';
@@ -76,12 +76,9 @@ class HeaderImg extends React.Component {
       <nav className="navbar is-transparent" role="navigation" aria-label="main-navigation">
         <div className="container">
           <div className="navbar-brand">
-          <BrowserView>
-            <Logo logo={logo}/>
-          </BrowserView>
-          <MobileView>
-            <LogoMobile logo={logo}/>
-          </MobileView>
+  
+            <Logo logo={logo} />
+          
             {/* Hamburger menu */}
             <div className="navbar-burger burger" data-target="navMenu">
               <span></span>

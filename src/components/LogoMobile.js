@@ -5,13 +5,13 @@ import { Link } from 'gatsby'
 const LogoMobile = ({ logo }) => (
 
   <Link to="/" title="Rifugio Kugy">
-    <img src={logo} alt="Rifugio Kugy logo" id="logo"
+    <img src={logo} alt="logo Rifugio Kugy casa alpina Valbruna" id="logo"
          style={{
            position: 'relative',
            left: '1%',
-           top: '0%',
+           top: '1%',
            padding: '1% 1%',
-           width: '120px' }} />
+           width: '8em' }} />
   </Link>
 )
 

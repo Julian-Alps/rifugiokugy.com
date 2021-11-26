@@ -35,6 +35,7 @@ const RenderImage = ({
       </p>
     </a>
     <img
+      key={index}
       style={{ overflow: 'hidden'}}
       {...photo}
       onClick={e => onClick(e, { index, photo })}
