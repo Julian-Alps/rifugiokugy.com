@@ -68,18 +68,12 @@ masonry:
     sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/rooms/#rooms', alt: 'Room 2 person', title: 'Room 2 person' }
 titlePrice: Prices
 priceMessage: Prices for person. Sheet bag 5 euros.
-pricemsg1: "From 3/12/2021 to 27/12/2021 and from 11/01/2022 to 31/03/2022:"
-pricemsg2: "From 27/12/2021 to 10/01/2021 minimum two nights, only half-pension:"
+pricemsg1: "From 1/02/2022 to 30/04/2022:"
 rows:
-  - {name: 'Diretta Kugy', num: '2', price: '60€', pens: '45€', wc: '1', type: 'Double bed (sheets included)'}
-  - {name: 'Scabiosa Trenta', num: '2', price: '60€', pens: '45€', wc: '1', type: 'Double bed (sheets included)'}
-  - {name: 'Gola Nord Est', num: '6', price: '53€', pens: '38€', wc: '1', type: 'Bunk bed (mandatory sheet bag)'}
-  - {name: 'Cengia degli Dei', num: '14', price: '48€', pens: '33€', wc: '4', type: 'Bunk bed (mandatory sheet bag)'}
-rows2:
-  - {name: 'Diretta Kugy', num: '2', price: '65€', pens: '40€', wc: '1', type: 'Double bed (sheets included)'}
-  - {name: 'Scabiosa Trenta', num: '2', price: '65€', pens: '40€', wc: '1', type: 'Double bed (sheets included)'}
-  - {name: 'Gola Nord Est', num: '6', price: '57€', pens: '35€', wc: '1', type: 'Bunk bed (mandatory sheet bag)'}
-  - {name: 'Cengia degli Dei', num: '14', price: '55€', pens: '30€', wc: '4', type: 'Bunk bed (mandatory sheet bag)'}
+  - {name: 'Diretta Kugy', num: '2', price: '65€', pens: '50€', wc: '1', type: 'Double bed (sheets included)'}
+  - {name: 'Scabiosa Trenta', num: '2', price: '65€', pens: '50€', wc: '1', type: 'Double bed (sheets included)'}
+  - {name: 'Gola Nord Est', num: '6', price: '60€', pens: '45€', wc: '1', type: 'Bunk bed (mandatory sheet bag)'}
+  - {name: 'Cengia degli Dei', num: '14', price: '55€', pens: '40€', wc: '4', type: 'Bunk bed (mandatory sheet bag)'}
 testimonials:
   - author: anonimous
     quote: >-
@@ -102,4 +96,4 @@ We will welcome you with our smile and our philosophy: make you spend a slow hol
 We have set up the large garden where you can sit on sunny days, relax and enjoy a well-deserved gastronomic break. In the winter season, and for the more chilly, the indoor dining room, comfortable and with a family character, will be available.
 Among our main wishes there is to be able to satisfy all palates by offering traditional Friulian cuisine and more. Rest assured that no one will remain on an empty stomach! And after being satisfied and pampered with a homemade dessert and grappa, you can rest in our pleasant rooms. They enclose the true atmosphere of the alpine refuge and are also suitable for children and disabled people.
 
-The Casa Alpina is now also an educational center with a large room with screen and projector. We like the idea of ​​involving our guests and taking advantage of this space for workshops, musical, photographic and artistic events.
+The Casa Alpina is now also an educational center with a large room with screen and projector. We like the idea of ​involving our guests and taking advantage of this space for workshops, musical, photographic and artistic events.

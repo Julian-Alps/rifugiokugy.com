@@ -7,11 +7,9 @@ import Layout from '../components/LayoutImg'
 import SEO from '../components/SEO/SEO'
 import { Helmet } from 'react-helmet';
 import Content, { HTMLContent } from '../components/Content'
-//import HomeDelivery from '../components/HomeDelivery'
 import LeftCard from '../components/Cards/LeftCard'
 import RoomGal from '../components/Masonry/RoomGal'
 import Table from '../components/Table/Table'
-import TableLight from '../components/Table/TableLight'
 import FullCard from '../components/Cards/FullCard'
 import Title from '../components/Cards/Title'
 import Testimonials from '../components/Testimonials'
@@ -22,9 +20,7 @@ const HomePageTemplate = ({
   masonry,
   titlePrice,
   rows,
-  rows2,
   pricemsg1,
-  pricemsg2,
   priceMessage,
   activities,
   testimonials,
@@ -55,8 +51,6 @@ const HomePageTemplate = ({
         <div className="content">
           <p className="subtitle">{pricemsg1}</p>
           <Table rows={rows} />
-          <p className="subtitle">{pricemsg2}</p>
-          <TableLight rows={rows2} />
           <p className="subtitle">{priceMessage}</p>
         </div>
       </div>
@@ -82,10 +76,8 @@ HomePageTemplate.propTypes = {
   mapsImage: PropTypes.object,
   priceMessage: PropTypes.string,
   pricemsg1: PropTypes.string,
-  pricemsg2: PropTypes.string,
   heading: PropTypes.string,
   rows: PropTypes.array,
-  rows2: PropTypes.array,
   titlePrice: PropTypes.string,
   tags: PropTypes.array,
   testimonials: PropTypes.array,
@@ -186,16 +178,7 @@ export const pageQuery = graphql`query HomePageQuery($id: String!) {
       titlePrice
       priceMessage
       pricemsg1
-      pricemsg2
       rows {
-        name
-        num
-        price
-        pens
-        wc
-        type
-      }
-      rows2 {
         name
         num
         price
