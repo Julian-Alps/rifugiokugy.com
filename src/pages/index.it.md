@@ -69,18 +69,12 @@ masonry:
     sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/it/camere/#rooms', alt: 'Camera 2 persone', title: 'Camera 2 persone' }
 titlePrice: Prezzi
 priceMessage: Prezzi per persona. Sacco lenzuolo 5 euro.
-pricemsg1: "Dal 3/12/2021 al 27/12/2021 e dal 11/01/2022 al 31/03/2022:"
-pricemsg2: "Dal 27/12/2021 al 10/01/2021 minimo due pernotti, solo mezza pensione:"
+pricemsg1: "Dal 1/02/2022 al 30/04/2022:"
 rows:
-  - {name: 'Diretta Kugy', num: '2', price: '60€', pens: '45€', wc: '1', type: 'Matrimoniale (con biancheria inclusa)'}
-  - {name: 'Scabiosa Trenta', num: '2', price: '60€', pens: '45€', wc: '1', type: 'Matrimoniale (con biancheria inclusa)'}
-  - {name: 'Gola Nord Est', num: '6', price: '53€', pens: '38€', wc: '1', type: 'Castello (obbligatorio sacco lenzuolo)'}
-  - {name: 'Cengia degli Dei', num: '14', price: '48€', pens: '33€', wc: '4', type: 'Castello (obbligatorio sacco lenzuolo)'}
-rows2:
-  - {name: 'Diretta Kugy', num: '2', price: '65€', pens: '40€', wc: '1', type: 'Matrimoniale (con biancheria inclusa)'}
-  - {name: 'Scabiosa Trenta', num: '2', price: '65€', pens: '40€', wc: '1', type: 'Matrimoniale (con biancheria inclusa)'}
-  - {name: 'Gola Nord Est', num: '6', price: '57€', pens: '35€', wc: '1', type: 'Castello (obbligatorio sacco lenzuolo)'}
-  - {name: 'Cengia degli Dei', num: '14', price: '55€', pens: '30€', wc: '4', type: 'Castello (obbligatorio sacco lenzuolo)'}
+  - {name: 'Diretta Kugy', num: '2', price: '65€', pens: '50€', wc: '1', type: 'Matrimoniale (con biancheria inclusa)'}
+  - {name: 'Scabiosa Trenta', num: '2', price: '65€', pens: '50€', wc: '1', type: 'Matrimoniale (con biancheria inclusa)'}
+  - {name: 'Gola Nord Est', num: '6', price: '60€', pens: '45€', wc: '1', type: 'Castello (obbligatorio sacco lenzuolo)'}
+  - {name: 'Cengia degli Dei', num: '14', price: '55€', pens: '40€', wc: '4', type: 'Castello (obbligatorio sacco lenzuolo)'}
 testimonials:
   - author: Julius Kugy
     quote: >-
