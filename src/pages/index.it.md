@@ -9,10 +9,10 @@ tags:
   - consegna-a-domicilio
 lang: it
 date: "15-05-2020"
-image: /img/Valbruna_Rifugio_Kugy_Jof_Fuart_Alpi_Giulie.jpg
+image: /img/Val_Saisera_Wild_Track_Valbruna_Rifugio_Kugy.jpg
 bgImage:
   alt: "Valbruna"
-  image: /img/Valbruna_Rifugio_Kugy_Jof_Fuart_Alpi_Giulie.jpg
+  image: /img/Val_Saisera_Wild_Track_Valbruna_Rifugio_Kugy.jpg
 heading: "Il kako è il frutto dell'artista..."
 rooms:
   title: "Dormire in rifugio"
