@@ -9,10 +9,10 @@ tags:
   - home-delivery
 lang: en
 date: "15-05-2020"
-image: /img/Valbruna_Rifugio_Kugy_Jof_Fuart_Alpi_Giulie.jpg
+image: /img/Val_Saisera_Wild_Track_Valbruna_Rifugio_Kugy.jpg
 bgImage:
   alt: "Valbruna"
-  image: /img/Valbruna_Rifugio_Kugy_Jof_Fuart_Alpi_Giulie.jpg
+  image: /img/Val_Saisera_Wild_Track_Valbruna_Rifugio_Kugy.jpg
 heading: "The persimmon is the artist fruit..."
 rooms:
   title: "Sleeping in the refuge"

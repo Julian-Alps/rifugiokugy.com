@@ -8,11 +8,11 @@ tags:
   - nostri-prodotti
   - prodotti-del-territorio
 lang: it
-image: /img/Valbruna_e_jof_fuart_01.jpg
+image: /img/Valbruna_Rifugio_Kugy_Jof_Fuart_Alpi_Giulie.jpg
 date: "19-05-2020"
 bgImage:
   alt: "Valbruna"
-  image: /img/Valbruna_e_jof_fuart_01.jpg
+  image: /img/Valbruna_Rifugio_Kugy_Jof_Fuart_Alpi_Giulie.jpg
 testimonials:
   - author: Julius Kugy
     quote: >-
