@@ -124,12 +124,6 @@ class Header extends React.Component {
                   base={"/" + props.langKey + "/" + menuTree.shop[sel] +"/"}
                   />
               </MobileView>
-              <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.news[sel] +"/"}>
-                <FormattedMessage id="news" />
-              </Link>
-              <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.blog[sel] +"/"}>
-                <FormattedMessage id="blog" />
-              </Link>
               <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.contact[sel] +"/"}>
                 <FormattedMessage id="contact" />
               </Link>
