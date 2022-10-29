@@ -25,9 +25,6 @@ const RootMenu = ( props ) => {
           <Link className="navbar-item" to={ "/" + props.langKey + "/" + '#welcome' }>
             <FormattedMessage id="welcome"/>
           </Link>
-          <Link className="navbar-item" to={ "/" + props.langKey + "/" + '#takeaway' }>
-            <FormattedMessage id="takeaway"/>
-          </Link>
           <div className="nested navbar-item dropdown">
             <div className="dropdown-trigger">
               <button className="button first-link" aria-haspopup="true" aria-controls="dropdown-menu">
