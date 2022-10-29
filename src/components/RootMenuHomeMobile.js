@@ -22,9 +22,6 @@ const RootMenuHomeMobile = ( props ) => {
             <Link className="navbar-item" to={ "/" + props.langKey + "/" + '#welcome' }>
               <FormattedMessage id="welcome"/>
             </Link>
-            <Link className="navbar-item" to={ "/" + props.langKey + "/" + '#takeaway' }>
-              <FormattedMessage id="takeaway"/>
-            </Link>
             <Link className="navbar-item" to={ "/" + props.langKey + "/" + '#prices' }>
               <FormattedMessage id="rooms.prices"/>
             </Link>
