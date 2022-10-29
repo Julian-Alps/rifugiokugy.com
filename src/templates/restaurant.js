@@ -8,11 +8,14 @@ import Content, { HTMLContent } from '../components/Content'
 import Title from '../components/Cards/Title'
 import LeftCard from '../components/Cards/LeftCard'
 import Testimonials from '../components/Testimonials'
+import menu from "../../static/img/menu.pdf"
+import MenuPDF from '../components/MenuPDF'
 
 const RestaurantPageTemplate = ({
   content,
   contentComponent,
   breakfast,
+  menu,
   sapore,
   testimonials,
   tags,
@@ -28,6 +31,7 @@ const RestaurantPageTemplate = ({
         <Testimonials testimonials={testimonials} />
         <section className="content">
           <PageContent className="container content" content={content} />
+          <MenuPDF menu={menu}/>
         </section>
           <TagList tags={tags} langKey={langKey}/>
       </div>
@@ -39,6 +43,7 @@ RestaurantPageTemplate.propTypes = {
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   breakfast: PropTypes.object,
+  menu: PropTypes.string,
   sapore: PropTypes.object,
   testimonials: PropTypes.array,
   tags: PropTypes.array,
@@ -74,6 +79,7 @@ class RestaurantPage extends React.Component {
             testimonials={dataMarkdown.frontmatter.testimonials}
             tags={tags}
             langKey={langKey}
+            menu={menu}
              />
         </div>
       </Layout>
