@@ -15,7 +15,7 @@ const DropDownMenu = (props) => {
        <Link className="navbar-link" to={props.base}>
          <FormattedMessage id={props.baseName} />
        </Link>
-       <div className="navbar-dropdown is-hidden-mobile is-boxed">
+       <div className="navbar-dropdown is-hidden-touch is-boxed">
        {switches &&( switches.map(( message ) => (
          <Link className="navbar-item" key={message} to={links[message][sel]}>
            <FormattedMessage id={message} />
