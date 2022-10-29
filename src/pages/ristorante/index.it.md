@@ -8,11 +8,11 @@ tags:
   - ristorante
   - cucina
 lang: it
-image: /img/Valbruna_e_jof_fuart_01.jpg
+image: /img/Rifugio_Kugy_Ristorante_Valbruna_Alpi_Giulie.jpg
 date: "05-03-2020"
 bgImage:
   alt: "Valbruna"
-  image: /img/Valbruna_e_jof_fuart_01.jpg
+  image: /img/Rifugio_Kugy_Ristorante_Valbruna_Alpi_Giulie.jpg
 testimonials:
   - author: Julius Kugy
     quote: >-
