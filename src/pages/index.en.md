@@ -91,9 +91,3 @@ We want to borrow words and emotions from the "Cantore delle Giulie" and make th
 Born in Gorizia and adopted in Trieste, Julius Kugy devoted most of his mountaineering career to these mountains and among the most important ascents we find the peaks that surround the refuge dedicated to him.
 
 The Casa Alpina Kugy refuge was obtained from the renovation of the old building that housed the mill in the village of Valbruna. Located at the entrance of the Val Saisera and at two steps from the Alpe Adria Radweg cycle path (FVG1), it wants to be the ideal starting and arrival point for those who love to explore the Julian Alps during all seasons.
-
-We will welcome you with our smile and our philosophy: make you spend a slow holiday, during which you can recharge with new energy and clean air.
-We have set up the large garden where you can sit on sunny days, relax and enjoy a well-deserved gastronomic break. In the winter season, and for the more chilly, the indoor dining room, comfortable and with a family character, will be available.
-Among our main wishes there is to be able to satisfy all palates by offering traditional Friulian cuisine and more. Rest assured that no one will remain on an empty stomach! And after being satisfied and pampered with a homemade dessert and grappa, you can rest in our pleasant rooms. They enclose the true atmosphere of the alpine refuge and are also suitable for children and disabled people.
-
-The Casa Alpina is now also an educational center with a large room with screen and projector. We like the idea of ​involving our guests and taking advantage of this space for workshops, musical, photographic and artistic events.
