@@ -17,7 +17,7 @@ module.exports = {
   'restaurant': 'Restaurant',
   'shop': 'Shop',
   'sleeping': 'Sleeping in the refuge',
-  'rooms': 'The rooms',
+  'rooms': 'Rooms',
   'rooms.big': 'The big rooms',
   'rooms.prices': 'Prices',
   'rooms.offers': 'Offers',
