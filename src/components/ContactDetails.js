@@ -1,10 +1,10 @@
 import React from 'react'
-import { FaMapMarkerAlt, FaPhone, FaRegEnvelope, FaWhatsapp, FaFacebook } from 'react-icons/fa'
+import { FaMapMarkerAlt, FaPhone, FaRegEnvelope, FaFacebook } from 'react-icons/fa'
 import { FormattedMessage } from 'react-intl'
 import PropTypes from 'prop-types'
 import Emoji from "react-emoji-render";
 
-const ContactDetails = ({ infos, howtoget, address, phone, email, whatsapp, fb }) =>(
+const ContactDetails = ({ infos, howtoget, address, phone, email, fb }) =>(
 
       <div className="section box">
         <div className="container">
@@ -56,13 +56,6 @@ const ContactDetails = ({ infos, howtoget, address, phone, email, whatsapp, fb }
               </a>
               </div>
             )}
-            {whatsapp && (
-              <div className="content">
-              <a className="Contact--Details--Item" href={`https://wa.me/${whatsapp}`}>
-                <FaWhatsapp className="menu-names"/> {whatsapp}
-              </a>
-              </div>
-            )}
             {fb && (
               <div className="content">
               <a className="Contact--Details--Item" href={`https://m.me/${fb}`}>
@@ -84,7 +77,6 @@ ContactDetails.propTypes = {
   address: PropTypes.string,
   phone: PropTypes.string,
   email: PropTypes.string,
-  whatsapp: PropTypes.string,
   fb: PropTypes.string
 }
 
