@@ -73,7 +73,7 @@ class HeaderImg extends React.Component {
     className="hero-head is-fullheight-with-navbar has-background is-size-5 header-content">
     <div className="">
       <BGImage bgImage={props.bgImage} />
-      <nav className="navbar is-transparent" role="navigation" aria-label="main-navigation">
+      <nav className="navbar" role="navigation" aria-label="main-navigation" style={{ backgroundColor: "white" }}>
         <div className="container">
           <div className="navbar-brand">
           <BrowserView>
