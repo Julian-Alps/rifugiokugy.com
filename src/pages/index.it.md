@@ -16,7 +16,9 @@ bgImage:
 heading: "Il kako è il frutto dell'artista..."
 rooms:
   title: "Dormire in rifugio"
-  text: "Indugiare prima di coricarsi e alzare gli occhi al cielo, ammirare tutte le stelle invisibili dalla città, addormentarsi nel silenzio calmante di un piccolo paese di montagna, risvegliarsi e ricordare che ad aspettarvi lì fuori ci sono la bellezza dei prati fioriti in estate e il candore delle cime innevate durante l’inverno. Questi sono solo alcuni dei motivi che rendono il Rifugio Kugy un luogo speciale dove pernottare. Caratteristica delle nostre stanze è la semplicità. L’assenza di televisori e musica in sottofondo è una nostra scelta consapevole che vi consentirà di ritrovare il piacere del silenzio e il calore dello stare in compagnia."
+  text: "Indugiare prima di coricarsi e alzare gli occhi al cielo, ammirare tutte le stelle invisibili dalla città, addormentarsi nel silenzio calmante di un piccolo paese di montagna, risvegliarsi e ricordare che ad aspettarvi lì fuori ci sono la bellezza dei prati fioriti in estate e il candore delle cime innevate durante l’inverno. Questi sono solo alcuni dei motivi che rendono il Rifugio Kugy un luogo speciale dove pernottare. Caratteristica delle nostre stanze è la semplicità. L’assenza di televisori e musica in sottofondo è una nostra scelta consapevole che vi consentirà di ritrovare il piacere del silenzio e il calore dello stare in compagnia.
+  Check in: dalle 11:00 alle 15:00 e dalle 18:00 alle 21:00
+  Check out: entro le ore 10:00"
   links:
     - { href: '/it/camere/', text: 'Camere'}
     - { href: '/it/camere/', text: 'Camerate'}
@@ -92,9 +94,3 @@ Del “Cantore delle Giulie” vogliamo prendere in prestito parole ed emozioni 
 Goriziano di nascita e triestino d’adozione, Julius Kugy dedicò la maggior parte della sua carriera alpinistica a queste montagne e fra le ascese più importanti troviamo proprio le cime che circondano il rifugio a lui dedicato.
 
 Il Rifugio Casa Alpina Kugy è stato ricavato dalla ristrutturazione del vecchio fabbricato che ospitava il mulino del paese di Valbruna. Situato all’imbocco della Val Saisera e a due passi dalla ciclovia Alpe Adria Radweg (FVG1) vuole essere l’ideale punto di partenza e arrivo per chi ama esplorare le Alpi Giulie durante tutte le stagioni.
-
-Ad accogliervi ci saremo noi con il nostro sorriso e la nostra filosofia: farvi trascorrere una vacanza slow, durante la quale potervi ricaricare di nuova energia e aria pulita.
-Abbiamo predisposto l’ampio giardino dove sedersi nelle belle giornate di sole, rilassarsi e godere una meritata pausa gastronomica. Nella stagione invernale, e per i più freddolosi, sarà invece disponibile la sala da pranzo interna, confortevole e dal carattere familiare.
-Fra i nostri desideri principali c’è quello di riuscire a soddisfare tutti i palati proponendo una cucina della tradizione friulana e non solo. State pur certi che nessuno rimarrà a stomaco vuoto! E dopo esservi saziati e coccolati con un dolce e una grappa fatti in casa, potrete riposarvi nelle nostre piacevoli camere. Esse racchiudono la vera atmosfera del rifugio alpino e sono adatte anche ai bambini e alle persone disabili.
-
-La Casa Alpina è oggi anche Centro didattico dotato di un’ampia sala con schermo e proiettore. Ci piace l’idea di coinvolgere i nostri ospiti e sfruttare questo spazio per laboratori ed eventi musicali, fotografici, artistici.
