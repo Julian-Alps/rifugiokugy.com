@@ -29,8 +29,8 @@ function setActionPath(langKey) {
 
 const ContactPageTemplate = ({
   title, content, contentComponent,
-  howtoget, image, address, phone,
-  email, whatsapp, fb,
+  howtoget, image, address, 
+  phone, email, fb,
   handleSubmit, handleChange, action
 }) => {
   const PageContent = contentComponent || Content
@@ -46,7 +46,6 @@ const ContactPageTemplate = ({
         address={address}
         phone={phone}
         email={email}
-        whatsapp={whatsapp}
         fb={fb}
       />
     <div className="box">
@@ -165,7 +164,6 @@ ContactPageTemplate.propTypes = {
   address: PropTypes.string,
   howtoget: PropTypes.array,
   email: PropTypes.string,
-  whatsapp: PropTypes.string,
   fb: PropTypes.string,
   handleChange: PropTypes.func,
   handleSubmit: PropTypes.func,
@@ -222,7 +220,6 @@ class ContactPage extends React.Component {
     const address = dataMarkdown.frontmatter.address;
     const phone = dataMarkdown.frontmatter.phone;
     const email = dataMarkdown.frontmatter.email;
-    const whatsapp = dataMarkdown.frontmatter.whatsapp;
     const fb = dataMarkdown.frontmatter.fb;
     const locations = dataMarkdown.frontmatter.locations;
     const { lat } = locations;
@@ -246,7 +243,6 @@ class ContactPage extends React.Component {
                   address={address}
                   phone={phone}
                   email={email}
-                  whatsapp={whatsapp}
                   fb={fb}
                   title={dataMarkdown.frontmatter.title}
                   content={dataMarkdown.html}
@@ -313,7 +309,6 @@ export const pageQuery = graphql`query ContactPageQuery($id: String!) {
       address
       phone
       email
-      whatsapp
       fb
       locations {
         lat
