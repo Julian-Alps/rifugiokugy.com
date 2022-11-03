@@ -14,7 +14,7 @@ module.exports = {
   'takeaway': 'Servizio a domicilio',
   'about': 'A proposito',
   'offers': 'Pacchetti soggiorno',
-  'restaurant': 'A Tavola',
+  'restaurant': 'Ristorante',
   'shop': 'Bottega',
   'sleeping': 'Dormire in rifugio',
   'rooms': 'Le camere',

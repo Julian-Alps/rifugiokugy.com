@@ -4,5 +4,6 @@ module.exports = {
   'shop': ['shop', 'bottega'],
   'news': ['news', 'news'],
   'blog': ['blog', 'blog'],
+  'activities': ['activities', 'attività'],
   'contact': ['contacts', 'contatti']
 };

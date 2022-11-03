@@ -125,6 +125,9 @@ class HeaderImg extends React.Component {
                 base={"/" + props.langKey + "/" + menuTree.shop[sel] +"/"}
                 />
             </MobileView>
+            <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.activities[sel] +"/"}>
+              <FormattedMessage id="activities" />
+            </Link>
             <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.contact[sel] +"/"}>
               <FormattedMessage id="contact" />
             </Link>
