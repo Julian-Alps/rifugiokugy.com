@@ -98,6 +98,11 @@ class HeaderImg extends React.Component {
                 />
             </BrowserView>
             <BrowserView viewClassName='navbar-item has-dropdown is-hoverable'>
+              <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.rooms[sel] +"/"}>
+                <FormattedMessage id="rooms" />
+              </Link>
+            </BrowserView>
+            <BrowserView viewClassName='navbar-item has-dropdown is-hoverable'>
               <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.restaurant[sel] +"/"}>
                 <FormattedMessage id="restaurant" />
               </Link>
@@ -113,6 +118,11 @@ class HeaderImg extends React.Component {
                 langKey={props.langKey}
                 base={"/" + props.langKey + "/" + menuTree.home[sel] +"/"}
                 />
+            </MobileView>
+            <MobileView viewClassName='navbar-item has-dropdown is-hoverable'>
+              <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.rooms[sel] +"/"}>
+                <FormattedMessage id="rooms" />
+              </Link>
             </MobileView>
             <MobileView viewClassName='navbar-item has-dropdown is-hoverable'>
               <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.restaurant[sel] +"/"}>
