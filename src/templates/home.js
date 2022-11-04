@@ -9,19 +9,13 @@ import { Helmet } from 'react-helmet';
 import Content, { HTMLContent } from '../components/Content'
 import LeftCard from '../components/Cards/LeftCard'
 import RoomGal from '../components/Masonry/RoomGal'
-import Table from '../components/Table/Table'
 import FullCard from '../components/Cards/FullCard'
-import Title from '../components/Cards/Title'
 import Testimonials from '../components/Testimonials'
 import InfoMap from '../components/InfoMap'
 
 const HomePageTemplate = ({
   rooms,
   masonry,
-  titlePrice,
-  rows,
-  pricemsg1,
-  priceMessage,
   activities,
   testimonials,
   content,
@@ -46,14 +40,6 @@ const HomePageTemplate = ({
         <RoomGal masonry={masonry} />
       </div>
       <Testimonials testimonials={testimonials} />
-      <div className="content" id="prices">
-        <Title title={titlePrice} />
-        <div className="content">
-          <p className="subtitle">{pricemsg1}</p>
-          <Table rows={rows} />
-          <p className="subtitle">{priceMessage}</p>
-        </div>
-      </div>
       <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#709C34' frameColor='#709C34' />
       <div className="content" id="territory">
         <InfoMap lat={lat} lng={lng} link={mapsLink} infoMap={mapsImage} message={mapsMessage} />
@@ -74,11 +60,8 @@ HomePageTemplate.propTypes = {
   mapsMessage: PropTypes.string,
   mapsLink: PropTypes.string,
   mapsImage: PropTypes.object,
-  priceMessage: PropTypes.string,
-  pricemsg1: PropTypes.string,
   heading: PropTypes.string,
   rows: PropTypes.array,
-  titlePrice: PropTypes.string,
   tags: PropTypes.array,
   testimonials: PropTypes.array,
   langKey: PropTypes.string
@@ -99,7 +82,6 @@ class HomePage extends React.Component {
     const image = frontmatter.image.childImageSharp.gatsbyImageData.src;
     const tags = frontmatter.tags;
     const bgImage = frontmatter.bgImage;
-    const titlePrice = frontmatter.titlePrice
     const maps = frontmatter.maps
 
     return (
@@ -117,12 +99,8 @@ class HomePage extends React.Component {
               heading={dataMarkdown.frontmatter.heading}
               rooms={frontmatter.rooms}
               masonry={frontmatter.masonry}
-              titlePrice={titlePrice}
               rows={dataMarkdown.frontmatter.rows}
               rows2={dataMarkdown.frontmatter.rows2}
-              pricemsg1={frontmatter.pricemsg1}
-              pricemsg2={frontmatter.pricemsg2}
-              priceMessage={frontmatter.priceMessage}
               activities={frontmatter.activities}
               testimonials={dataMarkdown.frontmatter.testimonials}
               contentComponent={HTMLContent}
