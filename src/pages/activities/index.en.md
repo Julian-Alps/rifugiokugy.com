@@ -9,11 +9,11 @@ tags:
   - biking
   - country-ski
 lang: en
-image: /img/Valbruna_e_jof_fuart_01.jpg
+image: /img/Nebria_Valbruna_Rifugio_Kugy.jpg
 date: "20-05-2020"
 bgImage:
   alt: "Valbruna"
-  image: /img/Valbruna_e_jof_fuart_01.jpg
+  image: /img/Nebria_Valbruna_Rifugio_Kugy.jpg
 summer:
   title: "Summer"
   text: "If you are not familiar with winter sports, the summer season in the Julian Alps will offer you various activities to regenerate yourself after the long hibernation. Lovers of trekking and Nordic walking will be able to walk the beautiful paths that branch off into the mountains of Valbruna, Camporosso, Ugovizza and Tarvisio. We remind you that the signage is not lacking and there are accurate hiking maps for orientation."
@@ -63,7 +63,7 @@ winter:
   text: "For those who do not want to give up on winter walks, the best way is to have snowshoes and venture on the paths of Val Saisera. You will find over 15 km of well-marked trails in the snow. For cross-country skiing enthusiasts there are plenty of slopes that wind along the entire valley, through clearings and magical snow-covered woods.
 Less than 5 km from Valbruna, the Monte Lussari cable car is also active for lovers of downhill skiing. And always for downhill enthusiasts, the nearby town of Tarvisio offers 25 km of fun."
   imageInfo:
-    image: /img/Val_Saisera_pista_fondo.jpg
+    image: /img/Val_Saisera_Inverno_Rifugio_Kugy_Jof_Fuart.jpg
     alt: "winter activities in Val Saisera - ski country tracks"
 winterTrek: "Any suggestions:
 
