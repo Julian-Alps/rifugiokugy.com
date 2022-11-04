@@ -47,6 +47,8 @@ module.exports = {
   'keep-reading': 'Continua a leggere →',
   'followus': 'Segui: ',
   'download_menu': 'Scarica il menu: ',
+  'download': 'Scarica: ',
+  'rooms-prices': 'Prezzi camere',
   'info-sheet': 'Scheda informativa',
   'info-sheet-title': 'Titolo: ',
   'info-sheet-year': 'Anno: ',

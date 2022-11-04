@@ -49,6 +49,8 @@ module.exports = {
   'find-out-more': 'Find out more...',
   'followus': 'Follow Us: ',
   'download_menu': 'Download menu: ',
+  'download': 'Download: ',
+  'rooms-prices': 'Rooms prices',
   'info-sheet': 'Informative sheet',
   'info-sheet-title': 'Title: ',
   'info-sheet-year': 'Year: ',
