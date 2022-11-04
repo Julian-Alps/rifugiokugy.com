@@ -9,11 +9,11 @@ tags:
   - bici
   - sci-fondo
 lang: it
-image: /img/Valbruna_e_jof_fuart_01.jpg
+image: /img/Nebria_Valbruna_Rifugio_Kugy.jpg
 date: "20-05-2020"
 bgImage:
   alt: "Valbruna"
-  image: /img/Valbruna_e_jof_fuart_01.jpg
+  image: /img/Nebria_Valbruna_Rifugio_Kugy.jpg
 summer:
   title: "Estate"
   text: "Se non siete pratici di sport invernali, la stagione estiva sulle Alpi Giulie vi offrirà diverse attività per rigenerarvi dopo il lungo letargo. Gli amanti del trekking e del nordic walking potranno percorrere i bellissimi sentieri che si diramano sulle montagne di Valbruna, Camporosso, Ugovizza e Tarvisio. Vi ricordiamo che la segnaletica non manca ed esistono accurate mappe escursionistiche per orientarsi.
@@ -68,7 +68,7 @@ winter:
 A meno di 5 km da Valbruna, la telecabina del Monte Lussari è attiva anche per gli amanti dello sci alpino. E sempre per gli appassionati della discesa, il vicino comune di Tarvisio offre altrettanti 25 km di divertimento.
 "
   imageInfo:
-    image: /img/Val_Saisera_pista_fondo.jpg
+    image: /img/Val_Saisera_Inverno_Rifugio_Kugy_Jof_Fuart.jpg
     alt: "Le attività invernali in Val Saisera - pista fondo"
 winterTrek: "Qualche suggerimento:
 
