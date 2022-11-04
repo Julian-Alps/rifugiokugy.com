@@ -23,4 +23,10 @@ bigRooms:
   imageInfo:
     image: /img/camerata_Rifugio_Kugy.jpg
     alt: "The big rooms"
+breakfast:
+  title: "The breakfast"
+  text: "If you like the lazy and quiet awakenings, know that the restaurant will remain open until late morning and expect to find coffee, cappuccinos, teas, juices and a variety of desserts including sweet braid, fluffy and simple four-quarter cakes with ancient grains, and who knows, sometimes even good homemade bread."
+  imageInfo:
+    image: /img/crostatamore_Rifugio_Kugy.jpg
+    alt: "The breakfast"
 ---

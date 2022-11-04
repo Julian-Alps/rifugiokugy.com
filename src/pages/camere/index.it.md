@@ -23,4 +23,10 @@ bigRooms:
   imageInfo:
     image: /img/camerata_Rifugio_Kugy.jpg
     alt: "Le camerate"
+breakfast:
+  title: "La colazione"
+  text: "Se vi piacciono i risvegli pigri e tranquilli sappiate che la sala ristorante rimarrà aperta fino a tarda mattina e ad aspettarvi troverete caffè, cappuccini, tè, infusi, succhi di frutta e una vasta scelta di dolci tra cui la treccia dolce, le soffici e semplici torte quattro quarti con i grani antichi, e chissà, talvolta anche del buon pane fatto in casa."
+  imageInfo:
+    image: /img/crostatamore_Rifugio_Kugy.jpg
+    alt: "La colazione"
 ---

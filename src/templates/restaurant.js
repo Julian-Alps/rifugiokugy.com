@@ -14,7 +14,6 @@ import MenuPDF from '../components/MenuPDF'
 const RestaurantPageTemplate = ({
   content,
   contentComponent,
-  breakfast,
   menu,
   sapore,
   testimonials,
@@ -27,11 +26,10 @@ const RestaurantPageTemplate = ({
           <Title title={sapore.title}/>
           <p id="sapore-autentico">{sapore.text}</p>
         </section>
-        <LeftCard idlink="breakfast" leftCard={breakfast} interiorColor='has-background-white' frameColor='#709C34'/>
-        <Testimonials testimonials={testimonials} />
         <section className="content">
           <PageContent className="container content" content={content} />
           <MenuPDF menu={menu}/>
+          <Testimonials testimonials={testimonials} />
         </section>
           <TagList tags={tags} langKey={langKey}/>
       </div>
@@ -42,7 +40,6 @@ RestaurantPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  breakfast: PropTypes.object,
   menu: PropTypes.string,
   sapore: PropTypes.object,
   testimonials: PropTypes.array,
@@ -74,7 +71,6 @@ class RestaurantPage extends React.Component {
             contentComponent={HTMLContent}
             title={dataMarkdown.frontmatter.title}
             content={dataMarkdown.html}
-            breakfast={frontmatter.breakfast}
             sapore={frontmatter.sapore}
             testimonials={dataMarkdown.frontmatter.testimonials}
             tags={tags}
@@ -141,18 +137,6 @@ export const pageQuery = graphql`query RestaurantPageQuery($id: String!) {
       sapore {
         title
         text
-      }
-      breakfast {
-        title
-        text
-        imageInfo {
-          image {
-            childImageSharp {
-              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
-            }
-          }
-          alt
-        }
       }
     }
     fields {

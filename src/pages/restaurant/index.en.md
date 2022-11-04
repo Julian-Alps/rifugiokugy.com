@@ -23,10 +23,4 @@ sapore:
     The idea is to create a quality cuisine by offering traditional dishes and seasonal dishes. In addition to the set menu, in fact, we will offer you winter specialties such as jota, autumn ones like plum dumplings or spring ones like wild herb and flower soup. From cheese appetizers to homemade desserts, from soups to dumplings, from game to vegetable side dishes, what we care about most is selecting the best ingredients.
     For those who request it, we also offer excellent vegetarian, vegan and gluten-free alternatives.
     Once your stomach is satisfied, you can doze off on the deck chairs or continue your journey along the many trails and cross-country ski tracks in the valley. You will always find us here waiting for you, perhaps at aperitif time, to drink a refreshing draft beer or sip a hugo spritz."
-breakfast:
-  title: "The breakfast"
-  text: "If you like the lazy and quiet awakenings, know that the restaurant will remain open until late morning and expect to find coffee, cappuccinos, teas, juices and a variety of desserts including sweet braid, fluffy and simple four-quarter cakes with ancient grains, and who knows, sometimes even good homemade bread."
-  imageInfo:
-    image: /img/crostatamore_Rifugio_Kugy.jpg
-    alt: "The breakfast"
 ---
