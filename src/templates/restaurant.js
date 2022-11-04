@@ -6,7 +6,6 @@ import Layout from '../components/LayoutImg'
 import SEO from '../components/SEO/SEO'
 import Content, { HTMLContent } from '../components/Content'
 import Title from '../components/Cards/Title'
-import LeftCard from '../components/Cards/LeftCard'
 import Testimonials from '../components/Testimonials'
 import menu from "../../static/img/menu.pdf"
 import MenuPDF from '../components/MenuPDF'
