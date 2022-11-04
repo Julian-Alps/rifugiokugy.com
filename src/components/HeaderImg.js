@@ -3,7 +3,8 @@ import * as PropTypes from "prop-types"
 import { Link } from 'gatsby'
 import Logo from '../components/Logo'
 import LogoMobile from '../components/LogoMobile'
-import logo from '../img/logo-Rifugio-Kugy-bg-light.svg'
+import logoV from '../img/Logo_rifugio_KUGY_CAI_V_sito.svg'
+import logo from '../img/Logo_rifugio_KUGY_CAI_V_sito_white.svg'
 import BGImage from '../components/BGImage'
 import SelectLanguage from './SelectLanguage';
 import { FormattedMessage } from 'react-intl';
@@ -80,7 +81,7 @@ class HeaderImg extends React.Component {
             <Logo logo={logo}/>
           </BrowserView>
           <MobileView>
-            <LogoMobile logo={logo}/>
+            <LogoMobile logo={logoV}/>
           </MobileView>
             {/* Hamburger menu */}
             <div className="navbar-burger burger" data-target="navMenu">
