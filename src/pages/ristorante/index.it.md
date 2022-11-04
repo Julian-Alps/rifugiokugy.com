@@ -20,10 +20,4 @@ testimonials:
 sapore:
   title: "I sapori del Friuli Venezia Giulia. Tradizione e fantasia"
   text: "Lasciatevi catturare dal profumo e dal gusto della cucina di montagna, rilassatevi in giardino o nella nostra intima sala da pranzo assaporando i nostri piatti della tradizione montana e austroungarica con un pizzico di fantasia."
-breakfast:
-  title: "La colazione"
-  text: "Se vi piacciono i risvegli pigri e tranquilli sappiate che la sala ristorante rimarrà aperta fino a tarda mattina e ad aspettarvi troverete caffè, cappuccini, tè, infusi, succhi di frutta e una vasta scelta di dolci tra cui la treccia dolce, le soffici e semplici torte quattro quarti con i grani antichi, e chissà, talvolta anche del buon pane fatto in casa."
-  imageInfo:
-    image: /img/crostatamore_Rifugio_Kugy.jpg
-    alt: "La colazione"
 ---
