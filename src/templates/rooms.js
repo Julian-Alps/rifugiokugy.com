@@ -7,6 +7,8 @@ import SEO from '../components/SEO/SEO'
 import Content, { HTMLContent } from '../components/Content'
 import LeftCard from '../components/Cards/LeftCard'
 import RightCard from '../components/Cards/RightCard'
+import Prices from '../components/Prices'
+import prezzi from "../../static/img/prezzi.pdf"
 
 
 const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, contentComponent, tags, langKey }) => {
@@ -22,6 +24,7 @@ const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, content
             <div className="content">
               <RightCard className="section" idlink="bigrooms" rightCard={bigrooms} interiorColor='has-background-white' frameColor='#709C34'/>
             </div>
+            <Prices prices={prezzi}/>
             <div className="content">
               <LeftCard idlink="breakfast" leftCard={breakfast} interiorColor='has-background-white' frameColor='#709C34'/>
             </div>
