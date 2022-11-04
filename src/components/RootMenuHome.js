@@ -46,7 +46,7 @@ const RootMenu = ( props ) => {
            </div>
           </div>
         </div>
-        <Link className="navbar-item" to={ "/" + props.langKey + "/" + '#prices' }>
+        <Link className="navbar-item" to={ "/" + props.langKey + "/" + menuTree.rooms[sel] +'#prices' }>
           <FormattedMessage id="rooms.prices"/>
         </Link>
       
