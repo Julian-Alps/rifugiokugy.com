@@ -27,58 +27,6 @@ module.exports = {
     languages,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: [],
-        // Any additional create only fields (optional)
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "rifugiokugy.com",
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Pacifico', 'Margarine', 'sans-serif']
-        }
-      }
-    },
-    'gatsby-plugin-resolve-src',
-    'gatsby-plugin-sass',
-    {
-      resolve: 'gatsby-plugin-i18n',
-      options: {
-        langKeyForNull: 'any',
-        langKeyDefault: languages.defaultLangKey,
-        useLangKeyLayout: false,
-      }
-    },
-    {
-    resolve: 'gatsby-plugin-i18n-tags',
-    options: { // Default options
-      tagPage: 'src/templates/tags.js',
-      tagsUrl: '/tags/',
-      langKeyForNull: 'any',
-    },
-  },
-    `gatsby-transformer-json`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-      path: `${__dirname}/src/data/articles`,
-      },
-    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -99,6 +47,12 @@ module.exports = {
       options: {
         path: `${__dirname}/src/img`,
         name: 'images',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+      path: `${__dirname}/src/data/articles`,
       },
     },
     "gatsby-transformer-javascript-frontmatter",
@@ -173,6 +127,52 @@ module.exports = {
         linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
       }
     },
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: [],
+        // Any additional create only fields (optional)
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "rifugiokugy.com",
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Pacifico', 'Margarine', 'sans-serif']
+        }
+      }
+    },
+    'gatsby-plugin-resolve-src',
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {
+        langKeyForNull: 'any',
+        langKeyDefault: languages.defaultLangKey,
+        useLangKeyLayout: false,
+      }
+    },
+    {
+    resolve: 'gatsby-plugin-i18n-tags',
+    options: { // Default options
+      tagPage: 'src/templates/tags.js',
+      tagsUrl: '/tags/',
+      langKeyForNull: 'any',
+    },
+  },
+    `gatsby-transformer-json`,
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-feed`,
