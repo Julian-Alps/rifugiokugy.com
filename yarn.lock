@@ -6330,7 +6330,7 @@ gatsby-plugin-sass@^5.24.0:
     resolve-url-loader "^3.1.4"
     sass-loader "^10.1.1"
 
-gatsby-plugin-sharp@^4.8.1:
+gatsby-plugin-sharp@^4.24.0:
   version "4.24.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-4.24.0.tgz#30fa66295105096b476371dfb36062c1dc7456db"
   integrity sha512-wVs8F9zLeiLf02yLi8vjse1vqSrZsx2u3RsMhoSv1bEinyaI5bcoLZ7mMJCsEeZe2G9mvNrPi4Ymhh/YzgxYCg==
@@ -6422,7 +6422,7 @@ gatsby-remark-copy-linked-files@^5.24.0:
     probe-image-size "^7.2.3"
     unist-util-visit "^2.0.3"
 
-gatsby-remark-images@^6.8.1:
+gatsby-remark-images@^6.24.0:
   version "6.24.0"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-6.24.0.tgz#e9d9058eee58548a33a2b514d92538b0dd59443b"
   integrity sha512-NnKoPn9jo7ZQ3PqyCChmRlyfAahhNVDcO/I1+oyMocIKL1+GmTR00WkGLCzuw5rFIdCU9YkqJ8ouhAgb9DPWew==
@@ -11174,7 +11174,7 @@ react-input-autosize@^3.0.0:
   dependencies:
     prop-types "^15.5.8"
 
-react-intl@^6.21.0:
+react-intl@^6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-6.2.1.tgz#976a44f86a58270d1e498d09636b0ece63ad0344"
   integrity sha512-hYxcSamgoA3Mvc55nwhTF1v15T0NUSkaV/EScMNVZXg0kRyaMAoNHkCi9/9H+TnXWNiWrcWH9bjlMlJwrG2V7g==
