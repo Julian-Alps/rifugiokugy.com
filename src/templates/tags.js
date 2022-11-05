@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import * as React from 'react'
+import * as PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import PostList from '../components/PostList'
 import { FormattedMessage } from 'react-intl'

@@ -1,5 +1,6 @@
-import React from "react"
+import * as React from "react"
 import * as PropTypes from "prop-types"
+import { getSrc } from 'gatsby-plugin-image';
 import { graphql } from 'gatsby'
 import { navigate } from "gatsby-link";
 import Layout from "../components/LayoutImg"
@@ -228,7 +229,9 @@ class ContactPage extends React.Component {
     const linkinsta = dataMarkdown.frontmatter.linkinsta;
     const instagram = dataMarkdown.frontmatter.instagram;
     const { frontmatter } = dataMarkdown;
-    const imageSEO = frontmatter.image.childImageSharp.gatsbyImageData.src;
+    //const imageSEO = frontmatter.image.childImageSharp.gatsbyImageData.src;
+    const image = frontmatter.image;
+    const imageSEO = getSrc(image) || image;
     const bgImage = frontmatter.bgImage;
     return (
       <Layout className="hero-body" data={data} bgImage={bgImage} jsonData={jsonData} location={location}>

@@ -1,6 +1,7 @@
 
-import React from "react"
+import * as React from "react"
 import * as PropTypes from 'prop-types'
+import { getSrc } from 'gatsby-plugin-image';
 import TagList from '../components/TagList'
 import { graphql } from 'gatsby'
 import Layout from '../components/LayoutImg'
@@ -79,7 +80,8 @@ class HomePage extends React.Component {
     const jsonData = data.allArticlesJson.edges[0].node.articles;
     const langKey = dataMarkdown.frontmatter.lang
     const { frontmatter } = data.markdownRemark;
-    const image = frontmatter.image.childImageSharp.gatsbyImageData.src;
+    const image = frontmatter.image;
+    const imageSEO = getSrc(image) || image;
     const tags = frontmatter.tags;
     const bgImage = frontmatter.bgImage;
     const maps = frontmatter.maps
@@ -88,7 +90,7 @@ class HomePage extends React.Component {
       <Layout className="hero-body" data={this.props.data} bgImage={bgImage} jsonData={jsonData} location={this.props.location}>
         <SEO
           frontmatter={frontmatter}
-          postImage={image}
+          postImage={imageSEO}
         />
       <Helmet>
         <meta name="google-site-verification" content="vkzMPkR2C66yqbLk9lHmGs-OzUPaUsFZDp7ymNqweHc" />
