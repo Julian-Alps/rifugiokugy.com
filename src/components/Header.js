@@ -92,35 +92,35 @@ class Header extends React.Component {
           </div>
           <div id="navMenu" className="navbar-menu">
             <div className="navbar-start has-text-centered">
-              <BrowserView viewClassName='navbar-item has-dropdown is-hoverable'>
+              <BrowserView className='navbar-item has-dropdown is-hoverable'>
                 <RootMenuHome
                   langKey={props.langKey}
                   base={"/" + props.langKey + "/" + menuTree.home[sel] +"/"}
                   />
               </BrowserView>
-              <BrowserView viewClassName='navbar-item has-dropdown is-hoverable'>
+              <BrowserView className='navbar-item has-dropdown is-hoverable'>
                 <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.restaurant[sel] +"/"}>
                   <FormattedMessage id="restaurant" />
                 </Link>
               </BrowserView>
-              <BrowserView viewClassName='navbar-item has-dropdown is-hoverable'>
+              <BrowserView className='navbar-item has-dropdown is-hoverable'>
                 <RootMenu
                   langKey={props.langKey}
                   base={"/" + props.langKey + "/" + menuTree.shop[sel] +"/"}
                   />
               </BrowserView>
-              <MobileView viewClassName='navbar-item has-dropdown is-hoverable'>
+              <MobileView className='navbar-item has-dropdown is-hoverable'>
                 <RootMenuHomeMobile
                   langKey={props.langKey}
                   base={"/" + props.langKey + "/" + menuTree.home[sel] +"/"}
                   />
               </MobileView>
-              <MobileView viewClassName='navbar-item has-dropdown is-hoverable'>
+              <MobileView className='navbar-item has-dropdown is-hoverable'>
                 <Link className="navbar-item" to={"/" + props.langKey + "/" + menuTree.restaurant[sel] +"/"}>
                   <FormattedMessage id="restaurant" />
                 </Link>
               </MobileView>
-              <MobileView viewClassName='navbar-item has-dropdown is-hoverable'>
+              <MobileView className='navbar-item has-dropdown is-hoverable'>
                 <RootMenuMobile
                   langKey={props.langKey}
                   base={"/" + props.langKey + "/" + menuTree.shop[sel] +"/"}
