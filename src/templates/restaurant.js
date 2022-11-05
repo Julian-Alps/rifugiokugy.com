@@ -1,5 +1,6 @@
-import React from 'react'
+import * as React from 'react'
 import * as PropTypes from "prop-types"
+import { getSrc } from 'gatsby-plugin-image'
 import TagList from '../components/TagList'
 import { graphql } from 'gatsby'
 import Layout from '../components/LayoutImg'
@@ -55,7 +56,8 @@ class RestaurantPage extends React.Component {
     }
     const jsonData = this.props.data.allArticlesJson.edges[0].node.articles;
     const { frontmatter } = dataMarkdown;
-    const image = frontmatter.image.childImageSharp.gatsbyImageData.src;
+    const image = frontmatter.image;
+    const imageSEO = getSrc(image) || image;
     const langKey = frontmatter.lang;
     const tags = frontmatter.tags;
     const bgImage = frontmatter.bgImage;
@@ -63,7 +65,7 @@ class RestaurantPage extends React.Component {
       <Layout className="hero-body" data={this.props.data} bgImage={bgImage} jsonData={jsonData} location={this.props.location}>
         <SEO
           frontmatter={frontmatter}
-          postImage={image}
+          postImage={imageSEO}
         />
         <div>
             <RestaurantPageTemplate

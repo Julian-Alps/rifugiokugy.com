@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import * as React from 'react'
+import * as PropTypes from 'prop-types'
 import { GatsbyImage } from "gatsby-plugin-image";
 
 const BGImage = ({ bgImage }) => {
@@ -17,9 +17,7 @@ const BGImage = ({ bgImage }) => {
         className="hero-background is-transparent"
         alt={alt} />
     );
-  }
-
-  if (childImageSharp) {
+  } else if (!!childImageSharp) {
     return (
       <GatsbyImage
         image={childImageSharp.gatsbyImageData}
@@ -27,12 +25,11 @@ const BGImage = ({ bgImage }) => {
         className="hero-background is-transparent"
         alt={alt} />
     );
-  }
-
-  if (!!image && typeof image === 'string')
+  } else if (image) {
     return <img style={imageStyle} className="hero-background is-transparent" src={image} alt={alt} />
-
-  return null
+  } else {
+    return null;
+  }
 }
 
 BGImage.propTypes = {
