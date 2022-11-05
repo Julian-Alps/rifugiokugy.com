@@ -95,6 +95,7 @@ module.exports = {
     },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-netlify`,
+    'gatsby-plugin-sass',
     {
       resolve:'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
@@ -155,7 +156,6 @@ module.exports = {
       }
     },
     'gatsby-plugin-resolve-src',
-    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-plugin-i18n',
       options: {
