@@ -34,4 +34,4 @@ path: /en/shop/
 slug: /en/shop/
 ---
 
-Shop Page
+# The products on sale at the Kugy Refuge
