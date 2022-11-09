@@ -29,4 +29,8 @@ breakfast:
   imageInfo:
     image: /img/crostatamore_Rifugio_Kugy.jpg
     alt: "The breakfast"
+prices:
+  imageInfo: 
+    image: /img/Prezzi_camere_Rifugio_Kugy.jpg
+    alt: "rooms prices Rifugio Kugy"
 ---

@@ -9,10 +9,10 @@ import Content, { HTMLContent } from '../components/Content'
 import LeftCard from '../components/Cards/LeftCard'
 import RightCard from '../components/Cards/RightCard'
 import Prices from '../components/Prices'
-import prezzi from "../../static/img/prezzi.pdf"
+import prezzi from "../../static/img/Prezzi_camere_Rifugio_Kugy_11_22.pdf"
 
 
-const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, contentComponent, tags, langKey }) => {
+const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, prices, contentComponent, tags, langKey }) => {
   const PageContent = contentComponent || Content
   return (
       <div className="container content">
@@ -25,7 +25,7 @@ const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, content
             <div className="content">
               <RightCard className="section" idlink="bigrooms" rightCard={bigrooms} interiorColor='has-background-white' frameColor='#709C34'/>
             </div>
-            <Prices prices={prezzi}/>
+            <Prices prices={prezzi} imageInfo={prices}/>
             <div className="content">
               <LeftCard idlink="breakfast" leftCard={breakfast} interiorColor='has-background-white' frameColor='#709C34'/>
             </div>
@@ -75,6 +75,7 @@ class RoomsPage extends React.Component {
               rooms={frontmatter.rooms}
               bigrooms={frontmatter.bigRooms}
               breakfast={frontmatter.breakfast}
+              prices={frontmatter.prices.imageInfo}
               tags={tags}
               langKey={langKey}
              />
@@ -137,6 +138,16 @@ export const pageQuery = graphql`query RoomsPageQuery($id: String!) {
       bigRooms {
         title
         text
+        imageInfo {
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+            }
+          }
+          alt
+        }
+      }
+      prices {
         imageInfo {
           image {
             childImageSharp {
