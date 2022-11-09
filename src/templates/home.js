@@ -37,11 +37,11 @@ const HomePageTemplate = ({
         <PageContent className="container content" content={content} />
       </div>
       <div className="content">
-        <LeftCard className="section" idlink="sleeping" leftCard={rooms} interiorColor='has-background-white' frameColor='#709C34' />
+        <LeftCard className="section" idlink="sleeping" leftCard={rooms} interiorColor='has-background-white' frameColor='#738173' />
         <RoomGal masonry={masonry} />
       </div>
       <Testimonials testimonials={testimonials} />
-      <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#709C34' frameColor='#709C34' />
+      <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#738173' frameColor='#738173' />
       <div className="content" id="territory">
         <InfoMap lat={lat} lng={lng} link={mapsLink} infoMap={mapsImage} message={mapsMessage} />
       </div>

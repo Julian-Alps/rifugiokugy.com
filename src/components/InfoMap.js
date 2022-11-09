@@ -14,8 +14,8 @@ export default class InfoMap extends Component {
       <a href={link}>
       <h3 className="has-text-weight-bold has-text-centered is-size-1-desktop is-size-6-mobile infomap-slogan"
         style={{
-          boxShadow: '0.2rem 0 0 #709C34, -0.2rem 0 0 #709C34',
-          backgroundColor: '#709C34',
+          boxShadow: '0.2rem 0 0 #738173, -0.2rem 0 0 #738173',
+          backgroundColor: '#738173',
           color: 'white',
           padding: '0.75rem',
           position: 'relative',

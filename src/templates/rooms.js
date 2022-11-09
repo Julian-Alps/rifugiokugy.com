@@ -20,14 +20,14 @@ const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, prices,
         <section className="content">
           <PageContent className="container content" content={content} />
             <div className="content">
-              <LeftCard className="section" idlink="rooms" leftCard={rooms} interiorColor='has-background-white' frameColor='#709C34'/>
+              <LeftCard className="section" idlink="rooms" leftCard={rooms} interiorColor='has-background-white' frameColor='#738173'/>
             </div>
             <div className="content">
-              <RightCard className="section" idlink="bigrooms" rightCard={bigrooms} interiorColor='has-background-white' frameColor='#709C34'/>
+              <RightCard className="section" idlink="bigrooms" rightCard={bigrooms} interiorColor='has-background-white' frameColor='#738173'/>
             </div>
             <Prices prices={prezzi} imageInfo={prices}/>
             <div className="content">
-              <LeftCard idlink="breakfast" leftCard={breakfast} interiorColor='has-background-white' frameColor='#709C34'/>
+              <LeftCard idlink="breakfast" leftCard={breakfast} interiorColor='has-background-white' frameColor='#738173'/>
             </div>
           <TagList tags={tags} langKey={langKey}/>
         </section>
