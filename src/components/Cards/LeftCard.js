@@ -1,5 +1,6 @@
-import React from 'react'
+import * as React from 'react'
 import Image from '../../components/PreviewCompatibleImage'
+import MarkdownContent from '../../components/MarkdownContent'
 import Title from './Title'
 import * as PropTypes from 'prop-types'
 
@@ -31,7 +32,7 @@ class LeftCard extends React.Component {
        <div className='column'>
           <div className={'section ' + interiorColor + ' interior-card'} style={{ backgroundColor: interiorFrameColor }}>
             <Title title={title} />
-            <p>{text}</p>
+            <MarkdownContent className='section' content={text} />
             {buttonLinks}
           </div>
        </div>
