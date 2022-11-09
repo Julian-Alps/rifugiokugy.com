@@ -151,7 +151,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Pacifico', 'Margarine', 'sans-serif']
+          families: ['Source Serif Pro', 'Margarine', 'sans-serif']
         }
       }
     },
