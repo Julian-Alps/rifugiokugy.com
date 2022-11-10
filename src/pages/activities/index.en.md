@@ -67,12 +67,12 @@ Less than 5 km from Valbruna, the Monte Lussari cable car is also active for lov
     alt: "winter activities in Val Saisera - ski country tracks"
 winterTrek: "Any suggestions:
 
-- Saisera Wild Track: the 11 km ring route winds through the Val Saisera and is accessible to everyone, on foot, on cross-country skis or fat bikes. In addition to the beauty of the winter landscape, along the itinerary you can make a jump in history and visit the places of the front of the First World War.
+- **Saisera Wild Track**: the 11 km ring route winds through the Val Saisera and is accessible to everyone, on foot, on cross-country skis or fat bikes. In addition to the beauty of the winter landscape, along the itinerary you can make a jump in history and visit the places of the front of the First World War.
 
-- Valbruna Beisner Track: 3.5 km long, the route develops on the plain in front of the town of Valbruna. It is a path suitable for everyone and excellent for relaxing close to the town. For history lovers, it is possible to book a guided tour of the Beisner military fort, completely built inside the rock.
+- **Valbruna Beisner Track**: 3.5 km long, the route develops on the plain in front of the town of Valbruna. It is a path suitable for everyone and excellent for relaxing close to the town. For history lovers, it is possible to book a guided tour of the Beisner military fort, completely built inside the rock.
 For lovers of the genre, the Hensel fort in Malborghetto and the Col Badin fort in Chiusaforte can also be visited in the surrounding area.
 
-- Pellegrino Path / Cima del Cacciatore: the famous path that leads directly to the top of Mount Lussari is an excellent winter track to be climbed with seal skins. Once on the Lussari you can continue towards the Cima del Cacciatore.
+- **Pellegrino Path / Cima del Cacciatore**: the famous path that leads directly to the top of Mount Lussari is an excellent winter track to be climbed with seal skins. Once on the Lussari you can continue towards the Cima del Cacciatore.
 
 In addition to winter, ski mountaineers can also enjoy fascinating and easy excursions in spring: Sella Nabois, Jof di Somdogna, the top of Monte Cocco or Vetta Bella.
 "
