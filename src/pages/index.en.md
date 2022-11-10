@@ -13,7 +13,7 @@ image: /img/Val_Saisera_Wild_Track_Valbruna_Rifugio_Kugy.jpg
 bgImage:
   alt: "Valbruna"
   image: /img/Val_Saisera_Wild_Track_Valbruna_Rifugio_Kugy.jpg
-heading: "The persimmon is the artist fruit..."
+heading: "Welcome at Refuge..."
 rooms:
   title: "Sleeping in the refuge"
   text: "Linger before bed and roll your eyes, admire all the stars invisible from the city, fall asleep in the calming silence of a small mountain town, wake up and remember that waiting for you out there are the beauty of the meadows blooming in summer and the whiteness of the snowy peaks during the winter. These are just some of the reasons that make the Kugy refuge a special place to stay. Characteristic of our rooms is simplicity. The absence of televisions and background music is our conscious choice that will allow you to rediscover the pleasure of silence and the warmth of being in company."
@@ -21,8 +21,8 @@ rooms:
     - { href: '/en/rooms/', text: 'Rooms'}
     - { href: '/en/rooms/', text: 'BigRooms'}
   imageInfo:
-    image: /img/camera_6_persone_Rifugio_Kugy.jpg
-    alt: "The rooms"
+    image: /img/camera_scabiosa_trenta_Rifugio_Kugy_letto_matrimoniale.jpg
+    alt: "Room Scabiosa Trenta by Rifugio Kugy with double bed"
 activities:
   title: "Activities"
   slogan: SLOW WITH ENERGY!
