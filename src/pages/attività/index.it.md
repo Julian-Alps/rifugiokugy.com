@@ -36,7 +36,7 @@ In questo suggestivo contesto, nel mese di giugno, si tiene il festival Risonanz
 
 - **Monte Nebria**: Con un facile percorso circolare, si parte da Valbruna e si seguono i sentieri Cai 608 e 658.  E’ una camminata che consigliamo a tutti perché seppur con un’elevazione moderata garantisce un panorama a 360°. Le cime sono due, a est e a ovest, e il percorso segue una pista militare.
 
-- **Rifugio Grego*: partendo dalla Val Saisera e percorrendo il sentiero Cai 611 che attraversa una bella faggeta, si può salire al rifugio Grego. Una vista magnifica vi svelerà il Jôf Montasio nella sua imponenza: Creste dei Draghi, Torre Nord, Amalia, molte delle vie che Kugy percorse e che immortalò nei suoi scritti.
+- **Rifugio Grego**: partendo dalla Val Saisera e percorrendo il sentiero Cai 611 che attraversa una bella faggeta, si può salire al rifugio Grego. Una vista magnifica vi svelerà il Jôf Montasio nella sua imponenza: Creste dei Draghi, Torre Nord, Amalia, molte delle vie che Kugy percorse e che immortalò nei suoi scritti.
 
 - **Jôf di Somdogna** e **Jôf di Miezegnot**: partendo proprio dal Rifugio Grego e percorrendo ancora 400 mt scarsi di dislivello si giunge fino alla cima Somdogna. Dall’omonima sella invece si può prendere il sentiero Cai 609 e, incontrando testimonianze della Grande Guerra, giungere alla cima di Miezegnot.
 
