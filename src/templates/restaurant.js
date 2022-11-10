@@ -9,7 +9,8 @@ import Content, { HTMLContent } from '../components/Content'
 import Title from '../components/Cards/Title'
 import Testimonials from '../components/Testimonials'
 import menu from "../../static/img/menu.pdf"
-import MenuPDF from '../components/MenuPDF'
+//import MenuPDF from '../components/MenuPDF'
+/* put this between PageContent and Testimonial components -> <MenuPDF menu={menu}/> */
 
 const RestaurantPageTemplate = ({
   content,
@@ -28,7 +29,6 @@ const RestaurantPageTemplate = ({
         </section>
         <section className="content">
           <PageContent className="container content" content={content} />
-          <MenuPDF menu={menu}/>
           <Testimonials testimonials={testimonials} />
         </section>
           <TagList tags={tags} langKey={langKey}/>
