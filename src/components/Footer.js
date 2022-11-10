@@ -27,7 +27,7 @@ class Footer extends React.Component {
         <div className="content has-text-centered has-text-white-ter">
           <div className="container has-text-white-ter">
               <div className="columns">
-                <div className="column is-4">
+                <div className="column is-3">
                 <section className="menu">
                     <ul className="menu-list">
                       <li><Link className="navbar-item navbar-item-footer" to={"/" + props.langKey} ><FormattedMessage id="home" /></Link></li>
@@ -36,31 +36,15 @@ class Footer extends React.Component {
                         <FormattedMessage id="shop" />
                       </Link>
                     </li>
-                    </ul>
-                  </section>
-                </div>
-                <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                  <li>
-                    <Link className="navbar-item navbar-item-footer" to={"/" + props.langKey + "/" + menuTree.news[sel] +"/"}>
-                      <FormattedMessage id="news" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="navbar-item navbar-item-footer" to={"/" + props.langKey + "/" + menuTree.blog[sel] +"/"}>
-                      <FormattedMessage id="blog" />
-                    </Link>
-                  </li>
-                  <li>
+                    <li>
                     <Link className="navbar-item navbar-item-footer" to={"/" + props.langKey + "/" + menuTree.contact[sel] +"/"}>
                       <FormattedMessage id="contact" />
                     </Link>
                   </li>
-                  </ul>
-                </section>
+                    </ul>
+                  </section>
                 </div>
-                <div className="column is-4 social">
+                <div className="column is-3 social">
                   <a title="facebook" href="https://facebook.com/RifugioKugy/">
                     <FaFacebook className="facebook-icon"  size="2em"/>
                   </a>
