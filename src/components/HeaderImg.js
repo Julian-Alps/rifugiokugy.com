@@ -59,7 +59,7 @@ class HeaderImg extends React.Component {
   if (isMobile) {
 
    let navMenu = document.getElementById("navMenu");
-   navMenu.style.backgroundColor = "#73CA25";
+   //navMenu.style.backgroundColor = "#73CA25";
 
  }
 }
