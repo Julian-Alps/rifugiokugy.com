@@ -1,5 +1,5 @@
 module.exports = {
-  'home': ['/', '/'],
+  'home': ['', ''],
   'rooms': ['rooms', 'camere'],
   'restaurant': ['restaurant', 'ristorante'],
   'shop': ['shop', 'bottega'],
