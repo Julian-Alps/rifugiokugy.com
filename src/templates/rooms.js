@@ -8,11 +8,12 @@ import SEO from '../components/SEO/SEO'
 import Content, { HTMLContent } from '../components/Content'
 import LeftCard from '../components/Cards/LeftCard'
 import RightCard from '../components/Cards/RightCard'
+import RoomGal from '../components/Masonry/RoomGal';
 import Prices from '../components/Prices'
 import prezzi from "../../static/img/Prezzi_camere_Rifugio_Kugy_11_22.pdf"
 
 
-const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, prices, contentComponent, tags, langKey }) => {
+const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, prices, masonryDirect, contentComponent, tags, langKey }) => {
   const PageContent = contentComponent || Content
   return (
       <div className="container content">
@@ -21,6 +22,7 @@ const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, prices,
           <PageContent className="container content" content={content} />
             <div className="content">
               <LeftCard className="section" idlink="rooms" leftCard={rooms} interiorColor='has-background-white' frameColor='#738173'/>
+              <RoomGal masonry={masonryDirect} />
             </div>
             <div className="content">
               <RightCard className="section" idlink="bigrooms" rightCard={bigrooms} interiorColor='has-background-white' frameColor='#738173'/>
@@ -42,6 +44,7 @@ RoomsPageTemplate.propTypes = {
   rooms: PropTypes.object,
   bigrooms: PropTypes.object,
   breakfast: PropTypes.object,
+  masonryDirect: PropTypes.object,
   rows: PropTypes.array,
   tags: PropTypes.array,
   langKey: PropTypes.string
@@ -73,6 +76,7 @@ class RoomsPage extends React.Component {
               title={dataMarkdown.frontmatter.title}
               content={dataMarkdown.html}
               rooms={frontmatter.rooms}
+              masonryDirect={frontmatter.masonryDirect}
               bigrooms={frontmatter.bigRooms}
               breakfast={frontmatter.breakfast}
               prices={frontmatter.prices.imageInfo}
@@ -132,6 +136,18 @@ export const pageQuery = graphql`query RoomsPageQuery($id: String!) {
               gatsbyImageData(quality: 84, layout: FULL_WIDTH)
             }
           }
+          alt
+        }
+      }
+      masonryDirect {
+        photos {
+          src
+          srcSet
+          sizes
+          width
+          height
+          link
+          title
           alt
         }
       }
