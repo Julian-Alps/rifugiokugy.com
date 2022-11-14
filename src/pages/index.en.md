@@ -21,8 +21,8 @@ rooms:
     - { href: '/en/rooms/', text: 'Rooms'}
     - { href: '/en/rooms/', text: 'BigRooms'}
   imageInfo:
-    image: /img/camera_scabiosa_trenta_Rifugio_Kugy_letto_matrimoniale.jpg
-    alt: "Room Scabiosa Trenta by Rifugio Kugy with double bed"
+    image: /img/Diretta_kugy_camera_letto_tastiera_valbruna_rifugio.jpg
+    alt: "Room Diretta Kugy by Rifugio Kugy with double bed"
 activities:
   title: "Activities"
   slogan: SLOW WITH ENERGY!
@@ -58,14 +58,14 @@ masonry:
       "https://ucarecdn.com/28492454-4fe7-429f-aac7-50b9aef3dc86/-/resize/1200x/ 1200w"
     ],
     sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/rooms/#rooms', alt: 'Room 6 person', title: 'Room 6 person' }
-    - { src: 'https://ucarecdn.com/7652d96d-02dd-467a-8377-ac8cef862971/Camera_diretta_kugy_rifugio_valbruna.jpg',
+    - { src: 'https://ucarecdn.com/77d42873-3466-4494-b5c1-113e9f8feb16/Diretta_kugy_camera_armadio_legno_valbruna_rifugio_up.jpg',
     srcSet: [
-      "https://ucarecdn.com/7652d96d-02dd-467a-8377-ac8cef862971/-/resize/500x/ 500w",
-      "https://ucarecdn.com/7652d96d-02dd-467a-8377-ac8cef862971/-/resize/800x/ 800w",
-      "https://ucarecdn.com/7652d96d-02dd-467a-8377-ac8cef862971/-/resize/1024x/ 1024w",
-      "https://ucarecdn.com/7652d96d-02dd-467a-8377-ac8cef862971/-/resize/1200x/ 1200w"
+      "https://ucarecdn.com/77d42873-3466-4494-b5c1-113e9f8feb16/-/resize/500x/ 500w",
+      "https://ucarecdn.com/77d42873-3466-4494-b5c1-113e9f8feb16/-/resize/800x/ 800w",
+      "https://ucarecdn.com/77d42873-3466-4494-b5c1-113e9f8feb16/-/resize/1024x/ 1024w",
+      "https://ucarecdn.com/77d42873-3466-4494-b5c1-113e9f8feb16/-/resize/1200x/ 1200w"
     ],
-    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/en/rooms/#rooms', alt: 'Room 2 person', title: 'Room 2 person' }
+    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"], width: 4, height: 3, link: '/it/camere/#rooms', alt: 'Camera 2 persone', title: 'Camera 2 persone' }
 titlePrice: Prices
 priceMessage: Prices for person. Sheet bag 5 euros.
 pricemsg1: "From 1/02/2022 to 30/04/2022:"
