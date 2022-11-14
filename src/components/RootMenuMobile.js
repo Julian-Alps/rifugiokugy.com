@@ -14,7 +14,7 @@ const RootMenuMobile = ( props ) => {
 
     return(
     <div className='navbar-item has-dropdown is-hoverable'>
-      <Link className="navbar-link" to={ "/" + props.langKey + "/" + menuTree.shop[sel] }>
+      <Link className="navbar-link" to={ "/" + props.langKey + "/" + menuTree.shop[sel]  + "/" }>
           <FormattedMessage id="shop"/>
       </Link>
         <div className="content">
