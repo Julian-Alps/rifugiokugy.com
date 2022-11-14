@@ -8,11 +8,10 @@ class RoomGal extends React.Component {
     const masonry = this.props.masonry
 
     return(
-      <div>
+      <div className="section">
       {masonry &&
         <MasonryGal type='row' photos={masonry.photos}/>
       }
-      <div className="background-room-gal"></div>
       </div>
     )
   }
