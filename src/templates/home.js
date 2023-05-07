@@ -14,7 +14,7 @@ import FullCard from '../components/Cards/FullCard'
 import Testimonials from '../components/Testimonials'
 import InfoMap from '../components/InfoMap'
 import Bikes from '../components/Bikes'
-import prezzi from "../../static/img/Prezzi_camere_Rifugio_Kugy_11_22.pdf"
+import prezzi from "../../static/img/Alpi_Giulie_Bike_Tour.pdf"
 
 const HomePageTemplate = ({
   rooms,

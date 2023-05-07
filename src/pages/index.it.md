@@ -83,7 +83,7 @@ testimonials:
      "Non cercate nelle montagne un'impalcatura per arrampicare, cercate la loro anima."
 bikes:
   imageInfo: 
-    image: /img/Prezzi_camere_Rifugio_Kugy.jpg
+    image: /img/Alpi_Giulie_Bike_Tour_Prima_Pagina.jpg
     alt: "rooms prices Rifugio Kugy"
 ---
 
