@@ -43,7 +43,7 @@ const HomePageTemplate = ({
         <LeftCard className="section" idlink="sleeping" leftCard={rooms} interiorColor='has-background-white' frameColor='#738173' />
         <RoomGal masonry={masonry} />
       </div>
-      <Bikes link={prezzi} imageInfo={bikes} />
+      <Bikes infos={infos} link={prezzi} imageInfo={bikes} />
       <Testimonials testimonials={testimonials} />
       <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#738173' frameColor='#738173' />
       <div className="content" id="territory">
@@ -58,6 +58,7 @@ const HomePageTemplate = ({
 
 HomePageTemplate.propTypes = {
   rooms: PropTypes.object,
+  infos: PropTypes.string,
   bikes: PropTypes.object,
   masonry: PropTypes.object,
   activities: PropTypes.object,
@@ -105,6 +106,7 @@ class HomePage extends React.Component {
               image={dataMarkdown.frontmatter.image}
               heading={dataMarkdown.frontmatter.heading}
               rooms={frontmatter.rooms}
+              infos={frontmatter.bikes.infos}
               bikes={frontmatter.bikes.imageInfo}
               masonry={frontmatter.masonry}
               rows={dataMarkdown.frontmatter.rows}
@@ -219,6 +221,7 @@ export const pageQuery = graphql`query HomePageQuery($id: String!) {
         }
       }
       bikes {
+        infos
         imageInfo {
           image {
             childImageSharp {
