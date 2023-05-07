@@ -82,7 +82,7 @@ testimonials:
     quote: >-
      "Non cercate nelle montagne un'impalcatura per arrampicare, cercate la loro anima."
 bikes:
-  infos:
+  infos: >-
       "[sᴄᴏᴘʀɪʀᴇ ʟᴇ Aʟᴘɪ Gɪᴜʟɪᴇ ᴘᴇᴅᴀʟᴀɴᴅᴏ ]
       Non solo camminando, le Alpi Giulie si prestano ad essere svelate anche pedalando... ma senza ammazzarsi di fatica! 😉
       🚵‍♀️ Quattro giorni per godersi la montagna spaziando dall'𝗔𝗹𝗽𝗲 𝗱𝗶 𝗨𝗴𝗼𝘃𝗶𝘇𝘇𝗮 ai 𝗟𝗮𝗴𝗵𝗶 𝗱𝗶 𝗙𝘂𝘀𝗶𝗻𝗲, passando per il 𝗥𝗶𝗳𝘂𝗴𝗶𝗼 𝗚𝗿𝗲𝗴𝗼 e 𝗦𝗲𝗹𝗹𝗮 𝗦𝗼𝗺𝗽𝗱𝗼𝗴𝗻𝗮 in  𝘁𝗿𝗲 𝗲𝘀𝗰𝘂𝗿𝘀𝗶𝗼𝗻𝗶 con 𝗲𝗯𝗶𝗸𝗲 da effettuarsi a inizio e a fine stagione accompagnati da una guida. 🚵‍♂️
