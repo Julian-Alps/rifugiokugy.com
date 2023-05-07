@@ -8,7 +8,7 @@ import PropTypes from 'prop-types'
 const Bikes = ({ infos, link, imageInfo }) => {
   return (
     <div className="section ">
-     <ReactMarkdown>{infos}</ReactMarkdown>
+     <ReactMarkdown children={infos} />
       <a className="link is-info" href={link} target="_blank" rel="noreferrer" id="prices">
         <Image imageInfo={imageInfo} />
       </a>
