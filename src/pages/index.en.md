@@ -80,16 +80,16 @@ testimonials:
       "Don't look at the mountains like a scaffold to climb, look for their soul."
 bikes:
   infos: >-
-    Non solo camminando, le Alpi Giulie si prestano ad essere svelate anche pedalando... ma senza ammazzarsi di fatica! 😉
-    🚵‍♀️ Quattro giorni per godersi la montagna spaziando dall'Alpe di Ugovizza ai Laghi di Fusine, passando per il **Rifugio Grego** e **Sella Somdogna** in **tre escursioni** con **ebike** da effettuarsi a inizio e a fine stagione accompagnati da una guida. 🚵‍♂️
+    Non solo camminando, le Alpi Giulie si prestano ad essere svelate anche pedalando... ma senza ammazzarsi di fatica!
+    Quattro giorni per godersi la montagna spaziando dall'Alpe di Ugovizza ai Laghi di Fusine, passando per il **Rifugio Grego** e **Sella Somdogna** in **tre escursioni** con **ebike** da effettuarsi a inizio e a fine stagione accompagnati da una guida.
     Una proposta del Rigugio Kugy in collaborazione con Baldan Sport.
-    ❗️Da provare! Segnatevi le date!!!
-    📌  01-04 giugno
-    📌  22-25 giugno
-    📌  01-04 settembre
-    📌  15-17 settembre
-    ➡️ info e programma dettagliato al link
-    👉  Per info e prenotazioni chiamare ☎️ +39 0428 871860 ᴏ scrivere info@rifugiokugy.com
+    Da provare! Segnatevi le date!!!
+    - 01-04 giugno
+    - 22-25 giugno
+    - 01-04 settembre
+    - 15-17 settembre
+    info e programma dettagliato al link
+    Per info e prenotazioni chiamare +39 0428 871860 ᴏ scrivere info@rifugiokugy.com
   imageInfo: 
     image: /img/Alpi_Giulie_Bike_Tour_Prima_Pagina.jpg
     alt: "Alpi Giulie Bike Tour Rifugio Kugy"
