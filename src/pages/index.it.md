@@ -81,6 +81,10 @@ testimonials:
   - author: Julius Kugy
     quote: >-
      "Non cercate nelle montagne un'impalcatura per arrampicare, cercate la loro anima."
+bikes:
+  imageInfo: 
+    image: /img/Prezzi_camere_Rifugio_Kugy.jpg
+    alt: "rooms prices Rifugio Kugy"
 ---
 
 # Benvenuti al Rifugio Kugy Casa Alpina Valbruna!
