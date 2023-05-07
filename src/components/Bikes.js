@@ -2,13 +2,13 @@ import * as React from 'react'
 import { FormattedMessage } from 'react-intl'
 import Image from './PreviewCompatibleImage'
 //import Emoji from "react-emoji-render";
-import ReactMarkdown from 'react-markdown'
+import MarkdownContent from '../components/MarkdownContent'
 import PropTypes from 'prop-types'
 
 const Bikes = ({ infos, link, imageInfo }) => {
   return (
     <div className="section ">
-     <ReactMarkdown children={infos} />
+     <MarkdownContent className='section' content={text} />
       <a className="link is-info" href={link} target="_blank" rel="noreferrer" id="prices">
         <Image imageInfo={imageInfo} />
       </a>
