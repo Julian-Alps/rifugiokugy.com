@@ -13,9 +13,12 @@ import RoomGal from '../components/Masonry/RoomGal'
 import FullCard from '../components/Cards/FullCard'
 import Testimonials from '../components/Testimonials'
 import InfoMap from '../components/InfoMap'
+import Bikes from '../components/Bikes'
+import prezzi from "../../static/img/Prezzi_camere_Rifugio_Kugy_11_22.pdf"
 
 const HomePageTemplate = ({
   rooms,
+  bikes,
   masonry,
   activities,
   testimonials,
@@ -40,6 +43,7 @@ const HomePageTemplate = ({
         <LeftCard className="section" idlink="sleeping" leftCard={rooms} interiorColor='has-background-white' frameColor='#738173' />
         <RoomGal masonry={masonry} />
       </div>
+      <Bikes link={prezzi} imageInfo={bikes} />
       <Testimonials testimonials={testimonials} />
       <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#738173' frameColor='#738173' />
       <div className="content" id="territory">
@@ -54,6 +58,7 @@ const HomePageTemplate = ({
 
 HomePageTemplate.propTypes = {
   rooms: PropTypes.object,
+  bikes: PropTypes.object,
   masonry: PropTypes.object,
   activities: PropTypes.object,
   content: PropTypes.string,
@@ -100,6 +105,7 @@ class HomePage extends React.Component {
               image={dataMarkdown.frontmatter.image}
               heading={dataMarkdown.frontmatter.heading}
               rooms={frontmatter.rooms}
+              bikes={frontmatter.bikes.imageInfo}
               masonry={frontmatter.masonry}
               rows={dataMarkdown.frontmatter.rows}
               rows2={dataMarkdown.frontmatter.rows2}
@@ -209,6 +215,16 @@ export const pageQuery = graphql`query HomePageQuery($id: String!) {
           height
           link
           title
+          alt
+        }
+      }
+      bikes {
+        imageInfo {
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+            }
+          }
           alt
         }
       }

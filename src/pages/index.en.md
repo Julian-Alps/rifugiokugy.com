@@ -78,6 +78,10 @@ testimonials:
   - author: anonimous
     quote: >-
       "Don't look at the mountains like a scaffold to climb, look for their soul."
+bikes:
+  imageInfo: 
+    image: /img/Prezzi_camere_Rifugio_Kugy.jpg
+    alt: "rooms prices Rifugio Kugy"
 ---
 
 # Welcome to Refuge Kugy Casa Alpina Valbruna!
