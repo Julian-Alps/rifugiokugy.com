@@ -1,11 +1,13 @@
 import * as React from 'react'
 import { FormattedMessage } from 'react-intl'
 import Image from './PreviewCompatibleImage'
+import Emoji from "react-emoji-render";
 import PropTypes from 'prop-types'
 
-const Bikes = ({ link, imageInfo }) => {
+const Bikes = ({ infos, link, imageInfo }) => {
   return (
     <div className="section ">
+     <Emoji infos={infos} />
       <a className="link is-info" href={link} target="_blank" rel="noreferrer" id="prices">
         <Image imageInfo={imageInfo} />
       </a>
@@ -19,11 +21,12 @@ const Bikes = ({ link, imageInfo }) => {
           </p>
         </div>
       </nav>
-    </div> 
+    </div>
   )
 }
 
 Bikes.propTypes = {
+  infos: PropTypes.string,
   link: PropTypes.string,
   imageInfo: PropTypes.object
 };
