@@ -19,6 +19,7 @@ import prezzi from "../../static/img/Alpi_Giulie_Bike_Tour.pdf"
 const HomePageTemplate = ({
   rooms,
   bikes,
+  infos,
   masonry,
   activities,
   testimonials,
