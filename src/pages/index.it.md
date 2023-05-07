@@ -87,7 +87,7 @@ bikes:
     Quattro giorni per godersi la montagna spaziando dall'Alpe di Ugovizza ai Laghi di Fusine, passando per il **Rifugio Grego** e **Sella Somdogna** in **tre escursioni** con **ebike** da effettuarsi a inizio e a fine stagione accompagnati da una guida.
     Una proposta del Rigugio Kugy in collaborazione con Baldan Sport.
     Da provare! Segnatevi le date!!!
-    - 01-04 giugno
+    <li> 01-04 giugno </li>
     -  22-25 giugno
     -  01-04 settembre
     -  15-17 settembre
