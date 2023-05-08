@@ -28,7 +28,7 @@ module.exports = {
   'activities': 'Attività',
   'activities.summer': 'Estate',
   'activities.winter': 'Inverno',
-  'bikes-info': 'Info bici',
+  'bikes-info': 'Alpi Giulie BikeTour PDF',
   'territory': 'Il territorio',
   'territory-menu': 'I nostri dintorni',
   'territory-products': 'I prodotti del territorio',

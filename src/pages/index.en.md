@@ -9,10 +9,10 @@ tags:
   - home-delivery
 lang: en
 date: "15-05-2020"
-image: /img/Val_Saisera_Wild_Track_Valbruna_Rifugio_Kugy.jpg
+image: /img/Jof_Montasio_Alpi_Giulie_Rifugio_Kugy.jpg
 bgImage:
   alt: "Valbruna"
-  image: /img/Val_Saisera_Wild_Track_Valbruna_Rifugio_Kugy.jpg
+  image: /img/Jof_Montasio_Alpi_Giulie_Rifugio_Kugy.jpg
 heading: "Welcome at Refuge..."
 rooms:
   title: "Sleeping in the refuge"
@@ -80,16 +80,31 @@ testimonials:
       "Don't look at the mountains like a scaffold to climb, look for their soul."
 bikes:
   infos: >-
-    Not only by walking, the Julian Alps lend themselves to being revealed by pedaling too... but without killing yourself with fatigue!
-    Four days to enjoy the mountains ranging from the Alpe di Ugovizza to the Fusine lakes, passing through the **Grego Refuge** and **Sella Somdogna** in **three excursions** with **ebike** to be carried out at the beginning and at the end of the season accompanied by a guide.
-    A proposal from the Kugy Refuge in collaboration with Baldan Sport.
-    Let's try! Mark the dates!!!
-    - 01-04 June
-    - 22-25 June
-    - 01-04 September
-    - 15-17 September
-    Infos and detailed program download the pdf below.
-    For info and reservations call +39 0428 871860 ᴏ write info@rifugiokugy.com
+    [Discover the Julian Alps Pedaling]
+    <br>
+    <br>
+    Not only by walking, the Julian Alps lend themselves to being revealed by pedaling too... but without killing yourself with fatigue!😉
+    <br>
+    <br>
+    🚵‍♀️ Four days to enjoy the mountains ranging from the Alpe di Ugovizza to the Fusine lakes, passing through the **Grego Refuge** and **Sella Somdogna** in **three excursions** with **ebike** to be carried out at the beginning and at the end of the season accompanied by a guide. 🚵‍♂️
+    A proposal from the Kugy Refuge in collaboration with [Baldan Sport](http://www.baldansport.com/).
+    <br>
+    <br>
+    ❗️Let's try! Mark the dates!!!
+    <br>
+    <br>
+    📌 01-04 June
+    <br>
+    📌 22-25 June
+    <br>
+    📌 01-04 September
+    <br>
+    📌 15-17 September
+    <br>
+    <br>
+    ➡️ Infos and detailed program download the pdf below 👇👇👇.
+    <br>
+    👉 For info and reservations call ☎️  +39 0428 871860 ᴏ write <a href="mailto:info@rifugiokugy.com"> info@rifugiokugy.com</a>
   imageInfo: 
     image: /img/Alpi_Giulie_Bike_Tour_Prima_Pagina.jpg
     alt: "Alpi Giulie Bike Tour Rifugio Kugy"

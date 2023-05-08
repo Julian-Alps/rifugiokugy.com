@@ -9,10 +9,10 @@ tags:
   - consegna-a-domicilio
 lang: it
 date: "15-05-2020"
-image: /img/Val_Saisera_Wild_Track_Valbruna_Rifugio_Kugy.jpg
+image: /img/Jof_Montasio_Alpi_Giulie_Rifugio_Kugy.jpg
 bgImage:
   alt: "Valbruna"
-  image: /img/Val_Saisera_Wild_Track_Valbruna_Rifugio_Kugy.jpg
+  image: /img/Jof_Montasio_Alpi_Giulie_Rifugio_Kugy.jpg
 heading: "Benvenuti al rifugio..."
 rooms:
   title: "Dormire in rifugio"
@@ -83,16 +83,31 @@ testimonials:
      "Non cercate nelle montagne un'impalcatura per arrampicare, cercate la loro anima."
 bikes:
   infos: >-
-    Non solo camminando, le Alpi Giulie si prestano ad essere svelate anche pedalando... ma senza ammazzarsi di fatica!
-    Quattro giorni per godersi la montagna spaziando dall'Alpe di Ugovizza ai Laghi di Fusine, passando per il **Rifugio Grego** e **Sella Somdogna** in **tre escursioni** con **ebike** da effettuarsi a inizio e a fine stagione accompagnati da una guida.
-    Una proposta del Rigugio Kugy in collaborazione con Baldan Sport.
-    Da provare! Segnatevi le date!!!
-    - 01-04 giugno
-    - 22-25 giugno
-    - 01-04 settembre
-    - 15-17 settembre
-    Info e programma dettagliato nel pdf sotto.
-    Per info e prenotazioni chiamare +39 0428 871860 ᴏ scrivere info@rifugiokugy.com
+    [sᴄᴏᴘʀɪʀᴇ ʟᴇ Aʟᴘɪ Gɪᴜʟɪᴇ ᴘᴇᴅᴀʟᴀɴᴅᴏ]
+    <br>
+    <br>
+    Non solo camminando, le Alpi Giulie si prestano ad essere svelate anche pedalando... ma senza ammazzarsi di fatica! 😉
+    <br>
+    <br>
+    🚵‍♀️ Quattro giorni per godersi la montagna spaziando dall'Alpe di Ugovizza ai Laghi di Fusine, passando per il **Rifugio Grego** e **Sella Somdogna** in **tre escursioni** con **ebike** da effettuarsi a inizio e a fine stagione accompagnati da una guida. 🚵‍♂️
+    Una proposta del Rifugio Kugy in collaborazione con [Baldan Sport](http://www.baldansport.com/).
+    <br>
+    <br>
+    ❗️Da provare! Segnatevi le date!!!
+    <br>
+    <br>
+    📌 01-04 giugno
+    <br>
+    📌 22-25 giugno
+    <br>
+    📌 01-04 settembre
+    <br>
+    📌 15-17 settembre
+    <br>
+    <br>
+    ➡️ Info e programma dettagliato nel pdf sotto 👇👇👇.
+    <br>
+    👉 Per info e prenotazioni chiamare ☎️ +39 0428 871860 ᴏ scrivere <a href="mailto:info@rifugiokugy.com"> info@rifugiokugy.com</a>
   imageInfo: 
     image: /img/Alpi_Giulie_Bike_Tour_Prima_Pagina.jpg
     alt: "Alpi Giulie Bike Tour Rifugio Kugy"
