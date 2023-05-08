@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { FormattedMessage } from 'react-intl'
 import Image from './PreviewCompatibleImage'
-//import Emoji from "react-emoji-render";
 import MarkdownContent from '../components/MarkdownContent'
 import PropTypes from 'prop-types'
 

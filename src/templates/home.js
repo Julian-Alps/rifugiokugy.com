@@ -14,7 +14,7 @@ import FullCard from '../components/Cards/FullCard'
 import Testimonials from '../components/Testimonials'
 import InfoMap from '../components/InfoMap'
 import Bikes from '../components/Bikes'
-import prezzi from "../../static/img/Alpi_Giulie_Bike_Tour.pdf"
+import pdf from "../../static/img/Alpi_Giulie_Bike_Tour.pdf"
 
 const HomePageTemplate = ({
   rooms,
@@ -44,7 +44,7 @@ const HomePageTemplate = ({
         <LeftCard className="section" idlink="sleeping" leftCard={rooms} interiorColor='has-background-white' frameColor='#738173' />
         <RoomGal masonry={masonry} />
       </div>
-      <Bikes infos={infos} link={prezzi} imageInfo={bikes} />
+      <Bikes infos={infos} link={pdf} imageInfo={bikes} />
       <Testimonials testimonials={testimonials} />
       <FullCard idlink="activities" fullCard={activities} interiorColor='has-background-white' interiorFrameColor='#738173' frameColor='#738173' />
       <div className="content" id="territory">
