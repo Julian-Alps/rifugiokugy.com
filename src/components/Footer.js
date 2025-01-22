@@ -5,6 +5,7 @@ import select from '../components/utils'
 import { FormattedMessage } from 'react-intl';
 import menuTree from '../data/menuTree'
 import { FaFacebook, FaPinterest, FaInstagram, FaYoutube } from 'react-icons/fa';
+import  CIN from '../components/CIN'
 import Copyright from '../components/Copyright'
 import ScrollToTop from '../components/ScrollToTop'
 //import logo from '../img/logo-Rifugio-Kugy-bg-dark.svg'
@@ -60,6 +61,7 @@ class Footer extends React.Component {
                 </div>
               </div>
             </div>
+            <CIN/>
             <Copyright />
         </div>
         <ScrollToTop/>
