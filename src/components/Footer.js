@@ -61,7 +61,6 @@ class Footer extends React.Component {
                 </div>
               </div>
             </div>
-            <CIN/>
             <Copyright />
         </div>
         <ScrollToTop/>
