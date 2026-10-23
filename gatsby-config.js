@@ -55,7 +55,6 @@ module.exports = {
       path: `${__dirname}/src/data/articles`,
       },
     },
-    "gatsby-transformer-javascript-frontmatter",
     `gatsby-plugin-image`,
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
@@ -63,12 +62,6 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          {
-            resolve: 'gatsby-remark-relative-images',
-            options: {
-              name: 'uploads',
-            },
-          },
           {
             resolve: 'gatsby-remark-images',
              options: {
@@ -93,7 +86,6 @@ module.exports = {
         siteUrl: `https://www.rifugiokugy.com`
       },
     },
-    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-netlify`,
     'gatsby-plugin-sass',
     {
@@ -123,31 +115,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-react-leaflet',
-      options: {
-        linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
-      }
-    },
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: [],
-        // Any additional create only fields (optional)
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "rifugiokugy.com",
-      }
-    },
-    {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
@@ -155,7 +122,6 @@ module.exports = {
         }
       }
     },
-    'gatsby-plugin-resolve-src',
     {
       resolve: 'gatsby-plugin-i18n',
       options: {
@@ -205,7 +171,7 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
+                  sort: { frontmatter: { date: DESC } },
                 ) {
                   edges {
                     node {

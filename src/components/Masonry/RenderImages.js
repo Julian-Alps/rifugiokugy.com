@@ -6,51 +6,46 @@ const cont = {
   backgroundColor: "#eee",
   cursor: "pointer",
   overflow: "hidden",
-  position: "relative"
+  position: "relative",
+  borderRadius: "5px",
 };
 
 const RenderImage = ({
   index,
   onClick,
   photo,
-  margin,
-  direction,
-  top,
-  left
 }) => {
-
-  if (direction === "column") {
-    cont.position = "absolute";
-    cont.left = left;
-    cont.top = top;
-  }
+  const srcSet = Array.isArray(photo.srcSet) ? photo.srcSet.join(", ") : photo.srcSet;
+  const sizes = Array.isArray(photo.sizes) ? photo.sizes.join(", ") : photo.sizes;
 
   return (
-    <div
-      style={{ margin, height: photo.height, width: photo.width, borderRadius: "5px", ...cont }}
-    >
-      <a href={photo.link} style={{ position: "absolute", left: '1.75rem', top: '2rem', zIndex: "4" }} className="tag is-primary is-medium">
+    <div style={cont}>
+      <a
+        href={photo.link}
+        style={{ position: "absolute", left: "1.75rem", top: "2rem", zIndex: "4" }}
+        className="tag is-primary is-medium"
+      >
         <p className="has-text-centered has-text-light is-medium">
-        {photo.title + ': '} <FormattedMessage id="find-out-more"/>
-      </p>
-    </a>
-    <img
-      style={{ overflow: 'hidden'}}
-      {...photo}
-      onClick={e => onClick(e, { index, photo })}
-    />
-  </div>
+          {photo.title + ": "} <FormattedMessage id="find-out-more" />
+        </p>
+      </a>
+      <img
+        style={{ overflow: "hidden", display: "block", width: "100%", height: "auto" }}
+        src={photo.src}
+        srcSet={srcSet}
+        sizes={sizes}
+        alt={photo.alt || photo.title || ""}
+        title={photo.title}
+        onClick={e => onClick(e, { index, photo })}
+      />
+    </div>
   );
 };
 
 RenderImage.propTypes = {
   index: PropTypes.number,
-  onClick: PropTypes.boolean,
-  photo: PropTypes.array,
-  margin: PropTypes.number,
-  direction: PropTypes.string,
-  top: PropTypes.string,
-  left: PropTypes.string,
+  onClick: PropTypes.func,
+  photo: PropTypes.object,
 }
 
 export default RenderImage;

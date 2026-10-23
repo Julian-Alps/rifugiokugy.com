@@ -1,6 +1,5 @@
 import React from 'react';
 import * as PropTypes from "prop-types"
-import { Helmet } from 'react-helmet';
 
 const Schema = React.memo(
   ({
@@ -75,10 +74,7 @@ const Schema = React.memo(
       : baseSchema;
 
     return (
-      <Helmet>
-        {/* Schema.org tags */}
-        <script type="application/ld+json">{JSON.stringify(schema)}</script>
-      </Helmet>
+      <script type="application/ld+json">{JSON.stringify(schema)}</script>
     );
   },
 );

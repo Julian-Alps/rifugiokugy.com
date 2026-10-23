@@ -56,17 +56,11 @@ class RoomsPage extends React.Component {
     }
     const jsonData = this.props.data.allArticlesJson.edges[0].node.articles
     const { frontmatter } = dataMarkdown
-    const image = frontmatter.image;
-    const imageSEO = getSrc(image) || image;
     const bgImage = frontmatter.bgImage
     const langKey = frontmatter.lang
     const tags = frontmatter.tags
     return (
       <Layout className="hero-body" data={this.props.data} bgImage={bgImage} jsonData={jsonData} location={this.props.location}>
-        <SEO
-          frontmatter={frontmatter}
-          postImage={imageSEO}
-        />
         <div>
             <RoomsPageTemplate
               contentComponent={HTMLContent}
@@ -91,6 +85,16 @@ RoomsPage.propTypes = {
 }
 
 export default RoomsPage
+
+export const Head = ({ data }) => {
+  const { frontmatter } = data.markdownRemark
+  const image = frontmatter.image
+  const imageSEO = getSrc(image) || image
+  return <SEO frontmatter={frontmatter} postImage={imageSEO} />
+}
+Head.propTypes = {
+  data: PropTypes.object.isRequired,
+}
 
 export const pageQuery = graphql`query RoomsPageQuery($id: String!) {
   site {

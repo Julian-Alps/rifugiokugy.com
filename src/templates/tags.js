@@ -3,7 +3,6 @@ import * as PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import PostList from '../components/PostList'
 import { FormattedMessage } from 'react-intl'
-import { Helmet } from 'react-helmet'
 import Layout from "../components/LayoutTag"
 import { FaTag, FaTags } from 'react-icons/fa'
 
@@ -27,14 +26,6 @@ const TagRouteTemplate = ({ data, pageContext }) => {
     <section className="section">
       <div className="container content">
         <header className="title is-size-3 has-text-weight-bold is-bold-light">
-          <FormattedMessage id="tags">
-            {(txt) => (
-              <Helmet
-                title={`${pageContext.tag} | ${txt}`}
-                meta={[{ name: 'description', content: txt }]}
-              />
-            )}
-          </FormattedMessage>
           <FormattedMessage
             id="tags.nPostsTaggedWith"
             values={{ nPosts: data.allMarkdownRemark.totalCount }}
@@ -101,6 +92,21 @@ TagRoute.propTypes = {
 }
 export default TagRoute
 
+export const Head = ({ pageContext }) => {
+  const i18nMessages = require(`../data/messages/${pageContext.langKey || 'it'}`)
+  const txt = i18nMessages['tags'] || 'Tags'
+  return (
+    <>
+      <html lang={pageContext.langKey || 'it'} />
+      <title>{`${pageContext.tag} | ${txt}`}</title>
+      <meta name="description" content={txt} />
+    </>
+  )
+}
+Head.propTypes = {
+  pageContext: PropTypes.object.isRequired,
+}
+
 export const pageQuery = graphql`
 query TagPage($langKey: String!, $tag: String!) {
   site {
@@ -117,7 +123,7 @@ query TagPage($langKey: String!, $tag: String!) {
       slug
     }
   }
-  allMarkdownRemark(limit: 1000, sort: {fields: [frontmatter___date], order: DESC},
+  allMarkdownRemark(limit: 1000, sort: {frontmatter: {date: DESC}},
     filter: {frontmatter: {templateKey: {ne: "message"}, lang: {eq: $langKey}},
     fields: {
     langKey: {eq: $langKey},

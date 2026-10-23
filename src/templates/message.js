@@ -53,6 +53,19 @@ MessagePage.propTypes = {
 
 export default MessagePage
 
+export const Head = ({ data }) => {
+  const { frontmatter } = data.markdownRemark
+  return (
+    <>
+      <title>{frontmatter.title}</title>
+      <meta name="description" content={frontmatter.description} />
+    </>
+  )
+}
+Head.propTypes = {
+  data: PropTypes.object.isRequired,
+}
+
 export const pageQuery = graphql`
   query MessagePageQuery($id: String!) {
     site {
