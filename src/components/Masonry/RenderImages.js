@@ -34,6 +34,8 @@ const RenderImage = ({
         src={photo.src}
         srcSet={srcSet}
         sizes={sizes}
+        loading="lazy"
+        decoding="async"
         alt={photo.alt || photo.title || ""}
         title={photo.title}
         onClick={e => onClick(e, { index, photo })}

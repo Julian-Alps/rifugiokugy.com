@@ -66,10 +66,12 @@ const SEO = ({ postData, frontmatter = {}, postImage, isBlogPost, children }) =>
           <meta name="twitter:description" content={description} />
           <meta name="twitter:image" content={image} />
 
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+          <link rel="preconnect" href="https://ucarecdn.com" />
           <link
             rel="stylesheet"
-            href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-            crossOrigin=""
+            href="https://fonts.googleapis.com/css2?family=Margarine&family=Source+Serif+Pro:wght@400;600;700&display=swap"
           />
 
           <SchemaOrg

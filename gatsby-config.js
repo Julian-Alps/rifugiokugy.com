@@ -115,14 +115,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Source Serif Pro', 'Margarine', 'sans-serif']
-        }
-      }
-    },
-    {
       resolve: 'gatsby-plugin-i18n',
       options: {
         langKeyForNull: 'any',
