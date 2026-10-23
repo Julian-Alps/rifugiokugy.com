@@ -2,7 +2,6 @@ import React from 'react'
 import { FaMapMarkerAlt, FaPhone, FaRegEnvelope, FaFacebook } from 'react-icons/fa'
 import { FormattedMessage } from 'react-intl'
 import PropTypes from 'prop-types'
-import Emoji from "react-emoji-render";
 
 const ContactDetails = ({ infos, howtoget, address, phone, email, fb }) =>(
 
@@ -18,7 +17,7 @@ const ContactDetails = ({ infos, howtoget, address, phone, email, fb }) =>(
                   </h4>
                   <ul key='howtoget-list'>
                     {howtoget.map( (list, id) => (
-                      <li key={id}><Emoji text={list} /></li>
+                      <li key={id}>{list}</li>
                     ))}
                   </ul>
 

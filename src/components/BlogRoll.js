@@ -91,7 +91,7 @@ export default () => (
         }
       }
       en: allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] },
+        sort: { frontmatter: { date: DESC } },
         filter: { frontmatter: { templateKey: { eq: "blog-post" },
                                  lang: { regex: "/(en|any)/" }}}
       ) {
@@ -112,7 +112,7 @@ export default () => (
         }
       }
       it: allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] },
+        sort: { frontmatter: { date: DESC } },
         filter: { frontmatter: { templateKey: { eq: "blog-post" },
                                  lang: { regex: "/(it|any)/" }}}
       ) {
