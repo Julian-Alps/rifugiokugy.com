@@ -9,11 +9,9 @@ import Content, { HTMLContent } from '../components/Content'
 import LeftCard from '../components/Cards/LeftCard'
 import RightCard from '../components/Cards/RightCard'
 import RoomGal from '../components/Masonry/RoomGal';
-import Prices from '../components/Prices'
-import prezzi from "../../static/img/Prezzi_camere_Rifugio_Kugy_11_22.pdf"
 
 
-const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, prices, masonryDirect, contentComponent, tags, langKey }) => {
+const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, masonryDirect, contentComponent, tags, langKey }) => {
   const PageContent = contentComponent || Content
   return (
       <div className="container content">
@@ -27,7 +25,6 @@ const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, prices,
             <div className="content">
               <RightCard className="section" idlink="bigrooms" rightCard={bigrooms} interiorColor='has-background-white' frameColor='#738173'/>
             </div>
-            <Prices prices={prezzi} imageInfo={prices}/>
             <div className="content">
               <LeftCard idlink="breakfast" leftCard={breakfast} interiorColor='has-background-white' frameColor='#738173'/>
             </div>
@@ -79,7 +76,6 @@ class RoomsPage extends React.Component {
               masonryDirect={frontmatter.masonryDirect}
               bigrooms={frontmatter.bigRooms}
               breakfast={frontmatter.breakfast}
-              prices={frontmatter.prices.imageInfo}
               tags={tags}
               langKey={langKey}
              />

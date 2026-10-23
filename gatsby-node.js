@@ -1,6 +1,17 @@
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { graphql } = require ('gatsby')
+const traverse = require('traverse')
+
+exports.onCreateNode = ({ node }) => {
+  if (node.internal.type === 'MarkdownRemark' && node.frontmatter) {
+    traverse(node.frontmatter).forEach(function (value) {
+      if (typeof value === 'string' && value.includes('\\')) {
+        this.update(value.replace(/\\/g, '/'))
+      }
+    })
+  }
+}
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
