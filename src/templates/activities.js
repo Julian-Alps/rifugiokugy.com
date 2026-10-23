@@ -127,7 +127,7 @@ export const pageQuery = graphql`query ActivitiesPageQuery($id: String!) {
         imageInfo {
           image {
             childImageSharp {
-              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+              gatsbyImageData(quality: 80, layout: CONSTRAINED, width: 700)
             }
           }
           alt
@@ -140,7 +140,7 @@ export const pageQuery = graphql`query ActivitiesPageQuery($id: String!) {
         imageInfo {
           image {
             childImageSharp {
-              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+              gatsbyImageData(quality: 80, layout: CONSTRAINED, width: 700)
             }
           }
           alt

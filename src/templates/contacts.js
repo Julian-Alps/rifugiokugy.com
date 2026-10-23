@@ -264,7 +264,15 @@ export const Head = ({ data }) => {
   const { frontmatter } = data.markdownRemark
   const image = frontmatter.image
   const imageSEO = getSrc(image) || image
-  return <SEO frontmatter={frontmatter} postImage={imageSEO} />
+  return (
+    <SEO frontmatter={frontmatter} postImage={imageSEO}>
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        crossOrigin=""
+      />
+    </SEO>
+  )
 }
 Head.propTypes = {
   data: PropTypes.object.isRequired,
