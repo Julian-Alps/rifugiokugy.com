@@ -9,11 +9,9 @@ import Content, { HTMLContent } from '../components/Content'
 import LeftCard from '../components/Cards/LeftCard'
 import RightCard from '../components/Cards/RightCard'
 import RoomGal from '../components/Masonry/RoomGal';
-import Prices from '../components/Prices'
-import prezzi from "../../static/img/Prezzi_camere_Rifugio_Kugy_11_22.pdf"
 
 
-const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, prices, masonryDirect, contentComponent, tags, langKey }) => {
+const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, masonryDirect, contentComponent, tags, langKey }) => {
   const PageContent = contentComponent || Content
   return (
       <div className="container content">
@@ -27,7 +25,6 @@ const RoomsPageTemplate = ({ title, content, rooms, bigrooms, breakfast, prices,
             <div className="content">
               <RightCard className="section" idlink="bigrooms" rightCard={bigrooms} interiorColor='has-background-white' frameColor='#738173'/>
             </div>
-            <Prices prices={prezzi} imageInfo={prices}/>
             <div className="content">
               <LeftCard idlink="breakfast" leftCard={breakfast} interiorColor='has-background-white' frameColor='#738173'/>
             </div>
@@ -59,17 +56,11 @@ class RoomsPage extends React.Component {
     }
     const jsonData = this.props.data.allArticlesJson.edges[0].node.articles
     const { frontmatter } = dataMarkdown
-    const image = frontmatter.image;
-    const imageSEO = getSrc(image) || image;
     const bgImage = frontmatter.bgImage
     const langKey = frontmatter.lang
     const tags = frontmatter.tags
     return (
       <Layout className="hero-body" data={this.props.data} bgImage={bgImage} jsonData={jsonData} location={this.props.location}>
-        <SEO
-          frontmatter={frontmatter}
-          postImage={imageSEO}
-        />
         <div>
             <RoomsPageTemplate
               contentComponent={HTMLContent}
@@ -79,7 +70,6 @@ class RoomsPage extends React.Component {
               masonryDirect={frontmatter.masonryDirect}
               bigrooms={frontmatter.bigRooms}
               breakfast={frontmatter.breakfast}
-              prices={frontmatter.prices.imageInfo}
               tags={tags}
               langKey={langKey}
              />
@@ -95,6 +85,16 @@ RoomsPage.propTypes = {
 }
 
 export default RoomsPage
+
+export const Head = ({ data }) => {
+  const { frontmatter } = data.markdownRemark
+  const image = frontmatter.image
+  const imageSEO = getSrc(image) || image
+  return <SEO frontmatter={frontmatter} postImage={imageSEO} />
+}
+Head.propTypes = {
+  data: PropTypes.object.isRequired,
+}
 
 export const pageQuery = graphql`query RoomsPageQuery($id: String!) {
   site {
@@ -133,7 +133,7 @@ export const pageQuery = graphql`query RoomsPageQuery($id: String!) {
         imageInfo {
           image {
             childImageSharp {
-              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+              gatsbyImageData(quality: 80, layout: CONSTRAINED, width: 700)
             }
           }
           alt
@@ -157,17 +157,7 @@ export const pageQuery = graphql`query RoomsPageQuery($id: String!) {
         imageInfo {
           image {
             childImageSharp {
-              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
-            }
-          }
-          alt
-        }
-      }
-      prices {
-        imageInfo {
-          image {
-            childImageSharp {
-              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+              gatsbyImageData(quality: 80, layout: CONSTRAINED, width: 700)
             }
           }
           alt
@@ -179,7 +169,7 @@ export const pageQuery = graphql`query RoomsPageQuery($id: String!) {
         imageInfo {
           image {
             childImageSharp {
-              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+              gatsbyImageData(quality: 80, layout: CONSTRAINED, width: 700)
             }
           }
           alt

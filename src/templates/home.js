@@ -6,7 +6,6 @@ import TagList from '../components/TagList'
 import { graphql } from 'gatsby'
 import Layout from '../components/LayoutImg'
 import SEO from '../components/SEO/SEO'
-import { Helmet } from 'react-helmet';
 import Content, { HTMLContent } from '../components/Content'
 import LeftCard from '../components/Cards/LeftCard'
 import RoomGal from '../components/Masonry/RoomGal'
@@ -87,21 +86,12 @@ class HomePage extends React.Component {
     const jsonData = data.allArticlesJson.edges[0].node.articles;
     const langKey = dataMarkdown.frontmatter.lang
     const { frontmatter } = data.markdownRemark;
-    const image = frontmatter.image;
-    const imageSEO = getSrc(image) || image;
     const tags = frontmatter.tags;
     const bgImage = frontmatter.bgImage;
     const maps = frontmatter.maps
 
     return (
       <Layout className="hero-body" data={this.props.data} bgImage={bgImage} jsonData={jsonData} location={this.props.location}>
-        <SEO
-          frontmatter={frontmatter}
-          postImage={imageSEO}
-        />
-      <Helmet>
-        <meta name="google-site-verification" content="vkzMPkR2C66yqbLk9lHmGs-OzUPaUsFZDp7ymNqweHc" />
-      </Helmet>
         <div>
             <HomePageTemplate
               image={dataMarkdown.frontmatter.image}
@@ -136,6 +126,20 @@ HomePage.propTypes = {
 }
 
 export default HomePage
+
+export const Head = ({ data }) => {
+  const { frontmatter } = data.markdownRemark
+  const image = frontmatter.image
+  const imageSEO = getSrc(image) || image
+  return (
+    <SEO frontmatter={frontmatter} postImage={imageSEO}>
+      <meta name="google-site-verification" content="vkzMPkR2C66yqbLk9lHmGs-OzUPaUsFZDp7ymNqweHc" />
+    </SEO>
+  )
+}
+Head.propTypes = {
+  data: PropTypes.object.isRequired,
+}
 
 export const pageQuery = graphql`query HomePageQuery($id: String!) {
   site {
@@ -203,7 +207,7 @@ export const pageQuery = graphql`query HomePageQuery($id: String!) {
         imageInfo {
           image {
             childImageSharp {
-              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+              gatsbyImageData(quality: 80, layout: CONSTRAINED, width: 700)
             }
           }
           alt
@@ -226,7 +230,7 @@ export const pageQuery = graphql`query HomePageQuery($id: String!) {
         imageInfo {
           image {
             childImageSharp {
-              gatsbyImageData(quality: 84, layout: FULL_WIDTH)
+              gatsbyImageData(quality: 80, layout: CONSTRAINED, width: 700)
             }
           }
           alt

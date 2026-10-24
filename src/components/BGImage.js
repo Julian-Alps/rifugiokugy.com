@@ -13,6 +13,8 @@ const BGImage = ({ bgImage }) => {
     return (
       <GatsbyImage
         image={image.childImageSharp.gatsbyImageData}
+        loading="eager"
+        fetchPriority="high"
         style={imageStyle}
         className="hero-background is-transparent"
         alt={alt} />
@@ -21,12 +23,14 @@ const BGImage = ({ bgImage }) => {
     return (
       <GatsbyImage
         image={childImageSharp.gatsbyImageData}
+        loading="eager"
+        fetchPriority="high"
         style={imageStyle}
         className="hero-background is-transparent"
         alt={alt} />
     );
   } else if (image) {
-    return <img style={imageStyle} className="hero-background is-transparent" src={image} alt={alt} />
+    return <img style={imageStyle} loading="eager" fetchpriority="high" className="hero-background is-transparent" src={image} alt={alt} />
   } else {
     return null;
   }

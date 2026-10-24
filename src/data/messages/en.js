@@ -76,7 +76,7 @@ module.exports = {
   'contact.send': 'Send',
   'not_found': "404 - Page Not Found",
   '404': "You are arrived to an unvailable page or you have missed the path...",
-  'copyright': "2020-25, Rifugio Kugy - All rights reserved.",
+  'copyright': "2020-26, Rifugio Kugy - All rights reserved.",
   'cin': "CIN IT030054B8YRSWRMSR",
   'menu-icon-message': "Choose a section",
   'menu-icon-subtitle': "Artworks sections",

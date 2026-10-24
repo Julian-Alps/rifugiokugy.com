@@ -4,7 +4,6 @@ import PropTypes from 'prop-types'
 import { getCurrentLangKey } from 'ptz-i18n';
 import kebabCase from 'lodash/kebabCase'
 import { FormattedMessage } from 'react-intl'
-import { Helmet } from 'react-helmet'
 import Layout from "../components/LayoutTag"
 import { FaTag, FaTags } from 'react-icons/fa'
 
@@ -16,10 +15,6 @@ const AllTagsPageTemplate = ({ allBlogTags, allPagesTags, allTags, langKey }) =>
         <FormattedMessage id="tags">
           {(txt) => (
             <header className="section">
-              <Helmet
-                title={txt}
-                meta={[{ name: 'description', content: txt }]}
-              />
               <h1 className="title">
                 <FaTags className="menu-names"/> {txt}
               </h1>
@@ -129,6 +124,19 @@ AllTagsPage.propTypes = {
 
 export default AllTagsPage
 
+export const Head = ({ data }) => {
+  const { frontmatter } = data.markdownRemark
+  return (
+    <>
+      <title>{frontmatter.title}</title>
+      <meta name="description" content={frontmatter.description} />
+    </>
+  )
+}
+Head.propTypes = {
+  data: PropTypes.object.isRequired,
+}
+
 export const pageQuery = graphql`
   query AllTagsPageQuery($id: String!) {
     site {
@@ -164,7 +172,7 @@ export const pageQuery = graphql`
        }
      }
    }
-   group(field: frontmatter___tags) {
+   group(field: {frontmatter: {tags: SELECT}}) {
      fieldValue
      totalCount
    }
@@ -186,7 +194,7 @@ export const pageQuery = graphql`
        }
      }
    }
-   group(field: frontmatter___tags) {
+   group(field: {frontmatter: {tags: SELECT}}) {
      fieldValue
      totalCount
    }
@@ -207,7 +215,7 @@ export const pageQuery = graphql`
        }
      }
    }
-   group(field: frontmatter___tags) {
+   group(field: {frontmatter: {tags: SELECT}}) {
      fieldValue
      totalCount
    }

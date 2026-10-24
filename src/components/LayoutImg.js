@@ -3,7 +3,6 @@ import * as PropTypes from "prop-types"
 import HeaderImg from '../components/HeaderImg'
 import Footer from '../components/Footer'
 import Main from '../components/Main'
-import { Helmet } from 'react-helmet'
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { IntlProvider } from 'react-intl';
 import './all.sass'
@@ -93,14 +92,6 @@ class TemplateWrapper extends Component {
         textComponent={React.Fragment}
       >
         <div className="hero">
-          <Helmet
-            key="app-head"
-            defaultTitle={this.title}
-            titleTemplate={`${this.title}`}
-          >
-          <html lang={this.langKey} />
-          <meta name="description"  content={this.description}/>
-          </Helmet>
           <HeaderImg langKey={this.langKey} langs={this.langsMenu} menu={this.menuTree} bgImage={this.bgImage}/>
           <Main key="app-main" className={this.className}>
             {this.children}
